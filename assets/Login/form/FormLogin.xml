@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <image id="n0_ewwj" name="n0" src="ewwj0" fileName="img/img_bg_login.jpg" xy="0,0"/>
+    <graph id="n4_huqf" name="n4" xy="778,483" size="366,55" type="rect" lineSize="0"/>
+    <text id="n1_ewwj" name="inpUserID" xy="783,488" size="356,45" fontSize="20" vAlign="middle" autoSize="none" singleLine="true" text="" input="true" maxLength="10"/>
+    <component id="n2_ewwj" name="btnLogin" src="huqf3" fileName="form/btnFix.xml" xy="823,604" size="274,104">
+      <Button title="Login" titleFontSize="39" icon="ui://s5oayyu1ewwj2"/>
+    </component>
+  </displayList>
+</component>
