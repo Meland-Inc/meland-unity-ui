@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="143,143" opaque="false" extention="Button" designImage="ui://srmygz81ewwj9" designImageOffsetX="-586" designImageOffsetY="-948" designImageAlpha="0">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="ctrlQuality" pages="0,Basic,1,Enhanced,2,Advanced,3,Super,4,Ultimate" selected="0"/>
+  <controller name="ctrlSwaping" pages="0,yes,1,no" selected="0"/>
+  <displayList>
+    <loader id="n17_htdn" name="imgEdgeBg" xy="18,18" size="106,106" url="ui://sh56466lewwj4" fill="scaleFree"/>
+    <image id="n3_tdk7" name="bg" src="ewwj5" fileName="img/bagMapping/bg_kuaijielan_gezibg.png" xy="23,23" size="96,96"/>
+    <image id="n18_htdn" name="imgAdd" src="ewwj6" fileName="img/bagMapping/bg_kuaijielan_tianjia.png" xy="43,43" pivot="0.5,0.5">
+      <gearSize controller="button" pages="2,3" values="56,56,1.1,1.1|56,56,1.1,1.1" default="56,56,1,1" tween="true"/>
+    </image>
+    <text id="n16_w1v1" name="tfIndex" xy="30,23" size="26,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="4" strokeColor="#3d3d3d" strokeSize="2" text="10"/>
+    <component id="n20_n1xx" name="comSwap" src="ewwj7" fileName="com/comSwapShortcutEffect.xml" xy="0,0" pivot="0.5,0.5">
+      <gearDisplay controller="ctrlSwaping" pages="0"/>
+    </component>
+  </displayList>
+  <Button mode="Check"/>
+  <transition name="transFlash">
+    <item time="0" type="Alpha" target="n18_htdn" tween="true" startValue="1" endValue="0.5" duration="12" ease="Sine.InOut" repeat="-1" yoyo="true"/>
+  </transition>
+  <transition name="transStop">
+    <item time="0" type="Alpha" target="n18_htdn" value="1"/>
+    <item time="0" type="Transition" value="transFlash,0"/>
+  </transition>
+  <customProperty target="select" propertyId="1"/>
+  <customProperty target="bg" propertyId="1"/>
+</component>

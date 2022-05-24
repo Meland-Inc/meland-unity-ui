@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="774,150" opaque="false" designImage="ui://thvmj7vodttbb564qm" designImageOffsetX="-855" designImageOffsetY="-926" designImageAlpha="0" designImageLayer="1">
+  <controller name="ctrlFold" pages="0,fold,1,unfold" selected="1"/>
+  <displayList>
+    <image id="n4_dttb" name="imgBg" src="ewwj2" fileName="img/bg_kuaijielan_beibaobg.png" xy="667,22" size="107,107">
+      <gearXY controller="ctrlFold" pages="1" values="667,22" default="0,22" tween="true"/>
+      <gearSize controller="ctrlFold" pages="1" values="107,107,1,1" default="152,107,1,1" tween="true"/>
+    </image>
+    <list id="n0_psru" name="lstItem" xy="55,5" size="610,140" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="128" colGap="-27" defaultItem="ui://sh56466lewwj3">
+      <gearSize controller="ctrlFold" pages="0,1" values="0,150,1,1|610,140,1,1" tween="true"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n1_psru" name="btnBag" src="ewwja" fileName="btn/btnBag.xml" xy="667,22">
+      <relation target="n4_dttb" sidePair="right-right,top-top"/>
+      <Button icon="ui://oyity675dttbwcyiu4" sound="ui://fknoioovh3k014"/>
+    </component>
+    <component id="n3_dttb" name="btnFold" src="ewwjc" fileName="btn/btnFoldBagShortcut.xml" xy="20,39">
+      <Button checked="true" controller="ctrlFold" page="1"/>
+    </component>
+  </displayList>
+  <relation target="n4_dttb" sidePair="rightext-right"/>
+</component>

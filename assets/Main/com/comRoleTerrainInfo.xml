@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="128,33">
+  <controller name="ctrlStatus" pages="0,nomal,1,exceed" selected="1"/>
+  <displayList>
+    <component id="n1_m34h" name="btnBg" src="ewwj1i" fileName="btn/btnRoleSmallInfo.xml" xy="0,-2" size="128,35">
+      <relation target="n5_m34h" sidePair="rightext-right"/>
+    </component>
+    <image id="n2_m34h" name="n2" src="ewwj1j" fileName="role/img_land.png" xy="13,5"/>
+    <text id="n3_m34h" name="tfCur" xy="46,1" size="26,26" fontSize="18" color="#fa2441" vAlign="middle" italic="true" autoClearText="true" text="24">
+      <gearColor controller="ctrlStatus" pages="1" values="#fa2441,#000000" default="#60c961,#000000"/>
+    </text>
+    <text id="n4_m34h" name="tfMax" xy="68,6" size="25,20" fontSize="13" color="#ea8336" vAlign="middle" italic="true" autoClearText="true" text="/29">
+      <relation target="n3_m34h" sidePair="left-right"/>
+    </text>
+    <loader id="n6_m34h" name="ladWarning" xy="93,6" size="22,20" url="ui://sh56466lewwj1k">
+      <gearDisplay controller="ctrlStatus" pages="1"/>
+      <relation target="n4_m34h" sidePair="left-right"/>
+    </loader>
+    <loader id="n5_m34h" name="space" xy="82,3" size="32,24" touchable="false">
+      <gearSize controller="ctrlStatus" pages="0,1" values="11,24,1,1|32,24,1,1"/>
+      <relation target="n4_m34h" sidePair="left-right"/>
+    </loader>
+  </displayList>
+  <relation target="n5_m34h" sidePair="rightext-right"/>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="239,57" designImage="ui://sh56466lewwj2b" designImageOffsetX="-229" designImageOffsetY="-914" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <image id="n1_x1ak" name="n1" src="ewwj29" fileName="img/staking/btn_stake_confirm.png" xy="0,0" size="239,57"/>
+    <image id="n2_x1ak" name="n2" src="ewwj2a" fileName="img/staking/icon_stake_info.png" xy="21,17"/>
+    <text id="n3_x1ak" name="n3" xy="42,10" size="192,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="View Access Detail"/>
+  </displayList>
+</component>

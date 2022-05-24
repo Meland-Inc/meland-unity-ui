@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="244,161" opaque="false">
+  <controller name="ctrlBadgeQuality" alias="徽章品级" pages="2,free,3,silver,1,gold,0,platinum" selected="3"/>
+  <displayList>
+    <loader id="n1_m34h" name="n1" xy="0,0" size="255,162" touchable="false" url="ui://sh56466lewwj14" autoSize="true">
+      <gearIcon controller="ctrlBadgeQuality" pages="2,3,1,0" values="ui://sh56466lewwj12|ui://sh56466lewwj11|ui://sh56466lewwj13|ui://sh56466lewwj14"/>
+    </loader>
+    <component id="n0_m34h" name="btnRoleHead" src="ewwj15" fileName="btn/btnRoleHead.xml" xy="15,18"/>
+    <component id="n3_8sy6" name="btnStaking" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="91,84" size="54,51">
+      <gearIcon controller="ctrlBadgeQuality" pages="3,1,0" values="ui://sh56466lewwj16|ui://sh56466lewwj17|ui://sh56466lewwj18" default="ui://sh56466lewwj19"/>
+      <Button icon="ui://sh56466lewwj18"/>
+    </component>
+  </displayList>
+</component>

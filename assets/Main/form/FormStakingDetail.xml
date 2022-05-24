@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImage="ui://sh56466lewwj2b" designImageOffsetX="111" designImageAlpha="0" designImageLayer="1">
+  <controller name="ctrlStaking" pages="0,free,1,sliver,2,gold,3,platinum" selected="2"/>
+  <displayList>
+    <image id="n1_x1ak" name="imgBg" src="ewwj20" fileName="form/staking/img_stake_bg.png" xy="723,358" size="473,333" group="n26_x1ak"/>
+    <image id="n2_x1ak" name="imgBgCenter" src="ewwj21" fileName="form/staking/img_stake_centerBg .png" xy="746,383" size="420,209" group="n26_x1ak"/>
+    <loader id="n12_x1ak" name="ladTitle" xy="957,354" pivot="0.5,0.5" anchor="true" size="333,164" group="n26_x1ak" url="ui://sh56466lewwj23" align="center" vAlign="middle" autoSize="true">
+      <gearIcon controller="ctrlStaking" pages="0,2,3" values="ui://sh56466lewwj22|ui://sh56466lewwj23|ui://sh56466lewwj24" default="ui://sh56466lewwj25"/>
+    </loader>
+    <component id="n9_x1ak" name="btnClose" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="792,612" size="123,57" group="n26_x1ak">
+      <relation target="n3_x1ak" sidePair="right-left"/>
+      <Button icon="ui://oyity675jpklwcyire"/>
+    </component>
+    <component id="n3_x1ak" name="btnStakingDetail" src="ewwj27" fileName="btn/btnFixCenterText.xml" xy="926,612" size="200,57" group="n26_x1ak">
+      <gearSize controller="ctrlStaking" pages="2,3" values="200,57,1,1|239,57,1,1" default="200,55,1,1"/>
+      <gearText controller="ctrlStaking" pages="3" values="" default="Upgrade Access"/>
+      <gearIcon controller="ctrlStaking" pages="0,1,2,3" values="ui://sulwtp4jewwj9|ui://sulwtp4jewwj9|ui://sulwtp4jewwj9|ui://sh56466lewwj28"/>
+      <Button title="Upgrade Access" titleFontSize="20" icon="ui://sulwtp4jewwj9"/>
+    </component>
+    <text id="n13_x1ak" name="tfStakeLevel" xy="793,438" size="339,39" group="n26_x1ak" fontSize="28" color="#9b5e49" align="center" vAlign="middle" autoSize="none" text="GOLD ACCESS">
+      <gearText controller="ctrlStaking" pages="1,2,3" values="SLIVER ACCESS|GOLD ACCESS|PLATINUM ACCESS" default="FREE ACCESS"/>
+    </text>
+    <text id="n15_x1ak" name="tfOccupationLimitTips" xy="766,499" size="109,20" group="n26_x1ak" fontSize="13" color="#ab8270" align="center" vAlign="middle" text="Occupation Limit"/>
+    <text id="n19_x1ak" name="tfDitaminDailyGetTips" xy="899,500" size="116,20" group="n26_x1ak" fontSize="13" color="#ab8270" align="center" vAlign="middle" text="Ditamin/Day/Land"/>
+    <text id="n20_x1ak" name="tfDitaminChallengeTips" xy="1030,500" size="120,20" group="n26_x1ak" fontSize="13" color="#ab8270" align="center" vAlign="middle" text="Ditamin/Challenge"/>
+    <text id="n22_x1ak" name="tfOccupationLimit" xy="767,519" pivot="0.5,0.5" size="113,46" group="n26_x1ak" fontSize="34" color="#965e49" align="center" vAlign="middle" autoSize="none" text="99"/>
+    <text id="n23_x1ak" name="tfDitaminDailyGet" xy="889,519" pivot="0.5,0.5" size="139,46" group="n26_x1ak" fontSize="34" color="#965e49" align="center" vAlign="middle" autoSize="none" text="99"/>
+    <text id="n25_x1ak" name="tfDitaminChallengeGet" xy="1039,519" pivot="0.5,0.5" size="109,46" group="n26_x1ak" fontSize="34" color="#965e49" align="center" vAlign="middle" vars="true" autoSize="none" text="{num=100}%"/>
+    <group id="n26_x1ak" name="root" xy="723,272" size="473,419" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

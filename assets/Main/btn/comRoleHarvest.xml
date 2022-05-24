@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="163,33" extention="Button">
+  <controller name="ctrlStatus" pages="0,harvest,1,time" selected="0"/>
+  <controller name="button" pages="2,up,3,down,4,over" selected="0"/>
+  <displayList>
+    <loader id="n2_m34h" name="btnBg" xy="0,-2" size="163,35" url="ui://sh56466lewwj1b" fill="scaleFree">
+      <gearIcon controller="button" pages="4" values="ui://sh56466lewwj1c" default="ui://sh56466lewwj1b"/>
+      <relation target="n8_m34h" sidePair="rightext-right"/>
+    </loader>
+    <image id="n3_m34h" name="n3" src="ewwj1m" fileName="img/img_reward.png" xy="9,2"/>
+    <text id="n4_m34h" name="tfValue" xy="40,4" size="40,22" fontSize="14" color="#ffffff" vAlign="middle" italic="true" strokeColor="#ef6b00" strokeSize="2" singleLine="true" autoClearText="true" text="12.5k"/>
+    <component id="n6_m34h" name="btnHarvest" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="86,1" size="73,25">
+      <gearDisplay controller="ctrlStatus" pages="0"/>
+      <relation target="n4_m34h" sidePair="left-right"/>
+      <Button icon="ui://oyity675m34hwcyiqd"/>
+    </component>
+    <image id="n7_m34h" name="n7" src="ewwj1o" fileName="img/img_waiting.png" xy="86,8">
+      <gearDisplay controller="ctrlStatus" pages="1"/>
+      <relation target="n4_m34h" sidePair="left-right"/>
+    </image>
+    <graph id="n8_m34h" name="space" xy="86,8" size="73,18" visible="false" touchable="false">
+      <gearSize controller="ctrlStatus" pages="0,1" values="73,18,1,1|25,18,1,1"/>
+      <relation target="n4_m34h" sidePair="left-right"/>
+    </graph>
+  </displayList>
+  <Button/>
+  <relation target="n8_m34h" sidePair="rightext-right"/>
+</component>

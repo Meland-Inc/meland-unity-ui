@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="133,30" extention="Button" designImage="ui://srmygz81ewwjq" designImageOffsetX="-91" designImageOffsetY="-143" designImageAlpha="0" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <loader id="n3_targ" name="bg" xy="16,7" size="116,21" url="ui://sh56466lewwjw" fill="scaleFree">
+      <relation target="" sidePair="rightext-right"/>
+    </loader>
+    <loader id="n0_sz33" name="icon" xy="2,4" pivot="0.5,0.5" size="24,24" touchable="false" url="ui://sh56466lewwjx" fill="scaleFree" autoSize="true"/>
+    <text id="n1_obf0" name="title" xy="30,4" size="90,25" fontSize="12" color="#ea8336" align="center" vAlign="middle" autoSize="none" italic="true" text="0">
+      <relation target="" sidePair="rightext-right"/>
+    </text>
+  </displayList>
+  <Button sound="ui://fknoioovtqc911"/>
+  <relation target="n1_obf0" sidePair=""/>
+</component>
