@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="29,73" extention="Button">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="3"/>
+  <displayList>
+    <loader id="n0_dttb" name="ladBg" xy="0,0" size="29,73" url="ui://sh56466lewwjd" fill="scaleFree">
+      <gearIcon controller="button" pages="3,5" values="ui://sh56466lewwjd|ui://sh56466lewwjd" default="ui://sh56466lewwje"/>
+    </loader>
+    <image id="n1_dttb" name="n1" src="ewwjf" fileName="img/bg_kuaijielan_jiantou.png" xy="6,25" pivot="0.5,0.5" scale="-1.2,1.2">
+      <gearSize controller="button" pages="2,3,4,5" values="16,23,1,1|16,23,-1.1,1|16,23,1.2,1.2|16,23,-1.2,1.2" tween="true"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

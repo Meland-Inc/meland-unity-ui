@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="494,193" opaque="false" designImage="ui://srmygz81ewwjq" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <component id="n9_97g2" name="hpProgressBar" src="ewwjm" fileName="com/ComRoleProgressBar.xml" xy="170,85">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader id="n4_97g2" name="headFrame" xy="104,30" size="390,115" touchable="false" url="ui://sh56466lewwjr"/>
+    <image id="n21_m34h" name="n21" src="ewwjs" fileName="img/img_flash.png" xy="160,82"/>
+    <component id="n25_m34h" name="btnAddHp" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="447,88" size="29,17">
+      <Button icon="ui://sh56466lewwjt"/>
+    </component>
+    <text id="n6_97g2" name="nameText" xy="164,36" size="52,26" fontSize="18" color="#774f2d" vAlign="middle" text="Ceres"/>
+    <component id="n18_nngp" name="btnWallet" src="ewwju" fileName="btn/btnWallet.xml" xy="166,64">
+      <Button title="0x0000" titleColor="#ae9e91" titleFontSize="12"/>
+    </component>
+    <component id="n11_97g2" name="btnGold" src="ewwjv" fileName="btn/btnResource.xml" xy="157,106">
+      <Button icon="ui://sh56466lewwjx"/>
+    </component>
+    <component id="n19_targ" name="btnTicket" src="ewwjv" fileName="btn/btnResource.xml" xy="363,106" size="72,30">
+      <Button icon="ui://sh56466lewwjy"/>
+    </component>
+    <component id="n20_targ" name="btnVip" src="ewwjv" fileName="btn/btnResource.xml" xy="291,106" size="73,30">
+      <Button icon="ui://sh56466lewwjz"/>
+    </component>
+    <component id="n27_m34h" name="comRoleHead" src="ewwj10" fileName="com/comRoleHead.xml" xy="11,12"/>
+    <component id="n28_m34h" name="comActiveInfo" src="ewwj1a" fileName="btn/comRoleInfoActive.xml" xy="72,176" pivot="0.5,0.5" anchor="true" size="99,33">
+      <Button title="2"/>
+    </component>
+    <component id="n29_m34h" name="comTerrainInfo" src="ewwj1h" fileName="com/comRoleTerrainInfo.xml" xy="121,160" size="107,33">
+      <relation target="n28_m34h" sidePair="left-right"/>
+    </component>
+    <component id="n30_m34h" name="comHarvestInfo" src="ewwj1l" fileName="btn/comRoleHarvest.xml" xy="227,160" size="171,33">
+      <relation target="n29_m34h" sidePair="left-right"/>
+    </component>
+  </displayList>
+</component>

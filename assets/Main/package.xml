@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="sh56466l">
+  <resources>
+    <component id="ewwj0" name="FormMain.xml" path="/form/" exported="true"/>
+    <component id="ewwj1" name="ComMainBagShortcut.xml" path="/com/"/>
+    <image id="ewwj2" name="bg_kuaijielan_beibaobg.png" path="/img/" scale="9grid" scale9grid="57,25,4,52"/>
+    <component id="ewwj3" name="btnMainShortcutEmpty.xml" path="/btn/"/>
+    <image id="ewwj4" name="bg_wujian_miaobian_kong.png" path="/img/bagMapping/" scale="9grid" scale9grid="20,26,14,5"/>
+    <image id="ewwj5" name="bg_kuaijielan_gezibg.png" path="/img/bagMapping/" scale="9grid" scale9grid="23,21,3,4"/>
+    <image id="ewwj6" name="bg_kuaijielan_tianjia.png" path="/img/bagMapping/"/>
+    <component id="ewwj7" name="comSwapShortcutEffect.xml" path="/com/"/>
+    <image id="ewwj8" name="icon_hecheng_xuanzhongkuang.png" path="/img/bagMapping/"/>
+    <component id="ewwja" name="btnBag.xml" path="/btn/"/>
+    <image id="ewwjb" name="bg_kuaijielan_beibao.png" path="/img/"/>
+    <component id="ewwjc" name="btnFoldBagShortcut.xml" path="/btn/"/>
+    <image id="ewwjd" name="bg_kuaijielan_jiantoubg_2.png" path="/img/"/>
+    <image id="ewwje" name="bg_kuaijielan_jiantoubg_1.png" path="/img/"/>
+    <image id="ewwjf" name="bg_kuaijielan_jiantou.png" path="/img/"/>
+    <component id="ewwjg" name="ComSmallMap.xml" path="/com/"/>
+    <image id="ewwjh" name="img_main_xdt_1.png" path="/img/" scale="9grid" scale9grid="24,24,48,48"/>
+    <component id="ewwji" name="SmallMapContainer.xml" path="/com/"/>
+    <component id="ewwjk" name="ComMainBigWorld.xml" path="/com/"/>
+    <component id="ewwjl" name="ComMainRoleInfo.xml" path="/com/"/>
+    <component id="ewwjm" name="ComRoleProgressBar.xml" path="/com/"/>
+    <image id="ewwjn" name="img_hp_floor.png" path="/img/"/>
+    <image id="ewwjo" name="img_hp.png" path="/img/"/>
+    <image id="ewwjp" name="img_hp_overflow.png" path="/img/"/>
+    <image id="ewwjr" name="img_role_info_bg.png" path="/img/"/>
+    <image id="ewwjs" name="img_flash.png" path="/img/"/>
+    <image id="ewwjt" name="img_hpbuy.png" path="/img/"/>
+    <component id="ewwju" name="btnWallet.xml" path="/btn/"/>
+    <component id="ewwjv" name="btnResource.xml" path="/btn/"/>
+    <image id="ewwjw" name="img_res_floor_1.png" path="/img/" scale="9grid" scale9grid="13,3,23,12"/>
+    <image id="ewwjx" name="img_gold_frame.png" path="/img/"/>
+    <image id="ewwjy" name="img_land_ticket.png" path="/img/"/>
+    <image id="ewwjz" name="img_land_vip.png" path="/img/"/>
+    <component id="ewwj10" name="comRoleHead.xml" path="/com/"/>
+    <image id="ewwj11" name="icon_head_silver.png" path="/img/badge/"/>
+    <image id="ewwj12" name="icon_head_free.png" path="/img/badge/"/>
+    <image id="ewwj13" name="icon_head_gold.png" path="/img/badge/"/>
+    <image id="ewwj14" name="icon_head_platinum.png" path="/img/badge/"/>
+    <component id="ewwj15" name="btnRoleHead.xml" path="/btn/"/>
+    <image id="ewwj16" name="icon_badge_silver.png" path="/img/badge/"/>
+    <image id="ewwj17" name="icon_badge_gold.png" path="/img/badge/"/>
+    <image id="ewwj18" name="icon_badge_platinum.png" path="/img/badge/"/>
+    <image id="ewwj19" name="icon_badge_free.png" path="/img/badge/"/>
+    <component id="ewwj1a" name="comRoleInfoActive.xml" path="/btn/"/>
+    <image id="ewwj1b" name="img_info_small_bg.png" path="/img/" scale="9grid" scale9grid="20,0,40,35"/>
+    <image id="ewwj1c" name="img_info_small_bg_h.png" path="/img/" scale="9grid" scale9grid="20,0,40,35"/>
+    <image id="ewwj1d" name="icon_ active_gray.png" path="/img/active/"/>
+    <image id="ewwj1e" name="icon_ active_w.png" path="/img/active/"/>
+    <image id="ewwj1f" name="icon_ active_yellow.png" path="/img/active/"/>
+    <image id="ewwj1g" name="icon_ active_green.png" path="/img/active/"/>
+    <component id="ewwj1h" name="comRoleTerrainInfo.xml" path="/com/"/>
+    <component id="ewwj1i" name="btnRoleSmallInfo.xml" path="/btn/"/>
+    <image id="ewwj1j" name="img_land.png" path="/img/"/>
+    <image id="ewwj1k" name="img_warning.png" path="/img/"/>
+    <component id="ewwj1l" name="comRoleHarvest.xml" path="/btn/"/>
+    <image id="ewwj1m" name="img_reward.png" path="/img/"/>
+    <image id="ewwj1n" name="btn_harvest.png" path="/img/"/>
+    <image id="ewwj1o" name="img_waiting.png" path="/img/"/>
+    <image id="ewwj1p" name="icon_bigWorld_shop.png" path="/img/"/>
+    <image id="ewwj1q" name="btn_hecheng.png" path="/img/"/>
+    <image id="ewwj1r" name="icon_bigWorld_edit.png" path="/img/"/>
+    <image id="ewwj1s" name="icon_bigWorld_rank.png" path="/img/"/>
+    <image id="ewwj1t" name="icon_bigWorld_twitter.png" path="/img/"/>
+    <image id="ewwj1u" name="icon_bigWorld_play.png" path="/img/"/>
+    <image id="ewwj1v" name="icon_bigWorld_exchange.png" path="/img/"/>
+    <image id="ewwj1w" name="icon_bigWorld_main.png" path="/img/"/>
+    <image id="ewwj1x" name="icon_bigWorld_battle.png" path="/img/"/>
+    <component id="ewwj1z" name="FormStakingDetail.xml" path="/form/" exported="true"/>
+    <image id="ewwj20" name="img_stake_bg.png" path="/img/staking/" scale="9grid" scale9grid="39,42,22,16"/>
+    <image id="ewwj21" name="img_stake_centerBg .png" path="/img/staking/" scale="9grid" scale9grid="27,24,21,20"/>
+    <image id="ewwj22" name="img_stake_title_free.png" path="/img/staking/"/>
+    <image id="ewwj23" name="img_stake_title_gold.png" path="/img/staking/"/>
+    <image id="ewwj24" name="img_stake_title_platinum.png" path="/img/staking/"/>
+    <image id="ewwj25" name="img_stake_title_sliver.png" path="/img/staking/"/>
+    <image id="ewwj26" name="btn_stake_cancel.png" path="/img/staking/"/>
+    <component id="ewwj27" name="btnFixCenterText.xml" path="/btn/"/>
+    <component id="ewwj28" name="spStakeDetail.xml" path="/img/staking/"/>
+    <image id="ewwj29" name="btn_stake_confirm.png" path="/img/staking/" scale="9grid" scale9grid="17,14,34,28"/>
+    <image id="ewwj2a" name="icon_stake_info.png" path="/img/staking/"/>
+    <image id="ewwj2b" name="img_stake_effectInfo.png" path="/img/staking/"/>
+    <component id="huqf2c" name="btnFix.xml" path="/btn/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

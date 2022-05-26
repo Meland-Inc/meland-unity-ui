@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="81,33" extention="Button">
+  <controller name="button" pages="0,up,3,over,4,down" selected="0"/>
+  <displayList>
+    <loader id="n0_sz33" name="bg" xy="0,-1" pivot="0.5,0.5" size="81,35" touchable="false" url="ui://sh56466lewwj1b" fill="scaleFree">
+      <gearIcon controller="button" pages="0,3" values="ui://sh56466lewwj1b|ui://sh56466lewwj1c" default="ui://sh56466lewwj1b"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

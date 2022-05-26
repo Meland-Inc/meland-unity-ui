@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="sulwtp4j">
+  <resources>
+    <component id="ewwj0" name="btnFix.xml" path="/btn/" exported="true"/>
+    <image id="ewwj1" name="btn_blue.png" path="/img/" exported="true"/>
+    <image id="ewwj2" name="btn_tongyong_mistake _1.png" path="/img/" exported="true"/>
+    <image id="ewwj3" name="btn_tongyong_huangse _1.png" path="/img/" exported="true"/>
+    <image id="ewwj4" name="bg_tongyong_xingxikuang_1.png" path="/img/" exported="true"/>
+    <image id="ewwj5" name="img_confirm.png" path="/img/" exported="true"/>
+    <image id="ewwj6" name="btn_red.png" path="/img/" exported="true"/>
+    <image id="ewwj7" name="img_close.png" path="/img/" exported="true"/>
+    <image id="ewwj8" name="bg_tongyong_tanchuangbg_1.png" path="/img/" exported="true"/>
+    <image id="ewwj9" name="btn_tongyong_rightbutton_1.png" path="/img/" exported="true" scale="9grid" scale9grid="15,14,11,9"/>
+    <component id="ewwja" name="comEmpty.xml" path="/com/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="276,24" extention="ProgressBar" designImage="ui://srmygz81ewwjq" designImageOffsetX="-144" designImageOffsetY="-108" designImageAlpha="0">
+  <controller name="ctrlStatus" pages="0,normal,1,exceed" selected="0"/>
+  <displayList>
+    <image id="n0_97g2" name="n0" src="ewwjn" fileName="role/img_hp_floor.png" xy="0,0" size="276,24">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n1_97g2" name="bar" xy="0,0" size="276,24" url="ui://sh56466lewwjo" fill="scaleFree">
+      <gearIcon controller="ctrlStatus" pages="0" values="ui://sh56466lewwjo" default="ui://sh56466lewwjp"/>
+    </loader>
+    <text id="n4_97g2" name="numText" xy="28,0" size="13,22" fontSize="14" color="#ffffff" vAlign="middle" italic="true" text="0"/>
+    <text id="n5_dmiz" name="numMaxText" xy="38,0" size="18,22" fontSize="14" color="#ffffff" vAlign="middle" italic="true" text="/0">
+      <relation target="n4_97g2" sidePair="left-right"/>
+    </text>
+  </displayList>
+  <ProgressBar/>
+</component>

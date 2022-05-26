@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="99,33" pivot="0.5,0.5" extention="Button">
+  <controller name="ctrlProgress" pages="0,,1,,5,,6," selected="0"/>
+  <controller name="button" pages="2,up,3,down,4,over" selected="0"/>
+  <displayList>
+    <loader id="n0_m34h" name="btnBg" xy="0,-2" size="99,35" url="ui://sh56466lewwj1b" fill="scaleFree">
+      <gearIcon controller="button" pages="4" values="ui://sh56466lewwj1c" default="ui://sh56466lewwj1b"/>
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <text id="n1_m34h" name="title" xy="71,1" size="15,26" fontSize="18" color="#ef6b00" vAlign="middle" italic="true" autoClearText="true" text="2"/>
+    <loader id="n3_m34h" name="p1" xy="7,1" size="24,30" touchable="false" url="ui://sh56466lewwj1d">
+      <gearIcon controller="ctrlProgress" pages="1,5,6" values="ui://sh56466lewwj1e|ui://sh56466lewwj1f|ui://sh56466lewwj1g" default="ui://sh56466lewwj1d"/>
+    </loader>
+    <loader id="n4_m34h" name="p2" xy="27,1" size="24,30" touchable="false" url="ui://sh56466lewwj1d">
+      <gearIcon controller="ctrlProgress" pages="5,6" values="ui://sh56466lewwj1f|ui://sh56466lewwj1g" default="ui://sh56466lewwj1d"/>
+    </loader>
+    <loader id="n5_m34h" name="p3" xy="47,1" size="24,30" touchable="false" url="ui://sh56466lewwj1d">
+      <gearIcon controller="ctrlProgress" pages="6" values="ui://sh56466lewwj1g" default="ui://sh56466lewwj1d"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+  <relation target="n1_m34h" sidePair="rightext-right"/>
+</component>
