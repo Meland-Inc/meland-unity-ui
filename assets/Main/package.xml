@@ -81,6 +81,7 @@
     <image id="ewwj29" name="btn_stake_confirm.png" path="/img/staking/" scale="9grid" scale9grid="17,14,34,28"/>
     <image id="ewwj2a" name="icon_stake_info.png" path="/img/staking/"/>
     <image id="ewwj2b" name="img_stake_effectInfo.png" path="/img/staking/"/>
+    <component id="huqf2c" name="btnFix.xml" path="/btn/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>
