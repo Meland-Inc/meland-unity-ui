@@ -82,6 +82,11 @@
     <image id="ewwj2a" name="icon_stake_info.png" path="/img/staking/"/>
     <image id="ewwj2b" name="img_stake_effectInfo.png" path="/img/staking/"/>
     <component id="huqf2c" name="btnFix.xml" path="/btn/" exported="true"/>
+    <component id="fakr2d" name="btnMainBuffItem.xml" path="/btn/" exported="true"/>
+    <image id="fakr2e" name="icon_buff_buff_1.png" path="/img/battle/"/>
+    <image id="fakr2f" name="bg_buff_zhezhao.png" path="/img/battle/" scale="9grid" scale9grid="15,17,15,16"/>
+    <image id="fakr2g" name="bg_buff_baiseshandong.png" path="/img/battle/" scale="9grid" scale9grid="2,3,4,4"/>
+    <image id="fakr2h" name="bg_buff_miaobian.png" path="/img/battle/" scale="9grid" scale9grid="4,4,4,3"/>
   </resources>
   <publish name=""/>
 </packageDescription>

@@ -17,7 +17,7 @@
       <item icon="ui://sh56466lewwj1w" name="btnBigWorldMode"/>
       <item icon="ui://sh56466lewwj1x" name="btnBattleMode"/>
     </list>
-    <list id="n26_wchb" name="lstBuff" xy="22,202" size="722,50" layout="row" overflow="scroll" scrollBarFlags="128" colGap="7" defaultItem="ui://oyity675wchbwcyitr" foldInvisibleItems="true">
+    <list id="n26_wchb" name="lstBuff" xy="22,202" size="722,50" layout="row" overflow="scroll" scrollBarFlags="128" colGap="7" defaultItem="ui://sh56466lfakr2d" foldInvisibleItems="true">
       <relation target="" sidePair="left-left,top-top"/>
       <item/>
       <item/>
