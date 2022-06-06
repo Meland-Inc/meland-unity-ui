@@ -12,6 +12,7 @@
     <image id="ewwj8" name="bg_tongyong_tanchuangbg_1.png" path="/img/" exported="true"/>
     <image id="ewwj9" name="btn_tongyong_rightbutton_1.png" path="/img/" exported="true" scale="9grid" scale9grid="15,14,11,9"/>
     <component id="ewwja" name="comEmpty.xml" path="/com/" exported="true"/>
+    <component id="pw9ab" name="FormLoading.xml" path="/form/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

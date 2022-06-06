@@ -5,7 +5,7 @@
     <component id="n16_l8v2" name="comRoleInfo" src="ewwjl" fileName="com/ComMainRoleInfo.xml" xy="0,0">
       <relation target="" sidePair="left-left,top-top"/>
     </component>
-    <list id="n25_p6kz" name="lstBtnMenu" xy="1831,180" size="73,879" lineGap="14" defaultItem="ui://sh56466lhuqf2c" vAlign="bottom" foldInvisibleItems="true">
+    <list id="n25_p6kz" name="lstBtnMenu" xy="1831,180" size="73,879" lineGap="14" defaultItem="ui://sulwtp4jewwj0" vAlign="bottom" foldInvisibleItems="true">
       <relation target="" sidePair="right-right,bottom-bottom"/>
       <item icon="ui://sh56466lewwj1p" name="btnShop"/>
       <item icon="ui://sh56466lewwj1q" name="btnSynthetic"/>
