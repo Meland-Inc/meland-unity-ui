@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,40" extention="Button">
+  <controller name="button" pages="2,up,3,down,4,over" selected="2"/>
+  <displayList>
+    <loader id="n0_kpw4" name="icon" xy="0,0" pivot="0.5,0.5" size="100,40" scale="1.1,1.1" touchable="false" fill="scaleFree">
+      <gearSize controller="button" pages="3,4" values="100,40,0.9,0.9|100,40,1.1,1.1" default="100,40,1,1" tween="true"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_kpw4" name="title" xy="0,0" pivot="0.5,0.5" size="100,40" scale="1.1,1.1" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <gearSize controller="button" pages="3,4" values="100,40,0.9,0.9|100,40,1.1,1.1" default="100,40,1,1" tween="true"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

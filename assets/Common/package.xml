@@ -13,6 +13,13 @@
     <image id="ewwj9" name="btn_tongyong_rightbutton_1.png" path="/img/" exported="true" scale="9grid" scale9grid="15,14,11,9"/>
     <component id="ewwja" name="comEmpty.xml" path="/com/" exported="true"/>
     <component id="pw9ab" name="FormLoading.xml" path="/form/" exported="true"/>
+    <image id="kpw4c" name="img_cm_load.png" path="/img/"/>
+    <component id="kpw4d" name="btnScale1.xml" path="/btn/" exported="true"/>
+    <image id="kpw4e" name="btn_cm_red.png" path="/img/"/>
+    <image id="kpw4f" name="btn_cm_blue.png" path="/img/" exported="true" scale="9grid" scale9grid="30,11,60,22"/>
+    <component id="kpw4g" name="btnFixClickArea.xml" path="/btn/" exported="true"/>
+    <component id="kpw4h" name="btnScale.xml" path="/btn/" exported="true"/>
+    <image id="kpw4i" name="btn_cm_gb.png" path="/img/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>
