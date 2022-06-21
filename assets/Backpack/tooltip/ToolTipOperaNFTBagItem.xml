@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="438,749" opaque="false" designImage="ui://6jh4fmcgsjtv6g" designImageOffsetX="-704" designImageOffsetY="-232" designImageAlpha="0" designImageLayer="1">
+  <controller name="ctrlQuality" pages="0,unique,1,mythic,2,epic,3,rare,4,common" selected="0"/>
+  <controller name="ctrlType" pages="0,placeable,1,wearable" selected="0"/>
+  <displayList>
+    <image id="n2_grbn" name="tipsBg" src="sjtv6j" fileName="common/tooltip/img/bg_daojuxiangqing_xingxibg.png" xy="0,0" size="438,749">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <loader id="n41_els8" name="quality" xy="310,22" size="106,106" group="n43_els8" url="ui://06f7smqlthwy2v" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="ctrlQuality" pages="0,1,2,3,4" values="ui://06f7smqlthwy2v|ui://06f7smqlthwy30|ui://06f7smqlthwy2y|ui://6jh4fmcgrryz48|ui://06f7smqlthwy2w"/>
+    </loader>
+    <loader id="n42_els8" name="ladIcon" xy="323,35" size="80,80" group="n43_els8" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <group id="n43_els8" name="grpItemIcon" xy="310,22" size="106,106" advanced="true"/>
+    <list id="n74_sjtv" name="lstLabel" xy="27,143" size="309,36" layout="flow_vt" colGap="10" foldInvisibleItems="true">
+      <item url="ui://6jh4fmcgsjtv6q" name="rarity"/>
+      <item url="ui://6jh4fmcgsjtv6s" name="quality"/>
+      <item url="ui://6jh4fmcgsjtv6r" name="type"/>
+    </list>
+    <text id="n9_grbn" name="tfName" xy="25,25" size="257,100" fontSize="32" color="#8f4707" vAlign="middle" leading="0" autoSize="none" text="item name"/>
+    <image id="n66_sjtv" name="imgLineTop" src="sjtv6k" fileName="common/tooltip/img/bg_daojuxiangqing_zhuangshixian.png" xy="29,202" size="387,2" group="n70_sjtv"/>
+    <image id="n67_sjtv" name="imgLineBottom" src="sjtv6k" fileName="common/tooltip/img/bg_daojuxiangqing_zhuangshixian.png" xy="29,594" size="387,2" group="n70_sjtv"/>
+    <list id="n65_sjtv" name="lstAttr" xy="27,223" size="373,346" group="n70_sjtv" overflow="scroll" scrollBarFlags="64" lineGap="4" defaultItem="ui://6jh4fmcgsjtv6o">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n70_sjtv" name="grpAttr" xy="27,202" size="389,394" advanced="true"/>
+    <text id="n44_d8az" name="tfDesc" xy="27,606" size="387,66" fontSize="24" color="#a7a08f" autoSize="height" text="The purpose of modern museums is to collect,preserve">
+      <relation target="n67_sjtv" sidePair="top-bottom"/>
+    </text>
+    <list id="n61_rryz" name="lstSkillIcon" xy="27,688" size="250,52" layout="flow_hz" overflow="hidden" lineGap="3" colGap="5" defaultItem="ui://6jh4fmcgrryz4t">
+      <relation target="n44_d8az" sidePair="top-bottom"/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n68_sjtv" name="imgOperateBg" src="sjtv6j" fileName="common/tooltip/img/bg_daojuxiangqing_xingxibg.png" xy="455,0" size="211,437" group="n71_sjtv">
+      <relation target="n62_fgkq" sidePair="bottomext-bottom"/>
+    </image>
+    <list id="n62_fgkq" name="lstOperateBtn" xy="471,16" size="182,405" group="n71_sjtv" lineGap="12" defaultItem="ui://6jh4fmcgsjtv6p" foldInvisibleItems="true">
+      <item title="Use" icon="ui://6jh4fmcgucdi3d" name="btnUse"/>
+      <item title="Take off" icon="ui://6jh4fmcgucdi3d" name="btnTakeOff"/>
+      <item title="Put on" icon="ui://6jh4fmcgucdi3d" name="btnPutOn"/>
+      <item title="Sell" icon="ui://6jh4fmcgucdi3c" name="btnSell"/>
+      <item title="Quick pack" icon="ui://6jh4fmcgucdi3c" name="btnQuickPack"/>
+      <item title="Destroy" icon="ui://6jh4fmcgucdi3c" name="btnDestroy"/>
+    </list>
+    <group id="n71_sjtv" name="grpOperateBtn" xy="455,0" size="211,437" advanced="true"/>
+  </displayList>
+  <relation target="n61_rryz" sidePair="bottomext-bottom"/>
+</component>

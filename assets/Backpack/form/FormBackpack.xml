@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" opaque="false" designImage="ui://6cvmg52skr2k3" designImageOffsetX="-10" designImageOffsetY="-4" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <component id="n0_kr2k" name="comBg" src="cvvbc" fileName="com/commonBg.xml" pkg="sulwtp4j" xy="167,36" size="1586,908" group="n10_kr2k"/>
+    <image id="n3_kr2k" name="imgTypeBg" src="kr2k12" fileName="img/icon_beibao_saixuan_bg.png" xy="221,254" size="102,645" group="n10_kr2k"/>
+    <component id="n11_kr2k" name="btnClose" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="1659,55" size="58,62" group="n10_kr2k">
+      <Button icon="ui://sulwtp4jcvvbf"/>
+    </component>
+    <list id="n1_kr2k" name="lstBpItem" xy="355,275" size="656,616" group="n10_kr2k" layout="flow_hz" overflow="scroll" scrollBarRes="ui://6jh4fmcgkr2k1c," lineGap="20" colGap="17" defaultItem="ui://6jh4fmcgkr2k1o">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n2_kr2k" name="lstTag" xy="231,258" size="92,638" group="n10_kr2k" lineGap="12" defaultItem="ui://6jh4fmcgkr2k11">
+      <item icon="ui://6jh4fmcgkr2kl" name="All"/>
+      <item icon="ui://6jh4fmcgkr2k7" name="Equipment"/>
+      <item icon="ui://6jh4fmcgkr2ke" name="Consumable"/>
+      <item icon="ui://6jh4fmcgkr2ki" name="Material"/>
+      <item icon="ui://6jh4fmcgkr2k26" name="Wearable"/>
+      <item icon="ui://6jh4fmcgkr2k25" name="Placeable"/>
+      <item icon="ui://6jh4fmcgkr2k9" name="ThirdParty"/>
+    </list>
+    <list id="n4_kr2k" name="lstQualityTag" xy="755,207" size="198,29" group="n10_kr2k" layout="row" selectionMode="multipleSingleClick" colGap="13" defaultItem="ui://6jh4fmcgkr2k13">
+      <item name="Ultimate">
+        <property target="ladDown" propertyId="1" value="ui://6jh4fmcgkr2kg"/>
+        <property target="icon" propertyId="1" value="ui://6jh4fmcgkr2kh"/>
+      </item>
+      <item name="Super">
+        <property target="ladDown" propertyId="1" value="ui://6jh4fmcgkr2k5"/>
+        <property target="icon" propertyId="1" value="ui://6jh4fmcgkr2k6"/>
+      </item>
+      <item name="Advanced">
+        <property target="ladDown" propertyId="1" value="ui://6jh4fmcgkr2kd"/>
+        <property target="icon" propertyId="1" value="ui://6jh4fmcgkr2kp"/>
+      </item>
+      <item name="Enhanced">
+        <property target="ladDown" propertyId="1" value="ui://6jh4fmcgkr2ka"/>
+        <property target="icon" propertyId="1" value="ui://6jh4fmcgkr2kb"/>
+      </item>
+      <item name="Basic">
+        <property target="ladDown" propertyId="1" value="ui://6jh4fmcgkr2kj"/>
+        <property target="icon" propertyId="1" value="ui://6jh4fmcgkr2kk"/>
+      </item>
+    </list>
+    <image id="n5_kr2k" name="imgSearchBg" src="kr2k14" fileName="img/bg_hecheng_shaixuanlan.png" xy="357,184" size="329,58" group="n8_kr2k"/>
+    <image id="n6_kr2k" name="imgSearchIcon" src="kr2k15" fileName="img/btn_hecheng_shousuo.png" xy="376,195" group="n8_kr2k"/>
+    <text id="n7_kr2k" name="tfSearch" xy="422,181" size="264,58" group="n8_kr2k" fontSize="30" color="#c4aa9e" vAlign="middle" autoSize="none" singleLine="true" text="" input="true" prompt="search" maxLength="50"/>
+    <group id="n8_kr2k" name="grpSearch" xy="357,181" size="329,61" group="n10_kr2k"/>
+    <component id="n9_kr2k" name="comRoleView" src="kr2k1d" fileName="com/ComBackpackRoleView.xml" xy="1062,179" group="n10_kr2k"/>
+    <group id="n10_kr2k" name="grpMain" xy="167,36" size="1586,908" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

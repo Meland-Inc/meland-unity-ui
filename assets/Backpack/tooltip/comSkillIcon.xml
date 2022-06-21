@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="151,26">
+  <displayList>
+    <loader id="n0_rryz" name="ladSkillIcon" xy="0,0" size="28,26" url="ui://6jh4fmcgrryz4q" fill="scale" shrinkOnly="true"/>
+    <loader id="n1_rryz" name="ladSkillLevelBg" xy="32,4" size="41,18" url="ui://6jh4fmcgrryz4u"/>
+    <text id="n2_rryz" name="tfSkillLevel" xy="35,1" size="32,20" fontSize="13" color="#b67754" align="center" vAlign="middle" vars="true" italic="true" text="LV.{level=5}"/>
+    <text id="n3_rryz" name="tfSkillName" xy="76,1" size="75,22" fontSize="14" color="#99907d" align="center" vAlign="middle" text="SkillName"/>
+  </displayList>
+  <relation target="n3_rryz" sidePair="rightext-right"/>
+</component>

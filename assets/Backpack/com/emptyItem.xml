@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="106,108" extention="Button" designImage="ui://6cvmg52skr2k0" designImageOffsetX="-487" designImageOffsetY="-269" designImageAlpha="0" designImageLayer="1">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n6_kr2k" name="imgIcon" src="cvvbi" fileName="img/bg_wujian_miaobian_kong.png" pkg="sulwtp4j" xy="0,2" size="106,106"/>
+    <image id="n7_kr2k" name="imgSelected" src="kr2k27" fileName="img/bg_wujian_wujianbg_2.png" xy="6,8" size="94,94">
+      <gearDisplay controller="button" pages="3,5"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

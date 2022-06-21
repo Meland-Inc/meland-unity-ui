@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="438,318" opaque="false" designImage="ui://ojeznww8ucdi3f" designImageOffsetX="-153" designImageOffsetY="-743" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <image id="n2_grbn" name="tipsBg" src="rryz46" fileName="tooltip/img/bg_item_tips.png" xy="0,0" size="438,318">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <loader id="n41_els8" name="quality" xy="310,22" size="106,106" group="n43_els8" url="ui://06f7smqlthwy2w" align="center" vAlign="middle" fill="scaleFree"/>
+    <loader id="n42_els8" name="ladIcon" xy="323,35" size="80,80" group="n43_els8" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <group id="n43_els8" name="grpItemIcon" xy="310,22" size="106,106" advanced="true"/>
+    <text id="n9_grbn" name="tfName" xy="25,25" size="257,100" fontSize="32" color="#8f4707" vAlign="middle" leading="0" autoSize="none" text="silver jackic leaves"/>
+    <component id="n56_sjtv" name="labType" src="sjtv6r" fileName="tooltip/tooltipTypeLabel.xml" xy="27,143" controller="ctrlType,2"/>
+    <text id="n44_d8az" name="tfDesc" xy="27,198" size="387,66" fontSize="24" color="#99907d" autoSize="height" text="The purpose of modern museums is to collect,preserve"/>
+    <image id="n54_r7q6" name="imgBuildTimeBg" src="r7q64z" fileName="tooltip/img/bg_tips_buildTime.png" xy="329,277" size="85,33" group="n55_r7q6">
+      <relation target="n53_r7q6" sidePair="leftext-left"/>
+    </image>
+    <text id="n53_r7q6" name="tfBuildDeadline" xy="339,279" pivot="1,0" size="67,29" group="n55_r7q6" fontSize="20" color="#ffffff" align="center" vAlign="middle" vars="true" text="{num=30}Day"/>
+    <group id="n55_r7q6" name="grpBuildDeadLine" xy="329,277" size="85,33" advanced="true"/>
+    <image id="n60_ljuk" name="imgOperateBg" src="sjtv6j" fileName="tooltip/img/bg_daojuxiangqing_xingxibg.png" xy="455,0" size="211,232" group="n62_ljuk">
+      <relation target="n61_ljuk" sidePair="bottomext-bottom"/>
+    </image>
+    <list id="n61_ljuk" name="lstOperateBtn" xy="471,16" size="182,200" group="n62_ljuk" lineGap="12" defaultItem="ui://6jh4fmcgsjtv6p" foldInvisibleItems="true">
+      <item title="Use" icon="ui://6jh4fmcgucdi3d" name="btnUse"/>
+      <item title="Quick pack" icon="ui://6jh4fmcgucdi3c" name="btnQuickPack"/>
+      <item title="Sell" icon="ui://6jh4fmcgucdi3c" name="btnSell"/>
+    </list>
+    <group id="n62_ljuk" name="grpOperateBtn" xy="455,0" size="211,232" advanced="true"/>
+  </displayList>
+  <relation target="n55_r7q6" sidePair="bottomext-bottom"/>
+</component>

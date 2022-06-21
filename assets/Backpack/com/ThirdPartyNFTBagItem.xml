@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="106,108" extention="Button" designImage="ui://6cvmg52skr2k0" designImageOffsetX="-487" designImageOffsetY="-269" designImageAlpha="0" designImageLayer="1">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
+  <controller name="ctrlUsed" pages="0,unused,1,used" selected="0"/>
+  <displayList>
+    <loader id="n0_kr2k" name="ladQualityBg" xy="0,2" size="106,106" touchable="false" url="ui://06f7smqlthwy2w" fill="scaleFree"/>
+    <loader id="n1_kr2k" name="ladQualityDown" xy="6,8" size="94,94" touchable="false" url="ui://6jh4fmcgkr2k4" fill="scaleFree">
+      <gearDisplay controller="button" pages="3,5"/>
+    </loader>
+    <loader id="n2_kr2k" name="ladQualityUp" xy="6,8" pivot="0.5,0.5" size="94,94" touchable="false" url="ui://6jh4fmcgkr2kw" fill="scaleFree">
+      <gearDisplay controller="button" pages="2,4"/>
+    </loader>
+    <component id="n3_kr2k" name="icon" src="kr2ky" fileName="com/bagItemIcon.xml" xy="13,15" pivot="0.5,0.5" size="80,80" touchable="false">
+      <gearSize controller="button" pages="2,3,4,5" values="80,80,1,1|80,75,1,1|80,75,1.1,1.1|80,75,1.1,1.1" tween="true"/>
+    </component>
+    <image id="n6_k5r2" name="imgNewTag" src="k5r26t" fileName="img/bg_beibao_new.png" xy="6,8" visible="false"/>
+    <image id="n4_kr2k" name="imgUsed" src="kr2k10" fileName="img/bg_kuaijielan_used.png" xy="6,73">
+      <gearDisplay controller="ctrlUsed" pages="1"/>
+    </image>
+    <text id="n5_kr2k" name="tfNum" xy="19,73" size="79,29" fontSize="20" color="#ffffff" align="right" vAlign="middle" autoSize="none" strokeColor="#3d3d3d" strokeSize="2" text="">
+      <gearDisplay controller="ctrlUsed" pages="0"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

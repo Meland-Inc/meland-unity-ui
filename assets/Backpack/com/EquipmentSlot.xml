@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="106,108" extention="Button" designImage="ui://6cvmg52sxv5x5" designImageOffsetX="-281" designImageOffsetY="-684" designImageAlpha="0" designImageLayer="1">
+  <controller name="ctrlStatus" pages="1,empty,0,equip" selected="1"/>
+  <controller name="ctrlPos" exported="true" pages="0,weapon,1,head,2,coat,3,pants,4,shoes,5,gloves" selected="0"/>
+  <controller name="button" pages="2,up,3,down,4,over,7,selectedOver" selected="3">
+    <action type="change_page" fromPage="" toPage="2" objectId="n0_xv5x" controller="button" targetPage="~2"/>
+    <action type="change_page" fromPage="" toPage="3" objectId="n0_xv5x" controller="button" targetPage="~2"/>
+    <action type="change_page" fromPage="" toPage="4" objectId="n0_xv5x" controller="button" targetPage="~2"/>
+    <action type="change_page" fromPage="" toPage="7" objectId="n0_xv5x" controller="button" targetPage="~2"/>
+  </controller>
+  <displayList>
+    <image id="n4_xv5x" name="imgBg" src="cvvb6x" fileName="com/bg_juese_kong.png" xy="0,1">
+      <gearDisplay controller="ctrlStatus" pages="1"/>
+    </image>
+    <loader id="n2_xv5x" name="icon" xy="20,20" pivot="0.5,0.5" size="66,67" touchable="false" url="ui://sulwtp4jcvvbq" autoSize="true">
+      <gearDisplay controller="ctrlStatus" pages="1"/>
+      <gearIcon controller="ctrlPos" pages="0,1,2,3,4,5" values="ui://sulwtp4jcvvbq|ui://06f7smqlf1sac|ui://06f7smqlf1sad|ui://06f7smqlf1sa9|ui://06f7smqlf1sah|ui://06f7smqlf1sae"/>
+    </loader>
+    <component id="n0_xv5x" name="item" src="cvvb6w" fileName="com/EquipNftItemRenderer.xml" xy="0,0" touchable="false">
+      <gearDisplay controller="ctrlStatus" pages="0"/>
+    </component>
+    <text id="n3_xv5x" name="tfLv" xy="55,73" pivot="1,0.5" size="47,29" fontSize="20" color="#875739" align="center" vAlign="middle" vars="true" strokeColor="#ffffff" strokeSize="3" text="Lv.{lv=1}"/>
+    <image id="n5_xv5x" name="imgSelect" src="cvvb6y" fileName="img/img_slot_select.png" xy="-18,-17">
+      <gearDisplay controller="button" pages="3,7"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>
