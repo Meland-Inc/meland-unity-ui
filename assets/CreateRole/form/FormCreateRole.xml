@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImage="ui://thvmj7vonvqa15" designImageAlpha="0">
+  <controller name="ctrlSelectSubclass" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <loader id="n76_txgs" name="comBg" xy="0,0" size="1920,1080" url="ui://3nwnoo94kpw41" align="center" vAlign="middle" fill="scaleNoBorder">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n78_nvqa" name="tfTitle" xy="817,49" size="273,49" fontSize="36" color="#ffffff" leading="0" letterSpacing="10" bold="true" strokeColor="#333333" strokeSize="3" text="创建您的角色">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n81_nvqa" name="imgSexyBg" src="kpw42" fileName="img/img_cre_bottom.png" xy="389,128" size="140,309" group="n80_nvqa"/>
+    <text id="n82_nvqa" name="tfSexyTitle" xy="427,149" size="64,42" group="n80_nvqa" fontSize="30" color="#333333" text="性别">
+      <relation target="n81_nvqa" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n1_no43" name="lstSexy" xy="408,200" size="103,222" group="n80_nvqa" lineGap="6" colGap="33" defaultItem="ui://3nwnoo94kpw43">
+      <relation target="n81_nvqa" sidePair="center-center,bottom-bottom"/>
+      <item icon="ui://3nwnoo94kpw47"/>
+      <item icon="ui://3nwnoo94kpw45"/>
+    </list>
+    <group id="n80_nvqa" name="sexy" xy="389,128" size="140,309" advanced="true">
+      <relation target="n85_nvqa" sidePair="top-top"/>
+      <relation target="" sidePair="center-center%"/>
+    </group>
+    <component id="n8_no43" name="btnStartGame" src="kpw4h" fileName="btn/btnScale.xml" pkg="sulwtp4j" xy="751,930" size="418,88">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+      <Button title="确定" titleFontSize="36" icon="ui://sulwtp4jkpw4f"/>
+    </component>
+    <list id="n19_trkw" name="lstBodySubclass" xy="984,223" size="100,534" lineGap="10" defaultItem="ui://3nwnoo94kpw49" selectionController="ctrlSelectSubclass">
+      <relation target="n85_nvqa" sidePair="middle-middle,right-left"/>
+      <item title="头部" icon="ui://3nwnoo94kpw4d" name="hair" selectedIcon="ui://3nwnoo94kpw4e"/>
+      <item title="脸型" icon="ui://3nwnoo94kpw4f" name="face" selectedIcon="ui://3nwnoo94kpw4g"/>
+      <item title="上衣" icon="ui://3nwnoo94kpw4h" name="clothes" selectedIcon="ui://3nwnoo94kpw4i"/>
+      <item title="裤子" icon="ui://3nwnoo94kpw4c" name="pants" selectedIcon="ui://3nwnoo94kpw4j"/>
+      <item title="鞋子" icon="ui://3nwnoo94kpw4k" name="shoes" selectedIcon="ui://3nwnoo94kpw4l"/>
+      <item title="手套" icon="ui://3nwnoo94kpw4m" name="glove" selectedIcon="ui://3nwnoo94kpw4n"/>
+    </list>
+    <loader id="n86_nvqa" name="ladRightBG" xy="1075,128" size="438,739" group="n85_nvqa" url="ui://3nwnoo94kpw42" fill="scaleFree"/>
+    <loader id="n87_nvqa" name="ladRightTop" xy="1084,135" size="420,60" group="n85_nvqa" url="ui://te1gxawonvqacyihy" fill="scaleFree"/>
+    <text id="n84_nvqa" name="tfSubclassTitle" xy="1101,149" size="64,42" group="n85_nvqa" fontSize="30" color="#333333" leading="0" text="发型">
+      <gearText controller="ctrlSelectSubclass" pages="0,1,2,3,4,5" values="发型|脸型|上衣|裤子|鞋子|手套"/>
+    </text>
+    <list id="n17_trkw" name="lstRightSubclass" xy="1104,223" size="385,607" group="n85_nvqa" layout="flow_hz" overflow="scroll" scrollBarFlags="2" lineGap="10" colGap="10" lineItemCount="3" defaultItem="ui://3nwnoo94kpw4o" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n85_nvqa" name="right" xy="1075,128" size="438,739" advanced="true">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </group>
+    <text id="n88_nvqa" name="tfNameTitle" xy="399,743" size="65,42" group="n18_trkw" fontSize="30" color="#333333" leading="0" bold="true" text="昵称"/>
+    <image id="n10_no43" name="imgNameBG" src="kpw4r" fileName="img/img_cre_nc.png" xy="399,790" size="492,66" group="n18_trkw"/>
+    <text id="n5_no43" name="tfRoleName" xy="422,790" size="441,66" group="n18_trkw" fontSize="30" color="#333333" vAlign="middle" leading="0" letterSpacing="3" autoSize="none" singleLine="true" text="" input="true">
+      <relation target="n10_no43" sidePair="width-width"/>
+    </text>
+    <text id="n6_no43" name="tfError" xy="474,744" size="10,31" group="n18_trkw" visible="false" font="方正准圆简体" fontSize="24" color="#f97272" vAlign="middle" text="">
+      <relation target="n88_nvqa" sidePair="left-right"/>
+    </text>
+    <component id="n9_no43" name="btnDice" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="983,790" pivot="0.5,0.5" size="64,64" group="n18_trkw">
+      <Button icon="ui://3nwnoo94kpw4s"/>
+    </component>
+    <component id="n77_xhiq" name="btnEditName" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="908,790" size="64,64" group="n18_trkw">
+      <Button icon="ui://3nwnoo94kpw4t"/>
+    </component>
+    <group id="n18_trkw" name="nameInput" xy="399,743" size="648,113" advanced="true">
+      <relation target="n85_nvqa" sidePair="bottom-bottom"/>
+      <relation target="n80_nvqa" sidePair="left-left"/>
+    </group>
+    <component id="n27_trkw" name="avatar" src="kpw4u" fileName="com/comAvatar.xml" xy="452,94" size="259,289" scale="2,2" touchable="false">
+      <relation target="n85_nvqa" sidePair="middle-middle%"/>
+      <relation target="" sidePair="center-center%"/>
+    </component>
+    <loader id="n74_fya6" name="ladLoading" xy="904,484" pivot="0.5,0.5" size="112,112" visible="false" url="ui://sulwtp4jkpw4c" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n12_tlkk" name="btnLogout" src="kpw4h" fileName="btn/btnScale.xml" pkg="sulwtp4j" xy="1731,48" size="141,44" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button title="注销" titleColor="#ffffff" titleFontSize="24" icon="ui://sulwtp4jkpw4e"/>
+    </component>
+    <component id="n30_tm1s" name="btnRandomAvatar" src="kpw4g" fileName="btn/btnFixClickArea.xml" pkg="sulwtp4j" xy="1348,147" size="39,40" group="n47_tm1s">
+      <relation target="n46_tm1s" sidePair="right-left,top-top"/>
+      <Button icon="ui://3nwnoo94kpw4v"/>
+    </component>
+    <text id="n46_tm1s" name="n46" xy="1385,152" size="100,34" group="n47_tm1s" fontSize="24" color="#333333" vAlign="middle" singleLine="true" text="随机样貌">
+      <relation target="n85_nvqa" sidePair="right-right,top-top"/>
+    </text>
+    <group id="n47_tm1s" name="randomAvatar" xy="1348,147" size="137,40" advanced="true"/>
+    <loader id="n75_fya6" name="lock" xy="0,0" size="1920,1080" touchable="false" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <transition name="t2" autoPlay="true">
+    <item time="0" type="Rotation" target="n74_fya6" tween="true" startValue="0" endValue="360" duration="24" ease="Linear" repeat="-1"/>
+  </transition>
+</component>

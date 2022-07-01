@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="3nwnoo94">
+  <resources>
+    <component id="kpw40" name="FormCreateRole.xml" path="/form/" exported="true"/>
+    <image id="kpw41" name="img_cre_bg.png" path="/img/"/>
+    <image id="kpw42" name="img_cre_bottom.png" path="/img/" scale="9grid" scale9grid="30,30,60,60"/>
+    <component id="kpw43" name="btnSex.xml" path="/btn/"/>
+    <image id="kpw44" name="img_cre_xbk.png" path="/img/"/>
+    <image id="kpw45" name="img_cre_girl.png" path="/img/"/>
+    <image id="kpw46" name="icon_cre_Correct.png" path="/img/"/>
+    <image id="kpw47" name="img_cre_boy.png" path="/img/"/>
+    <component id="kpw48" name="btnStartGame.xml" path="/btn/"/>
+    <component id="kpw49" name="btnLeftIconRadio.xml" path="/btn/"/>
+    <image id="kpw4a" name="img_cre_xz_1.png" path="/img/" scale="9grid" scale9grid="25,20,50,40"/>
+    <image id="kpw4b" name="img_cre_xz_2.png" path="/img/" scale="9grid" scale9grid="25,20,50,40"/>
+    <image id="kpw4c" name="icon_cre_pants_1.png" path="/img/"/>
+    <image id="kpw4d" name="icon_cre_hair_1.png" path="/img/"/>
+    <image id="kpw4e" name="icon_cre_hair_2.png" path="/img/"/>
+    <image id="kpw4f" name="icon_cre_face_1.png" path="/img/"/>
+    <image id="kpw4g" name="icon_cre_face_2.png" path="/img/"/>
+    <image id="kpw4h" name="icon_cre_clothes_1.png" path="/img/"/>
+    <image id="kpw4i" name="icon_cre_clothes_2.png" path="/img/"/>
+    <image id="kpw4j" name="icon_cre_pants_2.png" path="/img/"/>
+    <image id="kpw4k" name="icon_cre_Shoes_1.png" path="/img/"/>
+    <image id="kpw4l" name="icon_cre_Shoes_2.png" path="/img/"/>
+    <image id="kpw4m" name="icon_cre_gloves_1.png" path="/img/"/>
+    <image id="kpw4n" name="icon_cre_gloves_2.png" path="/img/"/>
+    <component id="kpw4o" name="btnRightIconRadio.xml" path="/btn/"/>
+    <image id="kpw4p" name="img_cre_wpk_2.png" path="/img/" scale="9grid" scale9grid="30,30,60,60"/>
+    <image id="kpw4q" name="img_cre_wpk_1.png" path="/img/" scale="9grid" scale9grid="30,30,60,60"/>
+    <image id="kpw4r" name="img_cre_nc.png" path="/img/" scale="9grid" scale9grid="25,17,50,34"/>
+    <image id="kpw4s" name="icon_cre_sjmz.png" path="/img/"/>
+    <image id="kpw4t" name="btn_cre_edit.png" path="/img/"/>
+    <component id="kpw4u" name="comAvatar.xml" path="/com/"/>
+    <image id="kpw4v" name="icon_cre_sjhz.png" path="/img/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

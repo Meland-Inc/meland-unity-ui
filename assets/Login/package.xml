@@ -2,7 +2,7 @@
 <packageDescription id="s5oayyu1">
   <resources>
     <image id="ewwj0" name="img_bg_login.jpg" path="/img/"/>
-    <component id="ewwj1" name="FormLogin.xml" path="/form/" exported="true"/>
+    <component id="ewwj1" name="FormLoginDebug.xml" path="/form/" exported="true"/>
     <image id="ewwj2" name="icon_kafa_03.png" path="/img/"/>
     <component id="huqf3" name="btnFix.xml" path="/form/" exported="true"/>
   </resources>
