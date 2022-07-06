@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6jh4fmcg">
+  <resources>
+    <image id="kr2k0" name="bg_beibao_dizuo_bg.png" path="/img/" scale9grid="8,9,3,2"/>
+    <image id="kr2k1" name="icon_beibao_wujiankuang_lvse.png" path="/img/" scale="9grid" scale9grid="19,18,6,7"/>
+    <image id="kr2k2" name="icon_beibao_wujiankuang_lanse.png" path="/img/" scale="9grid" scale9grid="19,17,5,7"/>
+    <image id="kr2k3" name="icon_beibao_wujiankuang_chengse.png" path="/img/" scale="9grid" scale9grid="19,18,7,9"/>
+    <image id="kr2k4" name="icon_beibao_wujiankuang_baise.png" path="/img/" scale="9grid" scale9grid="17,19,8,5"/>
+    <image id="kr2k5" name="icon_beibao_saixuan_zise_2.png" path="/img/" scale="9grid" scale9grid="12,12,3,2"/>
+    <image id="kr2k6" name="icon_beibao_saixuan_zise_1.png" path="/img/" scale="9grid" scale9grid="6,6,2,2"/>
+    <image id="kr2k7" name="icon_beibao_saixuan_zhuangbei.png" path="/img/"/>
+    <image id="kr2k8" name="icon_beibao_saixuan_xiaohaopin.png" path="/img/"/>
+    <image id="kr2k9" name="icon_beibao_saixuan_nft.png" path="/img/"/>
+    <image id="kr2ka" name="icon_beibao_saixuan_lvse_2.png" path="/img/" scale="9grid" scale9grid="12,12,2,2"/>
+    <image id="kr2kb" name="icon_beibao_saixuan_lvse_1.png" path="/img/" scale="9grid" scale9grid="6,6,3,2"/>
+    <image id="kr2kc" name="icon_beibao_wujiankuang_xialatiao.png" path="/img/"/>
+    <image id="kr2kd" name="icon_beibao_saixuan_lanse_2.png" path="/img/" scale="9grid" scale9grid="11,11,4,4"/>
+    <image id="kr2ke" name="icon_beibao_saixuan_jitui.png" path="/img/"/>
+    <image id="kr2kf" name="icon_beibao_saixuan_fangzhi.png" path="/img/"/>
+    <image id="kr2kg" name="icon_beibao_saixuan_chengse_2.png" path="/img/" scale="9grid" scale9grid="12,12,3,2"/>
+    <image id="kr2kh" name="icon_beibao_saixuan_chengse_1.png" path="/img/" scale="9grid" scale9grid="6,5,3,4"/>
+    <image id="kr2ki" name="icon_beibao_saixuan_cailiao.png" path="/img/"/>
+    <image id="kr2kj" name="icon_beibao_saixuan_bai_2.png" path="/img/" scale="9grid" scale9grid="12,12,2,2"/>
+    <image id="kr2kk" name="icon_beibao_saixuan_bai_1.png" path="/img/" scale="9grid" scale9grid="6,6,2,2"/>
+    <image id="kr2kl" name="icon_beibao_saixuan_all.png" path="/img/"/>
+    <image id="kr2km" name="icon_beibao_icon.png" path="/img/"/>
+    <image id="kr2kn" name="bg_beibao_saixuan.png" path="/img/" scale="9grid" scale9grid="31,32,12,11"/>
+    <image id="kr2ko" name="bg_beibao_dizuo.png" path="/img/"/>
+    <image id="kr2kp" name="icon_beibao_saixuan_lanse_1.png" path="/img/" scale="9grid" scale9grid="7,6,2,2"/>
+    <image id="kr2kq" name="icon_beibao_wujiankuang_zise.png" path="/img/" scale="9grid" scale9grid="18,18,8,8"/>
+    <component id="kr2kr" name="FormBackpack.xml" path="/form/" exported="true"/>
+    <component id="kr2ks" name="BpNftItemRenderer.xml" path="/com/" exported="true"/>
+    <image id="kr2kt" name="icon_beibao_wujiankuang_lanse_1.png" path="/img/" scale="9grid" scale9grid="17,18,9,6"/>
+    <image id="kr2ku" name="icon_beibao_wujiankuang_lvse_1.png" path="/img/" scale="9grid" scale9grid="18,18,7,7"/>
+    <image id="kr2kv" name="icon_beibao_wujiankuang_chengse_1.png" path="/img/" scale="9grid" scale9grid="19,18,4,6"/>
+    <image id="kr2kw" name="icon_beibao_wujiankuang_baise_1.png" path="/img/" scale="9grid" scale9grid="20,19,3,6"/>
+    <image id="kr2kx" name="icon_beibao_wujiankuang_zise_1.png" path="/img/" scale="9grid" scale9grid="19,18,6,8"/>
+    <component id="kr2ky" name="bagItemIcon.xml" path="/com/"/>
+    <image id="kr2k10" name="bg_kuaijielan_used.png" path="/img/"/>
+    <component id="kr2k11" name="btnNFTTypeTag.xml" path="/com/"/>
+    <image id="kr2k12" name="icon_beibao_saixuan_bg.png" path="/img/" scale="9grid" scale9grid="40,43,8,4"/>
+    <component id="kr2k13" name="btnNFTQualityTag.xml" path="/com/"/>
+    <image id="kr2k14" name="bg_hecheng_shaixuanlan.png" path="/img/" scale="9grid" scale9grid="31,13,6,26"/>
+    <image id="kr2k15" name="btn_hecheng_shousuo.png" path="/img/"/>
+    <image id="kr2k16" name="bg_hecheng_shujindutiao_bg.png" path="/img/" scale="9grid" scale9grid="2,12,4,24"/>
+    <component id="kr2k1b" name="ScrollBar1_grip.xml" path="/com/"/>
+    <component id="kr2k1c" name="ScrollBar1.xml" path="/com/" exported="true"/>
+    <component id="kr2k1d" name="ComBackpackRoleView.xml" path="/com/"/>
+    <component id="kr2k1k" name="comEmpty.xml" path="/com/"/>
+    <image id="kr2k1l" name="bg_juese_wenbenfenlan.png" path="/img/" scale="9grid" scale9grid="17,19,22,18"/>
+    <component id="kr2k1m" name="comRoleAttribute.xml" path="/com/"/>
+    <component id="kr2k1n" name="comAvatarDefaultItem.xml" path="/com/"/>
+    <component id="kr2k1o" name="emptyItem.xml" path="/com/"/>
+    <component id="kr2k1p" name="ThirdPartyNFTBagItem.xml" path="/com/" exported="true"/>
+    <component id="kr2k1q" name="WinDestroyNFT.xml" path="/form/" exported="true"/>
+    <image id="kr2k1r" name="bg_hecheng_dabeijing.png" path="/img/" scale="9grid" scale9grid="35,39,22,8"/>
+    <component id="kr2k1s" name="Slider1.xml" path="/com/"/>
+    <image id="kr2k1t" name="bg_hecheng_jindutiao_bg.png" path="/img/" scale="9grid" scale9grid="11,4,17,2"/>
+    <image id="kr2k1u" name="bg_hecheng_jindutiao_xuanzhong.png" path="/img/" scale="9grid" scale9grid="13,3,22,6"/>
+    <component id="kr2k1v" name="Slider1_grip.xml" path="/com/"/>
+    <image id="kr2k1w" name="btn_hecheng_shuliangtuodong.png" path="/img/"/>
+    <image id="kr2k1x" name="btn_hecheng_jianshao_bukedianji.png" path="/img/"/>
+    <image id="kr2k1y" name="btn_hecheng_zenjia_bukedianji.png" path="/img/"/>
+    <image id="kr2k24" name="bg_beibao_renwutouying.png" path="/img/"/>
+    <image id="kr2k25" name="icon_beibao_saixuan_jianzhu.png" path="/img/"/>
+    <image id="kr2k26" name="icon_beibao_saixuan_fuzhuang.png" path="/img/"/>
+    <image id="kr2k27" name="bg_wujian_wujianbg_2.png" path="/img/" scale="9grid" scale9grid="19,18,4,5"/>
+    <image id="he5135" name="btn_zhuangbei_02.png" path="/tooltip/img/"/>
+    <image id="he5136" name="img_zhuangbei_01.png" path="/tooltip/img/"/>
+    <image id="ucdi3c" name="btn_operate_sell.png" path="/tooltip/img/" scale="9grid" scale9grid="25,11,50,22"/>
+    <image id="ucdi3d" name="btn_operate_use.png" path="/tooltip/img/" scale="9grid" scale9grid="33,13,35,14"/>
+    <image id="rryz46" name="bg_item_tips.png" path="/tooltip/img/" scale="9grid" scale9grid="19,15,38,30"/>
+    <image id="rryz47" name="bg_tipsTag_mythic.png" path="/tooltip/img/" scale="9grid" scale9grid="16,6,32,12"/>
+    <image id="rryz48" name="bg_tipsIcon_rare.png" path="/tooltip/img/" scale="9grid" scale9grid="7,7,14,14"/>
+    <image id="rryz49" name="bg_tipsIcon_unique.png" path="/tooltip/img/" scale="9grid" scale9grid="7,7,14,14"/>
+    <image id="rryz4a" name="bg_tipsIcon_common.png" path="/tooltip/img/" scale="9grid" scale9grid="7,7,14,14"/>
+    <image id="rryz4b" name="bg_tipsIcon_epic.png" path="/tooltip/img/" scale="9grid" scale9grid="7,7,14,14"/>
+    <image id="rryz4c" name="bg_tipsIcon_mythic.png" path="/tooltip/img/" scale="9grid" scale9grid="7,7,14,14"/>
+    <image id="rryz4i" name="bg_tipsTag_common.png" path="/tooltip/img/" scale="9grid" scale9grid="16,6,32,12"/>
+    <image id="rryz4j" name="bg_tipsTag_epic.png" path="/tooltip/img/" scale="9grid" scale9grid="16,6,32,12"/>
+    <image id="rryz4l" name="bg_tipsTag_rare.png" path="/tooltip/img/" scale="9grid" scale9grid="16,6,32,12"/>
+    <image id="rryz4m" name="bg_tipsTag_unique.png" path="/tooltip/img/" scale="9grid" scale9grid="16,6,32,12"/>
+    <image id="rryz4n" name="bg_tipsType.png" path="/tooltip/img/" scale="9grid" scale9grid="7,6,52,12"/>
+    <image id="rryz4p" name="icon_tips_plunder.png" path="/tooltip/img/"/>
+    <image id="rryz4q" name="icon_tips_sentry.png" path="/tooltip/img/"/>
+    <image id="rryz4r" name="bg_tips_plunderLevel.png" path="/tooltip/img/"/>
+    <image id="rryz4s" name="bg_tips_sentryLevel.png" path="/tooltip/img/"/>
+    <image id="rryz4u" name="bg_tips_skillLevel.png" path="/tooltip/img/"/>
+    <image id="r7q64z" name="bg_tips_buildTime.png" path="/tooltip/img/"/>
+    <image id="sjtv6g" name="标注图.png" path="/tooltip/img/"/>
+    <image id="sjtv6h" name="效果图.png" path="/tooltip/img/"/>
+    <image id="sjtv6i" name="bg_beibaoxiangqing_jingdutiao.png" path="/tooltip/img/"/>
+    <image id="sjtv6j" name="bg_daojuxiangqing_xingxibg.png" path="/tooltip/img/" scale="9grid" scale9grid="26,26,6,7"/>
+    <image id="sjtv6k" name="bg_daojuxiangqing_zhuangshixian.png" path="/tooltip/img/" scale="9grid" scale9grid="7,0,7,2"/>
+    <image id="sjtv6l" name="btn_daojuxiangqing_jingdutiao.png" path="/tooltip/img/"/>
+    <image id="sjtv6m" name="btn_daojuxiangqing_queren.png" path="/tooltip/img/"/>
+    <image id="sjtv6n" name="btn_daojuxiangqing_querenlan.png" path="/tooltip/img/"/>
+    <component id="z5gh3b" name="ToolTipOperaNFTBagItem.xml" path="/tooltip/" exported="true"/>
+    <component id="rryz4t" name="comSkillIcon.xml" path="/tooltip/"/>
+    <component id="laib4v" name="ToolTipOperaThirdPartyNFTBagItem.xml" path="/tooltip/" exported="true"/>
+    <component id="sjtv6o" name="comItemAttr.xml" path="/tooltip/"/>
+    <component id="sjtv6q" name="tooltipRarityLabel.xml" path="/tooltip/"/>
+    <component id="sjtv6r" name="tooltipTypeLabel.xml" path="/tooltip/" exported="true"/>
+    <component id="sjtv6s" name="tooltipQualityLabel.xml" path="/tooltip/" exported="true"/>
+    <component id="sjtv6p" name="btnBagItemOp.xml" path="/com/"/>
+    <image id="k5r26t" name="bg_beibao_new.png" path="/img/"/>
+    <component id="n6zw3n" name="btnNftRewardItem.xml" path="/btn/" exported="true"/>
+    <image id="n6zw3d" name="bg_pvp_jiesuan_cheng_1.png" path="/img/rewarditem/"/>
+    <image id="n6zw3e" name="bg_pvp_jiesuan_cheng_2.png" path="/img/rewarditem/"/>
+    <image id="n6zw3f" name="bg_pvp_jiesuan_hui_1.png" path="/img/rewarditem/"/>
+    <image id="n6zw3g" name="bg_pvp_jiesuan_hui_2.png" path="/img/rewarditem/"/>
+    <image id="n6zw3h" name="bg_pvp_jiesuan_lan_1.png" path="/img/rewarditem/"/>
+    <image id="n6zw3i" name="bg_pvp_jiesuan_lan_2.png" path="/img/rewarditem/"/>
+    <image id="n6zw3j" name="bg_pvp_jiesuan_lv_1.png" path="/img/rewarditem/"/>
+    <image id="n6zw3k" name="bg_pvp_jiesuan_lv_2.png" path="/img/rewarditem/"/>
+    <image id="n6zw3l" name="bg_pvp_jiesuan_zi_1.png" path="/img/rewarditem/"/>
+    <image id="n6zw3m" name="bg_pvp_jiesuan_zi_2.png" path="/img/rewarditem/"/>
+    <image id="n6zw3o" name="创号效果图.png" path="/img/rewarditem/"/>
+    <image id="n6zw3p" name="icon_beibao_saixuan_fuzhuang.png" path="/img/rewarditem/"/>
+    <component id="cvvb6v" name="EquipmentSlot.xml" path="/com/" exported="true"/>
+    <component id="cvvb6w" name="EquipNftItemRenderer.xml" path="/com/" exported="true"/>
+    <image id="cvvb6x" name="bg_juese_kong.png" path="/com/"/>
+    <image id="cvvb6y" name="img_slot_select.png" path="/img/"/>
+    <image id="eoay6z" name="bg_hecheng_miaobian.png" path="/img/" scale="9grid" scale9grid="24,26,8,4"/>
+    <component id="y3fc7w" name="ToolTipNFtTItem.xml" path="/tooltip/" exported="true"/>
+    <component id="y3fc7z" name="ComNftTooltipInfo.xml" path="/tooltip/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

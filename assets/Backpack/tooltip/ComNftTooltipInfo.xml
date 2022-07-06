@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="391,690" initName="comTooltipInfo" designImageAlpha="0">
+  <controller name="ctrlQuality" pages="0,Ultimate,1,Super,2,Advanced,3,Enhanced,4,Basic" selected="0"/>
+  <displayList>
+    <loader id="n41_els8" name="quality" xy="285,0" size="106,106" group="n43_els8" url="ui://06f7smqlthwy2v" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="ctrlQuality" pages="0,1,2,3,4" values="ui://06f7smqlthwy2v|ui://06f7smqlthwy30|ui://06f7smqlthwy2y|ui://6jh4fmcgrryz48|ui://06f7smqlthwy2w"/>
+    </loader>
+    <loader id="n42_els8" name="ladIcon" xy="298,13" size="80,80" group="n43_els8" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <group id="n43_els8" name="grpItemIcon" xy="285,0" size="106,106" advanced="true"/>
+    <list id="n74_sjtv" name="lstLabel" xy="2,161" size="309,36" layout="flow_vt" colGap="10" foldInvisibleItems="true">
+      <relation target="n75_y3fc" sidePair="top-bottom"/>
+      <item url="ui://6jh4fmcgsjtv6q" name="rarity"/>
+      <item url="ui://6jh4fmcgsjtv6s" name="quality"/>
+      <item url="ui://6jh4fmcgsjtv6r" name="type"/>
+    </list>
+    <text id="n9_grbn" name="tfName" xy="0,3" size="257,100" fontSize="32" color="#8f4707" vAlign="middle" leading="0" autoSize="none" text="item name"/>
+    <image id="n66_sjtv" name="imgLineTop" src="sjtv6k" fileName="tooltip/img/bg_daojuxiangqing_zhuangshixian.png" xy="4,220" size="387,2" group="n70_sjtv"/>
+    <image id="n67_sjtv" name="imgLineBottom" src="sjtv6k" fileName="tooltip/img/bg_daojuxiangqing_zhuangshixian.png" xy="4,612" size="387,2" group="n70_sjtv"/>
+    <list id="n65_sjtv" name="lstAttr" xy="2,241" size="373,346" group="n70_sjtv" overflow="scroll" scrollBarFlags="64" lineGap="4" defaultItem="ui://6jh4fmcgsjtv6o">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n70_sjtv" name="grpAttr" xy="2,220" size="389,394" advanced="true">
+      <relation target="n75_y3fc" sidePair="top-bottom"/>
+    </group>
+    <text id="n44_d8az" name="tfDesc" xy="2,624" size="387,66" fontSize="24" color="#a7a08f" autoSize="height" text="The purpose of modern museums is to collect,preserve">
+      <relation target="n67_sjtv" sidePair="top-bottom"/>
+    </text>
+    <text id="n75_y3fc" name="tfLv" xy="0,104" size="185,56" fontSize="28" color="#ba6f40" vars="true" autoSize="none" text="Lv.{lv=28}"/>
+  </displayList>
+  <relation target="n44_d8az" sidePair="bottomext-bottom"/>
+</component>

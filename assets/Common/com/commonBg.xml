@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1587,908" designImage="ui://6cvmg52skr2k0" designImageOffsetX="-178" designImageOffsetY="-40" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <image id="n0_kr2k" name="imgMainBg" src="cvvbe" fileName="img/bg_hecheng_dabeijing.png" xy="0,2" size="1587,906">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_kr2k" name="imgTitleBg" src="cvvbd" fileName="img/bg_hecheng_bantou.png" xy="0,0" size="1587,108">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <text id="n2_kr2k" name="title" xy="157,20" size="244,59" fontSize="44" color="#8f4707" align="center" vAlign="middle" leading="11" ubb="true" vars="true" text="BACKPACK"/>
+    <loader id="n3_kr2k" name="icon" xy="100,28" pivot="0.5,0.5" size="46,47" align="center" vAlign="middle" fill="scale" autoSize="true"/>
+  </displayList>
+  <customProperty target="icon" propertyId="1"/>
+  <customProperty target="title" propertyId="0"/>
+</component>

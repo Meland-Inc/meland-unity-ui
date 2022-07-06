@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImage="ui://6cvmg52skr2k1" designImageOffsetX="38" designImageOffsetY="-70" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <image id="n1_kr2k" name="imgBg" src="kr2k33" fileName="img/bg_hecheng_dabeijing.png" pkg="06f7smql" xy="669,315" size="582,350" group="n15_kr2k"/>
+    <component id="n2_kr2k" name="btnNftIcon" src="kr2ks" fileName="com/NFTBagItem.xml" xy="907,348" group="n15_kr2k" touchable="false"/>
+    <text id="n3_kr2k" name="tfDestroy" xy="897,461" size="126,32" group="n15_kr2k" fontSize="22" color="#8f4707" align="center" vAlign="middle" vars="true" text="Destroy:{num=10}"/>
+    <component id="n4_kr2k" name="pbrNum" src="kr2k1s" fileName="com/Slider1.xml" xy="838,516" size="234,12" group="n9_kr2k">
+      <Slider value="8" max="22" min="1"/>
+    </component>
+    <component id="n7_kr2k" name="btnSub" src="thwy2t" fileName="btn/btnFix.xml" pkg="06f7smql" xy="730,496" size="52,52" group="n9_kr2k">
+      <Button icon="ui://6jh4fmcgkr2k1x"/>
+    </component>
+    <component id="n8_kr2k" name="btnAdd" src="thwy2t" fileName="btn/btnFix.xml" pkg="06f7smql" xy="1137,496" size="52,52" group="n9_kr2k">
+      <Button icon="ui://6jh4fmcgkr2k1y"/>
+    </component>
+    <text id="n5_kr2k" name="tfMin" xy="795,503" size="19,34" group="n9_kr2k" fontSize="24" color="#b7774f" align="center" vAlign="middle" leading="11" text="1"/>
+    <text id="n6_kr2k" name="tfMax" xy="1092,503" size="33,34" group="n9_kr2k" fontSize="24" color="#b7774f" align="center" vAlign="middle" leading="11" text="22"/>
+    <group id="n9_kr2k" name="grpPbrNum" xy="730,496" size="459,52" group="n15_kr2k" advanced="true"/>
+    <component id="n13_kr2k" name="btnClose" src="kr2k3b" fileName="btn/btnCancel.xml" pkg="06f7smql" xy="814,568" group="n15_kr2k"/>
+    <component id="n14_kr2k" name="btnConfirm" src="kr2k3c" fileName="btn/btnConfirm.xml" pkg="06f7smql" xy="977,568" group="n15_kr2k"/>
+    <group id="n15_kr2k" name="grpMain" xy="669,315" size="582,350" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

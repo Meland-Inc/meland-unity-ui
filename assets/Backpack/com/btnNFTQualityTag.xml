@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="29,29" extention="Button">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n1_kr2k" name="ladDown" xy="0,0" size="29,29" touchable="false" url="ui://6jh4fmcgkr2kj">
+      <gearDisplay controller="button" pages="3,5"/>
+    </loader>
+    <loader id="n0_kr2k" name="icon" xy="6,6" pivot="0.5,0.5" size="17,17" touchable="false" url="ui://6jh4fmcgkr2kk">
+      <gearSize controller="button" pages="4,5" values="17,17,1.1,1.1|17,17,1.1,1.1" default="17,17,1,1" tween="true"/>
+    </loader>
+  </displayList>
+  <Button mode="Check"/>
+  <customProperty target="ladDown" propertyId="1"/>
+  <customProperty target="icon" propertyId="1"/>
+</component>

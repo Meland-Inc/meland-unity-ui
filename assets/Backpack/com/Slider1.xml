@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="0,12" extention="Slider">
+  <displayList>
+    <image id="n0_thwy" name="n0" src="kr2k1t" fileName="img/bg_hecheng_jindutiao_bg.png" xy="0,0" size="0,12">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_thwy" name="bar" src="kr2k1u" fileName="img/bg_hecheng_jindutiao_xuanzhong.png" xy="0,0" size="0,12"/>
+    <component id="n3_thwy" name="grip" src="kr2k1v" fileName="com/Slider1_grip.xml" xy="-26,-13">
+      <relation target="n1_thwy" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Slider titleType="valueAndmax" wholeNumbers="true"/>
+</component>

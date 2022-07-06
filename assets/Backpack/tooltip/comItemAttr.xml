@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="365,34">
+  <displayList>
+    <text id="n63_sjtv" name="tfName" xy="0,0" size="87,32" fontSize="22" color="#b7774f" align="center" vAlign="middle" text="Max HP"/>
+    <text id="n64_sjtv" name="tfValue" xy="288,0" pivot="1,0" size="77,34" fontSize="24" color="#67b74f" align="center" vAlign="middle" vars="true" text="+{value=2600}"/>
+  </displayList>
+</component>

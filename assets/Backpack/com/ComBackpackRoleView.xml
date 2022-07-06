@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="605,704" designImage="ui://6cvmg52skr2k3" designImageAlpha="0" designImageLayer="1">
+  <controller name="ctrlHP" pages="0,normal,1,red" selected="0"/>
+  <controller name="ctrlEquip" pages="6,none,0,weapon,1,hand,2,shoe,3,head,4,coat,5,pant" selected="0"/>
+  <displayList>
+    <image id="n0_kr2k" name="imgBg" src="kr2k14" fileName="img/bg_hecheng_shaixuanlan.png" xy="135,0" size="329,58"/>
+    <text id="n2_kr2k" name="tfRoleName" xy="135,0" size="329,58" fontSize="30" color="#8f4707" align="center" vAlign="middle" autoSize="none" singleLine="true" text="Owen"/>
+    <image id="n6_kr2k" name="imgRoleBg" src="kr2k0" fileName="img/bg_beibao_dizuo_bg.png" xy="187,189" pivot="0.5,0.5" size="257,257" aspect="true"/>
+    <image id="n4_kr2k" name="imgRoleBase" src="kr2ko" fileName="img/bg_beibao_dizuo.png" xy="216,366" pivot="0.5,0.5"/>
+    <image id="n18_kr2k" name="imgShadow" src="kr2k24" fileName="img/bg_beibao_renwutouying.png" xy="257,376" pivot="0.5,0.5"/>
+    <component id="n13_kr2k" name="comAvatarCtnr" src="kr2k1k" fileName="com/comEmpty.xml" xy="315,390" size="0,0" scale="2,2"/>
+    <component id="n8_kr2k" name="equipHand" src="cvvb6v" fileName="com/EquipmentSlot.xml" xy="2,204">
+      <Button icon="ui://sulwtp4jcvvbp" controller="ctrlEquip" page="1"/>
+    </component>
+    <component id="n9_kr2k" name="equipShoe" src="cvvb6v" fileName="com/EquipmentSlot.xml" xy="37,334">
+      <Button icon="ui://sulwtp4jcvvbr" controller="ctrlEquip" page="2"/>
+    </component>
+    <component id="n10_kr2k" name="equipHead" src="cvvb6v" fileName="com/EquipmentSlot.xml" xy="468,85">
+      <Button icon="ui://sulwtp4jcvvbn" controller="ctrlEquip" page="3"/>
+    </component>
+    <component id="n11_kr2k" name="equipCoat" src="cvvb6v" fileName="com/EquipmentSlot.xml" xy="499,213">
+      <Button icon="ui://sulwtp4jcvvbo" controller="ctrlEquip" page="4"/>
+    </component>
+    <component id="n12_kr2k" name="equipPant" src="cvvb6v" fileName="com/EquipmentSlot.xml" xy="458,337">
+      <Button icon="ui://sulwtp4jcvvbm" controller="ctrlEquip" page="5"/>
+    </component>
+    <component id="n14_kr2k" name="comHp" src="kr2k1m" fileName="com/comRoleAttribute.xml" xy="0,475">
+      <gearText controller="ctrlHP" pages="0,1" values="{cur=100}/{max=200}|[color=#ff0000]{cur=100}[/color]/{max=200}"/>
+      <Label title="{cur=100}/{max=200}"/>
+      <property target="icon" propertyId="1" value="ui://sulwtp4jcvvbz"/>
+      <property target="attrName" propertyId="0" value="Max HP"/>
+    </component>
+    <component id="n15_kr2k" name="comDef" src="kr2k1m" fileName="com/comRoleAttribute.xml" xy="0,535">
+      <property target="icon" propertyId="1" value="ui://sulwtp4jcvvbw"/>
+      <property target="attrName" propertyId="0" value="DEF"/>
+    </component>
+    <component id="n16_kr2k" name="comAttack" src="kr2k1m" fileName="com/comRoleAttribute.xml" xy="0,595">
+      <property target="icon" propertyId="1" value="ui://sulwtp4jcvvbs"/>
+      <property target="attrName" propertyId="0" value="ATK"/>
+    </component>
+    <component id="n17_kr2k" name="comAttackSpeed" src="kr2k1m" fileName="com/comRoleAttribute.xml" xy="0,655">
+      <property target="icon" propertyId="1" value="ui://sulwtp4jcvvbt"/>
+      <property target="attrName" propertyId="0" value="ATK Speed"/>
+    </component>
+    <component id="n19_xv5x" name="equipWeapon" src="cvvb6v" fileName="com/EquipmentSlot.xml" xy="49,84">
+      <Button icon="ui://sulwtp4jcvvbq" controller="ctrlEquip" page="0"/>
+    </component>
+  </displayList>
+</component>

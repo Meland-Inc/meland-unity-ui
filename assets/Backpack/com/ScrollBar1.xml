@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="10,200" extention="ScrollBar">
+  <displayList>
+    <image id="n0_kr2k" name="n0" src="kr2k16" fileName="img/bg_hecheng_shujindutiao_bg.png" xy="0,0" size="10,200">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <graph id="n1_kr2k" name="bar" xy="0,0" size="10,200">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <component id="n2_kr2k" name="grip" src="kr2k1b" fileName="com/ScrollBar1_grip.xml" xy="-13,20"/>
+  </displayList>
+  <ScrollBar fixedGripSize="true"/>
+</component>

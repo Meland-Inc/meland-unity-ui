@@ -20,6 +20,73 @@
     <component id="kpw4g" name="btnFixClickArea.xml" path="/btn/" exported="true"/>
     <component id="kpw4h" name="btnScale.xml" path="/btn/" exported="true"/>
     <image id="kpw4i" name="btn_cm_gb.png" path="/img/" exported="true"/>
+    <component id="cvvbc" name="commonBg.xml" path="/com/" exported="true"/>
+    <image id="cvvbd" name="bg_hecheng_bantou.png" path="/img/" exported="true" scale="9grid" scale9grid="43,45,12,8"/>
+    <image id="cvvbe" name="bg_hecheng_dabeijing.png" path="/img/" exported="true" scale="9grid" scale9grid="35,39,22,8"/>
+    <image id="cvvbf" name="btn_cm_close.png" path="/img/" exported="true"/>
+    <image id="cvvbg" name="bg_wujian_miaobian_chengse.png" path="/img/" exported="true" scale="9grid" scale9grid="23,23,10,8"/>
+    <image id="cvvbh" name="bg_wujian_miaobian_huise.png" path="/img/" exported="true" scale="9grid" scale9grid="26,26,4,6"/>
+    <image id="cvvbi" name="bg_wujian_miaobian_kong.png" path="/img/" exported="true" scale="9grid" scale9grid="26,27,7,5"/>
+    <image id="cvvbj" name="bg_wujian_miaobian_lanse.png" path="/img/" exported="true" scale="9grid" scale9grid="26,25,5,8"/>
+    <image id="cvvbk" name="bg_wujian_miaobian_lvse.png" path="/img/" exported="true" scale="9grid" scale9grid="24,24,6,5"/>
+    <image id="cvvbl" name="bg_wujian_miaobian_zise.png" path="/img/" exported="true" scale="9grid" scale9grid="25,25,6,6"/>
+    <image id="cvvbm" name="bg_tongyong_kuzi.png" path="/img/" exported="true"/>
+    <image id="cvvbn" name="bg_tongyong_maozi.png" path="/img/" exported="true"/>
+    <image id="cvvbo" name="bg_tongyong_shangyi.png" path="/img/" exported="true"/>
+    <image id="cvvbp" name="bg_tongyong_shoutao.png" path="/img/" exported="true"/>
+    <image id="cvvbq" name="bg_tongyong_wuqi.png" path="/img/" exported="true"/>
+    <image id="cvvbr" name="bg_tongyong_xiezi.png" path="/img/" exported="true"/>
+    <image id="cvvbs" name="icon_juese_atk.png" path="/img/icon/" exported="true"/>
+    <image id="cvvbt" name="icon_juese_atkspeed.png" path="/img/icon/" exported="true"/>
+    <image id="cvvbu" name="icon_juese_critdamage.png" path="/img/icon/" exported="true"/>
+    <image id="cvvbv" name="icon_juese_critrate.png" path="/img/icon/" exported="true"/>
+    <image id="cvvbw" name="icon_juese_def.png" path="/img/icon/" exported="true"/>
+    <image id="cvvbx" name="icon_juese_dodgepoints.png" path="/img/icon/" exported="true"/>
+    <image id="cvvby" name="icon_juese_hitpoints.png" path="/img/icon/" exported="true"/>
+    <image id="cvvbz" name="icon_juese_hp.png" path="/img/icon/" exported="true"/>
+    <image id="cvvb10" name="icon_juese_hprecovrey.png" path="/img/icon/" exported="true"/>
+    <image id="cvvb11" name="icon_juese_movespeed.png" path="/img/icon/" exported="true"/>
+    <image id="cvvb12" name="icon_juese_qianbao.png" path="/img/icon/" exported="true"/>
+    <font id="leymj" name="SourceHanSansCN-Heavy.ttf" path="/font/" exported="true" renderMode="smooth" samplePointSize="16"/>
+    <image id="m50c13" name="icon_cm_ditamin.png" path="/img/icon/" exported="true"/>
+    <image id="eoay14" name="img_cm_hover_tips_bg.png" path="/img/" exported="true" scale="9grid" scale9grid="13,7,26,14"/>
+    <image id="eoay15" name="bg_tongyong_bar_2.png" path="/img/" exported="true" scale="9grid" scale9grid="5,5,10,10"/>
+    <image id="eoay16" name="bg_tongyong_bar.png" path="/img/" exported="true" scale="9grid" scale9grid="10,10,20,20"/>
+    <image id="eoay17" name="bg_tongyong_dabiaoti.png" path="/img/" exported="true"/>
+    <image id="eoay18" name="btn_tongyong_fanhui.png" path="/img/" exported="true"/>
+    <image id="eoay19" name="btn_tongyong_queren _1.png" path="/img/" exported="true"/>
+    <font id="eoay1a" name="FangFang.ttf" path="/font/" exported="true" renderMode="smooth" samplePointSize="16"/>
+    <component id="eoay1b" name="commonBgFull.xml" path="/com/"/>
+    <image id="eoay1c" name="bg_tongyong_fubiaoti.png" path="/img/" exported="true"/>
+    <image id="eoay2f" name="img_cm_bg.png" path="/img/" exported="true" scale="9grid" scale9grid="12,12,24,24"/>
+    <image id="eoay1d" name="bg_tongyong_tanchuang_wenbenkuang.png" path="/img/" exported="true" scale="9grid" scale9grid="23,21,5,8"/>
+    <image id="eoay1e" name="bg_tongyong_wujiankuang_bg.png" path="/img/" exported="true" scale="9grid" scale9grid="17,17,8,7"/>
+    <image id="eoay1f" name="bg_tongyong_xiankuang.png" path="/img/"/>
+    <image id="eoay1g" name="bg_tongyong_lvse.png" path="/img/"/>
+    <image id="eoay1h" name="bg_tongyong_zise.png" path="/img/"/>
+    <image id="eoay1i" name="bg_tongyong_kuzi.png.png" path="/img/"/>
+    <image id="eoay1j" name="bg_tongyong_chense.png" path="/img/"/>
+    <image id="eoay1k" name="bg_tongyong_basicsxiankuang.png" path="/img/"/>
+    <image id="eoay1l" name="bg_tongyong_kong.png" path="/img/"/>
+    <image id="eoay1m" name="bg_tongyong_lanse.png" path="/img/"/>
+    <image id="eoay1n" name="bg_wujian_wujianbg_2.png" path="/img/"/>
+    <image id="eoay1o" name="bg_wujian_wujianbg_1.png" path="/img/"/>
+    <image id="eoay1p" name="bg_tongyong_huise.png" path="/img/" exported="true" scale="9grid" scale9grid="38,34,30,29"/>
+    <image id="eoay1q" name="img_cm_selected.png" path="/img/" exported="true"/>
+    <image id="rhvc2g" name="icon_meld.png" path="/img/" exported="true"/>
+    <image id="rhvc2h" name="btn_tongyong_queren _2.png" path="/img/" exported="true"/>
+    <component id="ksqa2i" name="AlertCommon.xml" path="/Alert/" exported="true"/>
+    <image id="ksqa2j" name="img_cb_white.png" path="/img/"/>
+    <image id="ksqa2k" name="img_cm_black.png" path="/img/" scale="9grid" scale9grid="15,11,16,24"/>
+    <image id="ksqa2m" name="bg_tanchuang_jili.png" path="/img/"/>
+    <image id="ksqa2n" name="bg_tanchuang_neirongkuang.png" path="/img/"/>
+    <image id="ksqa2o" name="btn_tanchuang_guanbi.png" path="/img/"/>
+    <image id="ksqa2p" name="icon_tanchuang_dian.png" path="/img/"/>
+    <component id="ksqa2r" name="btnFixOutLine.xml" path="/btn/" exported="true"/>
+    <component id="ksqa2s" name="btnScaleOutLine.xml" path="/btn/" exported="true"/>
+    <image id="ksqa2t" name="bg_tongyong_bar_tanchuang.png" path="/img/" exported="true" scale="9grid" scale9grid="13,11,10,22"/>
+    <component id="ksqa2u" name="ToastCommon.xml" path="/Toast/" exported="true"/>
+    <image id="ksqa2v" name="img_cm_tck_2.png" path="/img/"/>
   </resources>
   <publish name=""/>
 </packageDescription>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="599,49" extention="Label" designImage="ui://6cvmg52skr2k3" designImageOffsetX="-1234" designImageOffsetY="-715" designImageAlpha="0">
+  <displayList>
+    <image id="n0_kr2k" name="imgBg" src="kr2k1l" fileName="img/bg_juese_wenbenfenlan.png" xy="0,0" size="600,49"/>
+    <loader id="n1_kr2k" name="icon" xy="19,10" pivot="0.5,0.5" size="34,34" url="ui://06f7smqlf1sat" autoSize="true"/>
+    <text id="n2_kr2k" name="attrName" xy="60,5" size="110,39" fontSize="28" color="#875739" align="center" vAlign="middle" text="Max HP"/>
+    <text id="n3_kr2k" name="title" xy="445,1" pivot="1,0" size="133,44" fontSize="32" color="#ef8911" align="center" vAlign="middle" ubb="true" vars="true" text="100/200"/>
+  </displayList>
+  <customProperty target="icon" propertyId="1"/>
+  <customProperty target="attrName" propertyId="0"/>
+</component>

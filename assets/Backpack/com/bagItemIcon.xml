@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="58,58" extention="Label">
+  <displayList>
+    <loader id="n0_vtpp" name="icon" xy="0,0" pivot="0.5,0.5" size="58,58" url="ui://6jh4fmcgkr2ke" align="center" vAlign="middle" fill="scale" shrinkOnly="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <transition name="transFlash">
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0.5" duration="12" ease="Sine.InOut" repeat="-1" yoyo="true"/>
+  </transition>
+  <transition name="transStopFlash">
+    <item time="0" type="Alpha" value="1"/>
+    <item time="0" type="Transition" value="transFlash,0"/>
+  </transition>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,36" extention="Label">
+  <controller name="ctrlRarity" exported="true" pages="0,Ultimate,1,Super,2,Advanced,3,Enhanced,4,Basic" selected="0"/>
+  <displayList>
+    <loader id="n0_sjtv" name="ladBg" xy="0,0" size="90,36" url="ui://6jh4fmcgrryz4m" fill="scaleFree">
+      <gearIcon controller="ctrlRarity" pages="1,2,3,4" values="ui://6jh4fmcgrryz47|ui://6jh4fmcgrryz4j|ui://6jh4fmcgrryz4l|ui://6jh4fmcgrryz4i" default="ui://6jh4fmcgrryz4m"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_sjtv" name="title" xy="10,5" size="70,26" fontSize="18" color="#ffbb24" align="center" vAlign="middle" text="Unique">
+      <gearColor controller="ctrlRarity" pages="1,2,3,4" values="#8855d2,#000000|#4e8fd7,#000000|#86c972,#000000|#95b3b3,#000000" default="#ffbb24,#000000"/>
+      <gearText controller="ctrlRarity" pages="1,2,3,4" values="Mythic|Epic|Rare|Common" default="Unique"/>
+    </text>
+  </displayList>
+  <relation target="n1_sjtv" sidePair="width-width"/>
+</component>

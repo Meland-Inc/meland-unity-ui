@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="82,78" extention="Button" designImage="ui://6cvmg52skr2k0" designImageOffsetX="-240" designImageOffsetY="-262" designImageAlpha="0">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n3_kr2k" name="imgBg" src="kr2kn" fileName="img/bg_beibao_saixuan.png" xy="0,0" alpha="0.12">
+      <gearLook controller="button" pages="2,4" values="0.12,0,0,0|0.12,0,0,0" default="1,0,0,0"/>
+    </image>
+    <loader id="n1_kr2k" name="icon" xy="5,1" pivot="0.5,0.5" size="75,75" url="ui://6jh4fmcgkr2kl" align="center" vAlign="middle" fill="scale" shrinkOnly="true" color="#bf926b">
+      <gearSize controller="button" pages="4,5" values="75,75,1.1,1.1|75,75,1.1,1.1" default="75,75,1,1" tween="true"/>
+      <gearColor controller="button" pages="2,4" values="#bf926b|#bf926b" default="#ffffff"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

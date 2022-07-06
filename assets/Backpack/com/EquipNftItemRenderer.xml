@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="106,108" extention="Button" designImage="ui://6cvmg52skr2k0" designImageOffsetX="-487" designImageOffsetY="-269" designImageAlpha="0" designImageLayer="1">
+  <controller name="button" exported="true" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
+  <controller name="ctrlQuality" pages="5,none,0,Ultimate,1,Super,2,Advanced,3,Enhanced,4,Basic" selected="0"/>
+  <controller name="ctrlUsed" pages="0,unused,1,used" selected="0"/>
+  <displayList>
+    <loader id="n0_kr2k" name="ladQualityBg" xy="0,2" size="106,106" touchable="false" url="ui://sulwtp4jcvvbg" fill="scaleFree">
+      <gearIcon controller="ctrlQuality" pages="5,0,1,2,3,4" values="ui://sulwtp4jcvvbg|ui://sulwtp4jcvvbg|ui://sulwtp4jcvvbl|ui://sulwtp4jcvvbj|ui://sulwtp4jcvvbk|ui://sulwtp4jcvvbh"/>
+    </loader>
+    <loader id="n1_kr2k" name="ladQualityDown" xy="6,8" size="94,94" touchable="false" url="ui://6jh4fmcgkr2k3" fill="scaleFree">
+      <gearDisplay controller="button" pages="3,5"/>
+      <gearIcon controller="ctrlQuality" pages="1,2,3,4" values="ui://6jh4fmcgkr2kq|ui://6jh4fmcgkr2k2|ui://6jh4fmcgkr2k1|ui://6jh4fmcgkr2k4" default="ui://6jh4fmcgkr2k3"/>
+    </loader>
+    <loader id="n2_kr2k" name="ladQualityUp" xy="6,8" pivot="0.5,0.5" size="94,94" touchable="false" url="ui://6jh4fmcgkr2kv" fill="scaleFree">
+      <gearDisplay controller="button" pages="2,4"/>
+      <gearIcon controller="ctrlQuality" pages="1,2,3,4" values="ui://6jh4fmcgkr2kx|ui://6jh4fmcgkr2kt|ui://6jh4fmcgkr2ku|ui://6jh4fmcgkr2kw" default="ui://6jh4fmcgkr2kv"/>
+    </loader>
+    <component id="n3_kr2k" name="icon" src="kr2ky" fileName="com/bagItemIcon.xml" xy="13,15" pivot="0.5,0.5" size="80,80" touchable="false">
+      <gearSize controller="button" pages="2,3,4,5" values="80,80,1,1|80,80,1,1|80,80,1.1,1.1|80,80,1.1,1.1" tween="true"/>
+    </component>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="74,74" extention="Button" designImage="ui://6jh4fmcgn6zw3o" designImageOffsetX="-906" designImageOffsetY="-857">
+  <controller name="button" pages="0,up,1,down,2,over,6,selectedOver" selected="0"/>
+  <controller name="ctrlQuality" pages="0,none,1,unique,6,mythic,7,epic,8,rare,9,common" selected="0"/>
+  <displayList>
+    <loader id="n0_n6zw" name="bg" xy="37,37" pivot="0.5,0.5" anchor="true" size="70,70" touchable="false" url="ui://6jh4fmcgn6zw3f">
+      <gearDisplay controller="button" pages="0,3"/>
+      <gearIcon controller="ctrlQuality" pages="0,1,6,7,9" values="ui://6jh4fmcgn6zw3f|ui://6jh4fmcgn6zw3d|ui://6jh4fmcgn6zw3l|ui://6jh4fmcgn6zw3h|ui://6jh4fmcgn6zw3f" default="ui://6jh4fmcgn6zw3j"/>
+    </loader>
+    <loader id="n3_n6zw" name="bgHover" xy="37,37" pivot="0.5,0.5" anchor="true" size="70,70" touchable="false" url="ui://6jh4fmcgn6zw3g">
+      <gearDisplay controller="button" pages="1,2,6"/>
+      <gearIcon controller="ctrlQuality" pages="0,1,6,7,8,9" values="ui://6jh4fmcgn6zw3g|ui://6jh4fmcgn6zw3e|ui://6jh4fmcgn6zw3m|ui://6jh4fmcgn6zw3i|ui://6jh4fmcgn6zw3k|ui://6jh4fmcgn6zw3g"/>
+    </loader>
+    <loader id="n2_n6zw" name="icon" xy="37,37" pivot="0.5,0.5" anchor="true" size="42,42" touchable="false" url="ui://6jh4fmcgn6zw3p" align="center" vAlign="middle" fill="scale" shrinkOnly="true" clearOnPublish="true">
+      <gearSize controller="button" pages="1,2" values="42,42,1.1,1.1|42,42,1,1" default="42,42,1,1"/>
+    </loader>
+    <text id="n4_n6zw" name="tfNum" xy="2,38" size="71,39" fontSize="28" color="#ffffff" align="right" vAlign="middle" autoSize="none" strokeColor="#b5cece" strokeSize="2" autoClearText="true" text="1">
+      <gearColor controller="ctrlQuality" pages="0,1,6,7,8,9" values="#ffffff,#b5cece|#ffffff,#ffbb24|#ffffff,#8855d2|#ffffff,#4e8fd7|#ffffff,#6ecb67|#ffffff,#b5cece"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>
