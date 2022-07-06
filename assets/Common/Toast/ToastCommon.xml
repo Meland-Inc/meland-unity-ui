@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,44">
+  <displayList>
+    <image id="n0_ksqa" name="imgBg" src="ksqa2v" fileName="img/img_cm_tck_2.png" xy="0,0" group="n4_ksqa"/>
+    <text id="n3_ksqa" name="tfText" xy="214,4" pivot="0.5,0.5" size="72,34" group="n4_ksqa" fontSize="24" vAlign="middle" text="Toast"/>
+    <group id="n4_ksqa" name="grpMain" xy="0,0" size="500,44" advanced="true"/>
+  </displayList>
+  <transition name="show">
+    <item time="0" type="Alpha" target="n4_ksqa" value="1"/>
+    <item time="0" type="XY" target="n4_ksqa" tween="true" startValue="-,200" endValue="0,0" duration="9"/>
+    <item time="30" type="Alpha" target="n4_ksqa" tween="true" startValue="1" endValue="0" duration="9"/>
+  </transition>
+</component>

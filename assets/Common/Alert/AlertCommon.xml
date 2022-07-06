@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImage="ui://srmygz81ksqa2e" designImageOffsetX="-477" designImageOffsetY="-372" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <image id="n0_ksqa" name="imgMask" src="ksqa2k" fileName="img/img_cm_black.png" xy="0,0" size="1920,1080" alpha="0.5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n5_ksqa" name="imgBg" src="eoay1d" fileName="img/bg_tongyong_tanchuang_wenbenkuang.png" xy="521,306" size="878,468" group="n15_ksqa"/>
+    <image id="n11_ksqa" name="n11" src="ksqa2n" fileName="img/bg_tanchuang_neirongkuang.png" xy="562,413" group="n13_ksqa"/>
+    <image id="n12_ksqa" name="n12" src="ksqa2n" fileName="img/bg_tanchuang_neirongkuang.png" xy="564,502" group="n13_ksqa"/>
+    <group id="n13_ksqa" name="grpContentBg" xy="562,413" size="804,243" group="n15_ksqa"/>
+    <image id="n1_ksqa" name="imgHeader" src="ksqa2t" fileName="img/bg_tongyong_bar_tanchuang.png" xy="521,306" size="878,86" group="n15_ksqa"/>
+    <component id="n3_ksqa" name="btnClose" src="ewwj0" fileName="btn/btnFix.xml" xy="1314,316" size="64,70" group="n15_ksqa">
+      <Button icon="ui://sulwtp4jksqa2o"/>
+    </component>
+    <component id="n10_ksqa" name="btnOK" src="ksqa2s" fileName="btn/btnScaleOutLine.xml" xy="841,671" size="237,75" group="n15_ksqa">
+      <Button title="COMFIRM" titleFontSize="30" icon="ui://sulwtp4jeoay19"/>
+    </component>
+    <text id="n14_ksqa" name="tfContent" xy="580,433" size="760,198" group="n15_ksqa" fontSize="32" color="#785f5f" autoSize="none" text="The purpose of modern museums is to collect"/>
+    <image id="n16_ksqa" name="n16" src="ksqa2p" fileName="img/icon_tanchuang_dian.png" xy="568,321" group="n15_ksqa"/>
+    <text id="n17_ksqa" name="tfTitle" xy="621,311" size="117,59" group="n15_ksqa" font="ui://sulwtp4jeoay1a" fontSize="44" color="#ffffff" align="center" vAlign="middle" shadowColor="#302c2a" shadowOffset="0,5" text="TITLE"/>
+    <group id="n15_ksqa" name="grpMain" xy="521,306" size="878,468" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

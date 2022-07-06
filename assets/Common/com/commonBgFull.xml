@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImage="ui://srmygz81eoay1o" designImageLayer="1">
+  <displayList>
+    <image id="n0_eoay" name="n0" src="eoay16" fileName="img/bg_tongyong_bar.png" xy="0,0" size="1920,93">
+      <relation target="" sidePair="width-width"/>
+    </image>
+  </displayList>
+</component>
