@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="438,724" opaque="false" designImage="ui://6jh4fmcgsjtv6g" designImageOffsetX="-704" designImageOffsetY="-232" designImageAlpha="0" designImageLayer="1">
+  <controller name="ctrlQuality" pages="0,unique,1,mythic,2,epic,3,rare,4,common" selected="0"/>
+  <controller name="ctrlType" pages="0,placeable,1,wearable" selected="0"/>
+  <displayList>
+    <image id="n2_grbn" name="tipsBg" src="sjtv6j" fileName="tooltip/img/bg_daojuxiangqing_xingxibg.png" xy="0,0" size="438,724">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <image id="n68_sjtv" name="imgOperateBg" src="sjtv6j" fileName="tooltip/img/bg_daojuxiangqing_xingxibg.png" xy="455,0" size="254,504" group="n71_sjtv">
+      <relation target="n62_fgkq" sidePair="bottomext-bottom"/>
+    </image>
+    <list id="n62_fgkq" name="lstBtn" xy="471,16" size="223,472" group="n71_sjtv" lineGap="12" defaultItem="ui://6jh4fmcgsjtv6p" foldInvisibleItems="true">
+      <item title="Slot Upgrade" icon="ui://6jh4fmcgucdi3d" name="btnSlotUpgrade"/>
+      <item title="Use" icon="ui://6jh4fmcgucdi3d" name="btnUse"/>
+      <item title="Take off" icon="ui://6jh4fmcgucdi3d" name="btnTakeOff"/>
+      <item title="Put on" icon="ui://6jh4fmcgucdi3d" name="btnPutOn"/>
+      <item title="Sell" icon="ui://6jh4fmcgucdi3c" name="btnSell"/>
+      <item title="Quick pack" icon="ui://6jh4fmcgucdi3c" name="btnQuickPack"/>
+      <item title="Destroy" icon="ui://6jh4fmcgucdi3c" name="btnDestroy"/>
+    </list>
+    <group id="n71_sjtv" name="grpBtn" xy="455,0" size="254,504" advanced="true"/>
+    <component id="n76_y3fc" name="comTooltipInfo" src="y3fc7z" fileName="tooltip/ComNftTooltipInfo.xml" xy="25,22"/>
+  </displayList>
+  <relation target="n76_y3fc" sidePair="bottomext-bottom"/>
+</component>

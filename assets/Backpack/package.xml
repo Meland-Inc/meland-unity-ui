@@ -103,7 +103,6 @@
     <component id="sjtv6r" name="tooltipTypeLabel.xml" path="/tooltip/" exported="true"/>
     <component id="sjtv6s" name="tooltipQualityLabel.xml" path="/tooltip/" exported="true"/>
     <component id="sjtv6p" name="btnBagItemOp.xml" path="/com/"/>
-    <component id="clmf1k" name="btnFix.xml" path="/com/"/>
     <image id="k5r26t" name="bg_beibao_new.png" path="/img/"/>
     <component id="n6zw3n" name="btnNftRewardItem.xml" path="/btn/" exported="true"/>
     <image id="n6zw3d" name="bg_pvp_jiesuan_cheng_1.png" path="/img/rewarditem/"/>
@@ -122,6 +121,9 @@
     <component id="cvvb6w" name="EquipNftItemRenderer.xml" path="/com/" exported="true"/>
     <image id="cvvb6x" name="bg_juese_kong.png" path="/com/"/>
     <image id="cvvb6y" name="img_slot_select.png" path="/img/"/>
+    <image id="eoay6z" name="bg_hecheng_miaobian.png" path="/img/" scale="9grid" scale9grid="24,26,8,4"/>
+    <component id="y3fc7w" name="ToolTipNFtTItem.xml" path="/tooltip/" exported="true"/>
+    <component id="y3fc7z" name="ComNftTooltipInfo.xml" path="/tooltip/"/>
   </resources>
   <publish name=""/>
 </packageDescription>
