@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="343,111" extention="Label" designImage="ui://srmygz81eoay2a" designImageOffsetX="-539" designImageOffsetY="-915" designImageAlpha="0" designImageLayer="1">
+  <controller name="ctrlLoading" exported="true" pages="1,normal,0,loading" selected="0">
+    <action type="play_transition" fromPage="" toPage="0" transition="loading" stopOnExit="true"/>
+  </controller>
+  <displayList>
+    <image id="n23_xv5x" name="n23" src="eoay19" fileName="img/btn_tongyong_queren _1.png" pkg="sulwtp4j" xy="0,0" pivot="0.5,0.5"/>
+    <text id="n24_xv5x" name="title" xy="91,26" pivot="0.5,0.5" size="161,46" font="ui://sulwtp4jeoay1a" fontSize="34" color="#ffffff" align="center" vAlign="middle" strokeColor="#e7620a" strokeSize="4" shadowColor="#000000" shadowOffset="0,3" text="UPGRADE">
+      <gearDisplay controller="ctrlLoading" pages="1"/>
+    </text>
+    <image id="n25_ksqa" name="imgLoading" src="ksqa2w" fileName="img/icon_tongyong_loding.png" pkg="sulwtp4j" xy="148,27" pivot="0.5,0.48">
+      <gearDisplay controller="ctrlLoading" pages="0"/>
+    </image>
+  </displayList>
+  <transition name="loading" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n25_ksqa" tween="true" startValue="0" endValue="360" duration="12" ease="Linear" repeat="-1"/>
+  </transition>
+</component>

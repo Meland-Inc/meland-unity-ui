@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" opaque="false" designImage="ui://srmygz81rhvc2c" designImageAlpha="0" designImageLayer="1">
+  <controller name="ctrlSkillType" pages="0,attack,1,defend,2,food" selected="0"/>
+  <controller name="ctrlNeedMat" pages="0,yes,1,no" selected="0"/>
+  <displayList>
+    <image id="n15_rhvc" name="n15" src="eoay1d" fileName="img/bg_tongyong_tanchuang_wenbenkuang.png" pkg="sulwtp4j" xy="1220,346" size="589,325"/>
+    <image id="n17_rhvc" name="n17" src="eoay1d" fileName="img/bg_tongyong_tanchuang_wenbenkuang.png" pkg="sulwtp4j" xy="1221,698" size="589,194"/>
+    <list id="n4_eoay" name="lstSkillItem" xy="101,175" size="114,458" layout="flow_hz" lineGap="32" defaultItem="ui://r8717acfeoayt" selectionController="ctrlSkillType">
+      <item icon="ui://r8717acfksqa33"/>
+      <item icon="ui://r8717acfksqa31"/>
+      <item icon="ui://r8717acfksqa32"/>
+    </list>
+    <image id="n0_eoay" name="imgNameFloor" src="eoay17" fileName="img/bg_tongyong_dabiaoti.png" pkg="sulwtp4j" xy="488,163"/>
+    <image id="n40_ksqa" name="imgBasicsFloor" src="eoay1c" fileName="img/bg_tongyong_fubiaoti.png" pkg="sulwtp4j" xy="1359,166"/>
+    <image id="n9_eoay" name="imgExpBg" src="eoay1d" fileName="img/bg_tongyong_tanchuang_wenbenkuang.png" pkg="sulwtp4j" xy="366,649" size="689,251"/>
+    <component id="n7_eoay" name="btnSkillIcon" src="eoayt" fileName="btn/btnSkillItem.xml" xy="660,320" touchable="false" controller="ctrlType,1">
+      <gearIcon controller="ctrlSkillType" pages="0,1,2" values="ui://r8717acfksqa33|ui://r8717acfksqa31|ui://r8717acfksqa32"/>
+      <Button icon="ui://r8717acfksqa33"/>
+    </component>
+    <component id="n10_eoay" name="comProficiency" src="eoayd" fileName="com/ProgressExp.xml" xy="399,700">
+      <ProgressBar value="57" max="100"/>
+      <property target="tfName" propertyId="0" value="PROFICIENCY"/>
+    </component>
+    <component id="n12_eoay" name="comRoleExp" src="eoayd" fileName="com/ProgressExp.xml" xy="399,773">
+      <ProgressBar value="50" max="100"/>
+      <property target="tfName" propertyId="0" value="EXP"/>
+    </component>
+    <component id="n44_ksqa" name="btnLevelMax" src="ksqa3d" fileName="btn/btnLevelMax.xml" xy="540,914" visible="false" grayed="true"/>
+    <component id="n13_eoay" name="btnUpgrade" src="ksqa34" fileName="btn/btUpgrade.xml" xy="540,914" size="343,111"/>
+    <component id="n38_ksqa" name="btnSynthetic" src="ksqa30" fileName="btn/btnSynthetic.xml" xy="1560,927" size="251,87"/>
+    <list id="n21_rhvc" name="lstRecipes" xy="1229,355" size="579,164" layout="flow_vt" overflow="scroll" scroll="horizontal" colGap="-44" defaultItem="ui://r8717acfrhvc2i" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n23_rhvc" name="lstMat" xy="1256,758" size="550,118" layout="flow_vt" overflow="scroll" scroll="horizontal" colGap="13" defaultItem="ui://r8717acfrhvc2j" autoClearItems="true">
+      <gearDisplay controller="ctrlNeedMat" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n1_eoay" name="tfName" xy="546,180" pivot="0.5,0.5" size="333,72" font="ui://sulwtp4jeoay1a" fontSize="36" color="#ffffff" align="center" autoSize="none" shadowColor="#af2010" shadowOffset="0,5" text="Weapons Skill">
+      <gearText controller="ctrlSkillType" pages="0,1,2" values="Weapons Skill|Defence Skill|Curing Skill"/>
+    </text>
+    <text id="n41_ksqa" name="tfRecipes" xy="1383,187" pivot="0.5,0.5" size="264,45" font="ui://sulwtp4jeoay1a" fontSize="33" color="#ffffff" vAlign="middle" shadowColor="#4f5455" shadowOffset="0,5" text="Weapons Scrolls">
+      <gearText controller="ctrlSkillType" pages="0,1,2" values="Weapons Scrolls|Defence Scrolls|Medicine"/>
+    </text>
+    <text id="n19_rhvc" name="tfRecipesTips" xy="1269,275" size="461,38" fontSize="27" color="#976f56" text="The purpose of modern museums"/>
+    <text id="n22_rhvc" name="tfSourceMat" xy="1256,713" size="196,34" fontSize="24" color="#b7774f" text="Source Material"/>
+    <text id="n25_rhvc" name="tfNoMaterials" xy="1360,776" size="305,38" fontSize="27" color="#976f56" text="No materials required">
+      <gearDisplay controller="ctrlNeedMat" pages="1"/>
+    </text>
+    <richtext id="n26_rhvc" name="tfMeldCost" xy="1227,948" size="251,38" fontSize="27" color="#b7774f" align="center" vAlign="middle" ubb="true" vars="true" text="Cost &lt;img src=&apos;ui://sulwtp4jrhvc2g&apos; width=&apos;30&apos; height=&apos;30&apos;&gt; [color=#67874f]{cur=1500}[/color]/{need=1200}"/>
+    <text id="n32_rhvc" name="tfQuantity" xy="1432,525" size="165,42" fontSize="30" color="#b7774f" vars="true" text="Quantity {num=8}"/>
+    <component id="n27_rhvc" name="sldSynthetic" src="rhvc2o" fileName="com/Slider1.xml" xy="1363,601" size="298,32" group="n33_ksqa">
+      <Slider max="100"/>
+    </component>
+    <component id="n28_rhvc" name="btnSub" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="1255,590" size="52,55" group="n33_ksqa">
+      <Button icon="ui://r8717acfrhvc2q"/>
+    </component>
+    <component id="n29_rhvc" name="btnAdd" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="1721,590" size="52,55" group="n33_ksqa">
+      <Button icon="ui://r8717acfrhvc2p"/>
+    </component>
+    <text id="n30_rhvc" name="tfMin" xy="1325,595" size="19,34" group="n33_ksqa" fontSize="24" color="#976f56" text="1"/>
+    <text id="n31_rhvc" name="tfMax" xy="1661,595" pivot="0.5,0.5" size="63,34" group="n33_ksqa" fontSize="24" color="#976f56" align="center" vAlign="middle" autoSize="none" text="22"/>
+    <group id="n33_ksqa" name="grpNumSld" xy="1255,590" size="518,55" advanced="true"/>
+    <component id="n39_ksqa" name="btnExpHelp" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="982,671" size="52,55">
+      <Button icon="ui://r8717acfeoayo"/>
+    </component>
+    <text id="n42_ksqa" name="tfDesc" xy="366,499" pivot="0.5,0.5" size="689,176" fontSize="27" color="#976f56" align="center" autoSize="none" text="Produce the necessary materials for weapon crafting.  The skill level cannot exceed the role level.">
+      <gearText controller="ctrlSkillType" pages="0,1,2" values="Produce the necessary materials for weapon crafting.  The skill level cannot exceed the role level.|Produce the necessary materials for defence crafting.  The skill level cannot exceed the role level.|Produces a medicine that restores HP.  The skill level cannot exceed the role level."/>
+    </text>
+    <component id="n43_ksqa" name="comMeld" src="eoayd" fileName="com/ProgressExp.xml" xy="399,846">
+      <ProgressBar value="50" max="100"/>
+      <property target="tfName" propertyId="0" value="MELD"/>
+    </component>
+  </displayList>
+</component>

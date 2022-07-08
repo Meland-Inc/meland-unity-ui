@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="560,58" extention="Button" designImage="ui://srmygz81eoay2a" designImageOffsetX="-1233" designImageOffsetY="-314" designImageAlpha="0">
+  <displayList>
+    <image id="n6_f1sa" name="imgBg" src="eoaya" fileName="img/bg_juese_wenbenfenlan.png" xy="0,0" size="560,58" alpha="0.5">
+      <relation target="" sidePair="width-width"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="262,32" extention="Slider">
+  <displayList>
+    <image id="n5_rhvc" name="n5" src="rhvc2t" fileName="img/bg_juese_jingyantiao_3.png" xy="0,0" size="262,32">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n1_rhvc" name="bar" src="eoayg" fileName="img/bg_juese_jingyantiao_2.png" xy="0,0" size="191,32"/>
+    <image id="n4_rhvc" name="n4" src="rhvc2u" fileName="img/bg_juese_shuliangtiao_1.png" xy="0,0">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <component id="n2_rhvc" name="grip" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="185,-17" size="81,66">
+      <relation target="n1_rhvc" sidePair="right-right"/>
+      <Button icon="ui://r8717acfrhvc2k"/>
+    </component>
+  </displayList>
+  <Slider/>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="330,93" extention="Button" designImage="ui://srmygz81eoay2a" designImageOffsetX="-849" designImageAlpha="0" designImageLayer="1">
+  <controller name="button" pages="2,up,3,down,4,over,6,selectedOver" selected="2"/>
+  <displayList>
+    <image id="n3_eoay" name="imgSelected" src="eoay15" fileName="img/bg_tongyong_bar_2.png" pkg="sulwtp4j" xy="0,0" size="331,93" alpha="0.3">
+      <gearDisplay controller="button" pages="3,4,6"/>
+      <gearLook controller="button" pages="4" values="0.3,0,0,0" default="1,0,0,0"/>
+    </image>
+    <text id="n1_xv5x" name="title" xy="151,12" size="110,59" font="ui://sulwtp4jeoay1a" fontSize="44" color="#ffffff" shadowColor="#2c2421" shadowOffset="0,5" text="ROLE"/>
+    <loader id="n2_eoay" name="icon" xy="75,16" pivot="0.5,0.5" size="65,66" scale="1.1,1.1" url="ui://r8717acfeoay4" autoSize="true">
+      <gearSize controller="button" pages="4,6" values="65,66,1.1,1.1|65,66,1.1,1.1" default="65,66,1,1" tween="true"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

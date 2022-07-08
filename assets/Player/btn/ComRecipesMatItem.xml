@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="106,106" extention="Button" designImage="ui://kryszexnthwyy" designImageOffsetX="-1039" designImageOffsetY="-688" designImageAlpha="0">
+  <controller name="ctrlTextColor" pages="0,green,1,red" selected="0"/>
+  <displayList>
+    <image id="n1_thwy" name="imgBg" src="eoay1p" fileName="img/bg_tongyong_huise.png" pkg="sulwtp4j" xy="0,0" size="106,106"/>
+    <loader id="n3_thwy" name="icon" xy="10,10" pivot="0.5,0.5" size="85,85" align="center" vAlign="middle" fill="scale"/>
+    <text id="n4_thwy" name="title" xy="37,70" pivot="0.5,0.5" size="66,32" fontSize="22" color="#b7774f" align="center" vAlign="middle" ubb="true" vars="true" strokeColor="#ffffff" strokeSize="2" text="[color=#67b74f]{cur=20}[/color]/{need=10}">
+      <gearText controller="ctrlTextColor" pages="1" values="[color=#de2929]{cur=20}[/color]/{need=10}" default="[color=#67b74f]{cur=20}[/color]/{need=10}"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>
