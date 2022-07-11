@@ -87,6 +87,7 @@
     <image id="ksqa2t" name="bg_tongyong_bar_tanchuang.png" path="/img/" exported="true" scale="9grid" scale9grid="13,11,10,22"/>
     <component id="ksqa2u" name="ToastCommon.xml" path="/Toast/" exported="true"/>
     <image id="ksqa2v" name="img_cm_tck_2.png" path="/img/"/>
+    <component id="n2t62w" name="ComUIAvatar.xml" path="/Avatar/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

@@ -117,6 +117,7 @@
     <loader id="n75_fya6" name="lock" xy="0,0" size="1920,1080" touchable="false" align="center" vAlign="middle">
       <relation target="" sidePair="width-width,height-height"/>
     </loader>
+    <component id="n89_n2t6" name="comUIAvatar" src="n2t62w" fileName="Avatar/ComUIAvatar.xml" pkg="sulwtp4j" xy="675,571" size="100,100"/>
   </displayList>
   <transition name="t2" autoPlay="true">
     <item time="0" type="Rotation" target="n74_fya6" tween="true" startValue="0" endValue="360" duration="24" ease="Linear" repeat="-1"/>
