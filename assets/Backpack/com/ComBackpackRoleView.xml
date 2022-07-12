@@ -8,7 +8,7 @@
     <image id="n6_kr2k" name="imgRoleBg" src="kr2k0" fileName="img/bg_beibao_dizuo_bg.png" xy="187,189" pivot="0.5,0.5" size="257,257" aspect="true"/>
     <image id="n4_kr2k" name="imgRoleBase" src="kr2ko" fileName="img/bg_beibao_dizuo.png" xy="216,366" pivot="0.5,0.5"/>
     <image id="n18_kr2k" name="imgShadow" src="kr2k24" fileName="img/bg_beibao_renwutouying.png" xy="257,376" pivot="0.5,0.5"/>
-    <component id="n13_kr2k" name="comAvatarCtnr" src="kr2k1k" fileName="com/comEmpty.xml" xy="315,390" size="0,0" scale="2,2"/>
+    <component id="n20_n2t6" name="comUIAvatar" src="n2t62w" fileName="Avatar/ComUIAvatar.xml" pkg="sulwtp4j" xy="315,388"/>
     <component id="n8_kr2k" name="equipHand" src="cvvb6v" fileName="com/EquipmentSlot.xml" xy="2,204">
       <Button icon="ui://sulwtp4jcvvbp" controller="ctrlEquip" page="1"/>
     </component>

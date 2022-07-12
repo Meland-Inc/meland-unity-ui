@@ -95,7 +95,7 @@
       <relation target="n85_nvqa" sidePair="bottom-bottom"/>
       <relation target="n80_nvqa" sidePair="left-left"/>
     </group>
-    <component id="n27_trkw" name="avatar" src="kpw4u" fileName="com/comAvatar.xml" xy="452,94" size="259,289" scale="2,2" touchable="false">
+    <component id="n27_trkw" name="comUIAvatar" src="n2t62w" fileName="Avatar/ComUIAvatar.xml" pkg="sulwtp4j" xy="675,571" size="83,86" touchable="false">
       <relation target="n85_nvqa" sidePair="middle-middle%"/>
       <relation target="" sidePair="center-center%"/>
     </component>
