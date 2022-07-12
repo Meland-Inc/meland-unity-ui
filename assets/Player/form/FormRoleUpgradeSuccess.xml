@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1920,1080" designImage="ui://6cvmg52sxv5x8" designImageAlpha="99" designImageLayer="1">
-  <controller name="ctrlArrange" pages="0,single,1,double" selected="1"/>
+<component size="1920,1080" designImage="ui://6cvmg52sxv5x8" designImageAlpha="0" designImageLayer="1">
+  <controller name="ctrlArrange" pages="0,single,1,double" selected="0"/>
   <displayList>
-    <image id="n12_ksqa" name="imgBg" src="ksqa2k" fileName="img/img_cm_black.png" pkg="sulwtp4j" xy="0,0" size="1920,1080" alpha="0.8">
+    <image id="n12_ksqa" name="imgBg" src="ksqa2k" fileName="img/img_cm_black.png" pkg="sulwtp4j" xy="0,0" size="1920,1080" alpha="0.9">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <image id="n2_tcv8" name="imgContentBg" src="ksqa36" fileName="img/bg_hecheng_hechengchenggonglan.png" xy="-69,330" pivot="0.5,0.5" size="2058,476" group="n9_tcv8">
+    <image id="n2_tcv8" name="imgContentBg" src="ksqa36" fileName="img/bg_hecheng_hechengchenggonglan.png" xy="-69,440" pivot="0.5,0.5" size="2058,256" group="n9_tcv8">
       <relation target="" sidePair="width-width"/>
       <relation target="n1_tcv8" sidePair="topext-top,bottomext-bottom"/>
     </image>
@@ -13,29 +13,23 @@
       <gearDisplay controller="ctrlArrange" pages="1"/>
       <relation target="n1_tcv8" sidePair="middle-middle"/>
     </image>
-    <component id="n8_tcv8" name="comBackgroundTex" src="ksqa37" fileName="com/comBackgroundIcon.xml" xy="389,399" pivot="0.5,0.5" size="1215,338" group="n9_tcv8" visible="false">
+    <component id="n8_tcv8" name="comBackgroundTex" src="ksqa37" fileName="com/comBackgroundIcon.xml" xy="389,509" pivot="0.5,0.5" size="1215,118" group="n9_tcv8" visible="false">
       <relation target="" sidePair="center-center"/>
       <relation target="n1_tcv8" sidePair="topext-top,bottomext-bottom"/>
     </component>
-    <list id="n1_tcv8" name="lstAttr" xy="960,566" pivot="0.5,0.5" anchor="true" size="1304,299" group="n9_tcv8" layout="flow_hz" lineGap="-12" colGap="110" defaultItem="ui://r8717acfl3pc1n" align="center" vAlign="middle" autoClearItems="true">
-      <gearSize controller="ctrlArrange" pages="1" values="1304,299,1,1" default="670,299,1,1"/>
+    <list id="n1_tcv8" name="lstAttr" xy="960,566" pivot="0.5,0.5" anchor="true" size="670,79" group="n9_tcv8" layout="flow_hz" lineGap="-12" colGap="110" defaultItem="ui://r8717acfl3pc1n" align="center" vAlign="middle" autoClearItems="true">
+      <gearSize controller="ctrlArrange" pages="0,1" values="670,79,1,1|1304,299,1,1"/>
       <relation target="" sidePair="center-center"/>
       <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
     </list>
-    <group id="n9_tcv8" name="grpMain" xy="-69,330" size="2058,476" advanced="true"/>
+    <group id="n9_tcv8" name="grpMain" xy="-69,440" size="2058,256" advanced="true"/>
     <component id="n4_tcv8" name="btnClose" src="kpw4h" fileName="btn/btnScale.xml" pkg="sulwtp4j" xy="844,766" size="232,78" visible="false">
       <relation target="" sidePair="center-center"/>
       <Button title="CONFIRM" titleColor="#ffffff" titleFontSize="29" icon="ui://r8717acfksqa39"/>
     </component>
-    <image id="n6_tcv8" name="tfLevelUpTips" src="ksqa3a" fileName="img/img_dengji_level.png" xy="752,230" group="n11_tcv8" color="#e9d29c"/>
-    <richtext id="n5_tcv8" name="tfLvDiff" xy="808,320" pivot="0.5,0.5" size="315,58" group="n11_tcv8" fontSize="43" color="#ff8a2b" align="center" vAlign="middle" vars="true" italic="true" strokeColor="#ffffff" strokeSize="2" text="Lv.{lvCur=59}  &lt;img src=&apos;ui://r8717acfksqa3b&apos;&gt;  Lv.{lvNext=60}"/>
-    <group id="n11_tcv8" name="grpLevelText" xy="752,230" size="415,148" advanced="true">
+    <image id="n6_tcv8" name="tfLevelUpTips" src="ksqa3a" fileName="img/img_dengji_level.png" xy="761,167" group="n11_tcv8" color="#e9d29c"/>
+    <richtext id="n5_tcv8" name="tfLvDiff" xy="807,320" pivot="0.5,0.5" size="313,58" group="n11_tcv8" fontSize="43" color="#ff8a2b" align="center" vAlign="middle" vars="true" italic="true" strokeColor="#ffffff" strokeSize="2" text="Lv.{lvCur=59}  &lt;img src=&apos;ui://r8717acfksqa3b&apos;&gt;  Lv.{lvNext=60}"/>
+    <group id="n11_tcv8" name="grpLevelText" xy="761,167" size="406,211" advanced="true">
       <relation target="" sidePair="center-center"/>
     </group>
   </displayList>
@@ -45,7 +39,7 @@
     <item time="0" type="Alpha" target="n9_tcv8" value="0"/>
     <item time="0" type="XY" target="n4_tcv8" value="-,713"/>
     <item time="1" type="Alpha" target="n11_tcv8" tween="true" startValue="0" endValue="1" duration="5" ease="Sine.Out"/>
-    <item time="1" type="XY" target="n11_tcv8" tween="true" startValue="-,369" endValue="-,230" duration="9" ease="Sine.Out"/>
+    <item time="1" type="XY" target="n11_tcv8" tween="true" startValue="-,369" endValue="-,167" duration="9" ease="Sine.Out"/>
     <item time="3" type="Alpha" target="n9_tcv8" tween="true" startValue="0" endValue="1" duration="12" ease="Sine.Out"/>
     <item time="3" type="XY" target="n1_tcv8" tween="true" startValue="-,673" endValue="-,566" duration="12" ease="Sine.Out"/>
     <item time="10" type="Alpha" target="n4_tcv8" tween="true" startValue="0" endValue="1" duration="8" ease="Sine.Out"/>

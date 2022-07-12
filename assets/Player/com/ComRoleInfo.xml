@@ -38,6 +38,6 @@
     <text id="n45_eoay" name="tfLv" xy="667,379" pivot="0.5,0.5" size="96,45" fontSize="33" color="#ff8a28" vars="true" italic="true" strokeColor="#ffffff" strokeSize="3" text="Lv.{lv=10}"/>
     <text id="n46_ksqa" name="tfUpgradeTips" xy="444,499" pivot="0.5,0" size="533,74" fontSize="27" color="#976f56" align="center" vars="true" text="Upgrade requires {exp=99} EXP.&#xA;At least 4 slots of level {lv=xx} are required."/>
     <image id="n47_ksqa" name="imgBasicsFloor" src="eoay1c" fileName="img/bg_tongyong_fubiaoti.png" pkg="sulwtp4j" xy="1359,166"/>
-    <text id="n48_ksqa" name="tfAttribute" xy="1431,187" pivot="0.5,0.5" size="168,45" font="ui://sulwtp4jeoay1a" fontSize="33" color="#ffffff" vAlign="middle" shadowColor="#4f5455" shadowOffset="0,5" text="Attributes"/>
+    <text id="n48_ksqa" name="tfAttribute" xy="1431,184" pivot="0.5,0.5" size="168,45" font="ui://sulwtp4jeoay1a" fontSize="33" color="#ffffff" vAlign="middle" shadowColor="#4f5455" shadowOffset="0,5" text="Attributes"/>
   </displayList>
 </component>
