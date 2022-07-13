@@ -104,10 +104,10 @@
     <component id="sjtv6s" name="tooltipQualityLabel.xml" path="/tooltip/" exported="true"/>
     <component id="sjtv6p" name="btnBagItemOp.xml" path="/com/"/>
     <image id="k5r26t" name="bg_beibao_new.png" path="/img/"/>
-    <component id="n6zw3n" name="btnNftRewardItem.xml" path="/btn/" exported="true"/>
+    <component id="n6zw3n" name="btnNftRewardItem.xml" path="/com/" exported="true"/>
     <image id="n6zw3d" name="bg_pvp_jiesuan_cheng_1.png" path="/img/rewarditem/"/>
     <image id="n6zw3e" name="bg_pvp_jiesuan_cheng_2.png" path="/img/rewarditem/"/>
-    <image id="n6zw3f" name="bg_pvp_jiesuan_hui_1.png" path="/img/rewarditem/"/>
+    <image id="n6zw3f" name="bg_pvp_jiesuan_hui_1.png" path="/img/rewarditem/" scale="9grid" scale9grid="30,27,11,13"/>
     <image id="n6zw3g" name="bg_pvp_jiesuan_hui_2.png" path="/img/rewarditem/"/>
     <image id="n6zw3h" name="bg_pvp_jiesuan_lan_1.png" path="/img/rewarditem/"/>
     <image id="n6zw3i" name="bg_pvp_jiesuan_lan_2.png" path="/img/rewarditem/"/>
@@ -124,6 +124,8 @@
     <image id="eoay6z" name="bg_hecheng_miaobian.png" path="/img/" scale="9grid" scale9grid="24,26,8,4"/>
     <component id="y3fc7w" name="ToolTipNFtTItem.xml" path="/tooltip/" exported="true"/>
     <component id="y3fc7z" name="ComNftTooltipInfo.xml" path="/tooltip/"/>
+    <image id="w0xl80" name="通用弹窗效果图.png" path="/img/"/>
+    <component id="q1py81" name="RewardNftItemRenderer.xml" path="/btn/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>
