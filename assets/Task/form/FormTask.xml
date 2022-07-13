@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImage="ui://d5ut1hyfxa8ze" designImageAlpha="49" designImageLayer="1">
+  <displayList>
+    <image id="n6_xa8z" name="bg" src="eoay2f" fileName="img/img_cm_bg.png" pkg="sulwtp4j" xy="0,0" size="1920,1080">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n7_xa8z" name="titleBg" src="eoay16" fileName="img/bg_tongyong_bar.png" pkg="sulwtp4j" xy="0,0" size="1920,92">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n9_xa8z" name="n9" src="xa8zb" fileName="img/icon_renwu_icon.png" xy="850,13">
+      <relation target="" sidePair="right-center"/>
+    </image>
+    <text id="n10_xa8z" name="n10" xy="915,9" size="208,73" fontSize="42" color="#666666" align="center" vAlign="middle" autoSize="none" text="MISSION">
+      <relation target="" sidePair="left-center"/>
+    </text>
+    <component id="n8_xa8z" name="btnClose" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="98,10" size="118,116">
+      <relation target="" sidePair="left-left"/>
+      <Button icon="ui://sulwtp4jxa8zm"/>
+    </component>
+    <list id="n4_xa8z" name="lstTaskMenu" xy="57,114" size="380,638" overflow="scroll" margin="30,0,0,0" lineGap="16" defaultItem="ui://d5ut1hyfxa8zi" autoItemSize="false" align="center">
+      <relation target="" sidePair="left-left"/>
+      <item title="Daily Quest"/>
+      <item title="Mission Reward"/>
+    </list>
+    <component id="n24_9hu2" name="comTaskChain" src="9hu2x" fileName="com/ComTaskChain.xml" xy="104,786">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n5_xa8z" name="comTaskContent" src="r9wcz" fileName="com/ComTaskContent.xml" xy="436,127">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

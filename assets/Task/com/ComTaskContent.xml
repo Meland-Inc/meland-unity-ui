@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1458,931" designImage="ui://d5ut1hyfxa8zd" designImageOffsetX="-420" designImageOffsetY="-129" designImageAlpha="33" designImageLayer="1">
+  <controller name="ctrTaskState" pages="0,unstart,1,ondoing,2,finish" selected="1"/>
+  <displayList>
+    <image id="n5_xa8z" name="contentBg" src="eoay1e" fileName="img/bg_tongyong_wujiankuang_bg.png" pkg="sulwtp4j" xy="0,0" size="1458,931">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n11_xa8z" name="tfTitle" xy="40,6" size="1387,73" group="n25_r9wc" fontSize="33" color="#8f4707" vAlign="middle" vars="true" autoSize="none" text="{title=Expansion} ({cur=4}/{max=10})">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <text id="n12_xa8z" name="tfDesc" xy="40,72" size="889,95" group="n25_r9wc" fontSize="24" color="#8f4707" vars="true" autoSize="none" text="Expansion your territory and capture a new piece of land to increase your fixed economic gain">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <text id="n14_xa8z" name="tfObject" xy="40,270" size="1387,73" group="n25_r9wc" fontSize="33" color="#8f4707" vAlign="middle" vars="true" autoSize="none" text="Object">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <list id="n16_xa8z" name="lstObject" xy="42,338" size="1301,184" group="n25_r9wc" overflow="scroll" scrollBar="hidden" lineGap="4" defaultItem="ui://d5ut1hyfxa8zj">
+      <relation target="" sidePair="width-width"/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n13_xa8z" name="line1" xy="52,263" size="990,0" group="n25_r9wc" type="rect"/>
+    <graph id="n17_xa8z" name="line2" xy="52,534" size="990,0" group="n25_r9wc" type="rect"/>
+    <text id="n18_xa8z" name="tfObject2" xy="40,533" size="1387,73" group="n25_r9wc" fontSize="33" color="#8f4707" vAlign="middle" vars="true" autoSize="none" text="Mission Rewards"/>
+    <component id="n33_r9wc" name="btnAbandon" src="r9wc11" fileName="btn/BtnTaskBtn.xml" xy="714,790" group="n25_r9wc">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n34_r9wc" name="btnSubmit" src="r9wc11" fileName="btn/BtnTaskBtn.xml" xy="1073,790" group="n25_r9wc" controller="color,1,str,2">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <list id="n37_9xv7" name="lstTaskReward" xy="365,606" pivot="0.5,0" anchor="true" size="627,115" group="n25_r9wc" layout="row" overflow="scroll" margin="2,0,11,12" colGap="18" defaultItem="ui://6jh4fmcgq1py81" align="center">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n25_r9wc" name="ondoing" xy="40,6" size="1387,903" advanced="true">
+      <gearDisplay controller="ctrTaskState" pages="1"/>
+    </group>
+    <text id="n26_r9wc" name="n26" xy="536,354" size="328,56" group="n28_r9wc" font="ui://sulwtp4jeoay1a" fontSize="42" color="#8f4707" align="center" vAlign="middle" text="Detail Complete">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n27_r9wc" name="n27" xy="349,430" size="703,81" group="n28_r9wc" fontSize="30" color="#b7774f" align="center" text="Today&apos;s tasks have been completed,and come&#xA;back tomorrow for a new one">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n28_r9wc" name="finish" xy="349,354" size="703,156" advanced="true">
+      <gearDisplay controller="ctrTaskState" pages="2"/>
+    </group>
+    <image id="n29_r9wc" name="n29" src="xa8z1" fileName="img/icon_renwu_jianglixiang.png" xy="729,209" pivot="0.5,0" anchor="true" group="n32_r9wc">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n30_r9wc" name="n30" xy="729,368" pivot="0.5,0" anchor="true" size="729,143" group="n32_r9wc" font="ui://sulwtp4jeoay1a" fontSize="27" color="#b7774f" align="center" vAlign="middle" autoSize="none" text="Expand your territory and capture a new piece of land to increase your fixed economic gain">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n31_r9wc" name="n31" src="xa8z3" fileName="img/bg_renwu_tanchuang_bg_2.png" xy="729,513" pivot="0.5,0" anchor="true" size="658,132" group="n32_r9wc">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <list id="n36_w0xl" name="lstTaskChainReward" xy="728,523" pivot="0.5,0" anchor="true" size="627,115" group="n32_r9wc" layout="row" overflow="scroll" margin="2,0,11,12" colGap="18" defaultItem="ui://6jh4fmcgq1py81" align="center">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n35_r9wc" name="btnReceive" src="r9wc11" fileName="btn/BtnTaskBtn.xml" xy="1065,773" group="n32_r9wc" controller="color,1,str,1">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <group id="n32_r9wc" name="unstart" xy="364,209" size="1043,683" advanced="true">
+      <gearDisplay controller="ctrTaskState" pages="0"/>
+    </group>
+  </displayList>
+</component>
