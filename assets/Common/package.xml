@@ -92,6 +92,12 @@
     <image id="ksqa2x" name="icon_tongyong_loding_1.png" path="/img/" exported="true"/>
     <image id="ksqa2y" name="icon_tongyong_loding_1_samll.png" path="/img/" exported="true"/>
     <image id="ksqa2z" name="bg_tanchuang_shengji_fenlanxian.png" path="/img/" exported="true"/>
+    <image id="xa8zo" name="btn_tongyong_queren _3.png" path="/img/"/>
+    <image id="r9wc2x" name="btn_tongyong_queren _samll_3.png" path="/img/"/>
+    <image id="r9wc2y" name="btn_tongyong_queren _samll_2.png" path="/img/"/>
+    <image id="r9wc2z" name="btn_tongyong_queren _samll_1.png" path="/img/"/>
+    <component id="574u31" name="AlertReward.xml" path="/Alert/" exported="true"/>
+    <image id="ocqc32" name="通用弹窗标注图.png" path="/preview/"/>
   </resources>
   <publish name=""/>
 </packageDescription>
