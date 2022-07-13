@@ -96,6 +96,12 @@
     <image id="l7wn31" name="bg_hecheng_shaixuanzankai.png" path="/img/" exported="true" scale="9grid" scale9grid="25,27,12,7"/>
     <component id="l7wn33" name="tooltipTypeLabel.xml" path="/com/" exported="true"/>
     <image id="l7wn3c" name="bg_tipsType.png" path="/img/" scale="9grid" scale9grid="7,6,52,12"/>
+    <image id="xa8zo" name="btn_tongyong_queren _3.png" path="/img/"/>
+    <image id="r9wc2x" name="btn_tongyong_queren _samll_3.png" path="/img/"/>
+    <image id="r9wc2y" name="btn_tongyong_queren _samll_2.png" path="/img/"/>
+    <image id="r9wc2z" name="btn_tongyong_queren _samll_1.png" path="/img/"/>
+    <component id="574u31" name="AlertReward.xml" path="/Alert/" exported="true"/>
+    <image id="ocqc32" name="通用弹窗标注图.png" path="/preview/"/>
   </resources>
   <publish name=""/>
 </packageDescription>
