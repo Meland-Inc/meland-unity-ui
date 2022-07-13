@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="r8717acf">
+  <resources>
+    <component id="eoay0" name="FormPlayerInfo.xml" path="/form/" exported="true"/>
+    <image id="eoay1" name="bg_juese_zuotop_2.png" path="/img/" scale="9grid" scale9grid="21,5,44,7"/>
+    <image id="eoay2" name="bg_juese_huawenbg.png" path="/img/"/>
+    <component id="eoay3" name="btnTag.xml" path="/btn/"/>
+    <image id="eoay4" name="icon_juese_juese_icon.png" path="/img/"/>
+    <image id="eoay5" name="icon_juese_chacao_icon.png" path="/img/"/>
+    <image id="eoay6" name="icon_juese_jineng_icon.png" path="/img/"/>
+    <component id="eoay7" name="ComRoleInfo.xml" path="/com/"/>
+    <image id="eoay8" name="bg_juese_basicsxiankuang.png" path="/img/" scale="9grid" scale9grid="25,23,24,24"/>
+    <component id="eoay9" name="btnAttrItem.xml" path="/btn/"/>
+    <image id="eoaya" name="bg_juese_wenbenfenlan.png" path="/img/" scale="9grid" scale9grid="17,19,22,18"/>
+    <component id="eoayb" name="btnAttrEmptyItem.xml" path="/btn/"/>
+    <component id="eoayc" name="ComPlayerAvatar.xml" path="/com/"/>
+    <component id="eoayd" name="ProgressExp.xml" path="/com/"/>
+    <image id="eoayg" name="bg_juese_jingyantiao_2.png" path="/img/" scale="9grid" scale9grid="6,6,12,12"/>
+    <component id="eoayi" name="spUpgrade.xml" path="/com/"/>
+    <image id="eoayk" name="bg_juese_shengji.png" path="/img/" scale="9grid" scale9grid="35,31,7,3"/>
+    <image id="eoayl" name="icon_dengji_biaozhu.png" path="/img/"/>
+    <image id="eoaym" name="icon_juese_qianbao.png" path="/img/"/>
+    <image id="eoayn" name="btn_juese_copy.png" path="/img/"/>
+    <image id="eoayo" name="btn_juese_yiwen.png" path="/img/"/>
+    <component id="eoayp" name="ComSlotInfo.xml" path="/com/"/>
+    <component id="eoayq" name="labSlotIcon.xml" path="/com/"/>
+    <image id="eoayr" name="bg_hecheng_miaobian.png" path="/img/" scale="9grid" scale9grid="24,26,8,4"/>
+    <image id="eoay2h" name="icon_dengji_jiaotou.png" path="/img/" exported="true"/>
+    <component id="l3pc1n" name="comAttrDiffItem.xml" path="/btn/" exported="true"/>
+    <component id="eoays" name="ComSkillInfo.xml" path="/com/"/>
+    <component id="eoayt" name="btnSkillItem.xml" path="/btn/"/>
+    <component id="rhvc2i" name="recipesItem.xml" path="/btn/"/>
+    <component id="rhvc2j" name="ComRecipesMatItem.xml" path="/btn/"/>
+    <image id="rhvc2k" name="btn_jineng_tuodong.png" path="/img/"/>
+    <component id="rhvc2n" name="Slider1_grip.xml" path="/com/"/>
+    <component id="rhvc2o" name="Slider1.xml" path="/com/"/>
+    <image id="rhvc2p" name="btn_juese_jia.png" path="/img/"/>
+    <image id="rhvc2q" name="btn_juese_jian.png" path="/img/"/>
+    <image id="rhvc2r" name="bg_juese_jingyantiao_1.png" path="/img/"/>
+    <image id="rhvc2t" name="bg_juese_jingyantiao_3.png" path="/img/" scale="tile" scale9grid="7,7,14,14"/>
+    <image id="rhvc2u" name="bg_juese_shuliangtiao_1.png" path="/img/"/>
+    <component id="rhvc2x" name="ComSynthetic.xml" path="/com/"/>
+    <component id="ksqa30" name="btnSynthetic.xml" path="/btn/"/>
+    <image id="ksqa31" name="icon_jineng_fangjuduanzao.png" path="/img/"/>
+    <image id="ksqa32" name="icon_jineng_pengrenjineng.png" path="/img/"/>
+    <image id="ksqa33" name="icon_jineng_wuqiduanzao.png" path="/img/"/>
+    <component id="ksqa34" name="btUpgrade.xml" path="/btn/"/>
+    <component id="ksqa35" name="FormRoleUpgradeSuccess.xml" path="/form/" exported="true"/>
+    <image id="ksqa36" name="bg_hecheng_hechengchenggonglan.png" path="/img/" scale="9grid" scale9grid="94,102,25,20"/>
+    <component id="ksqa37" name="comBackgroundIcon.xml" path="/com/"/>
+    <image id="ksqa38" name="bg_juese_huawenbg(1).png" path="/img/"/>
+    <image id="ksqa39" name="btn_hecheng_hechengchenggongbtn.png" path="/img/" scale="9grid" scale9grid="37,21,7,35"/>
+    <image id="ksqa3a" name="img_dengji_level.png" path="/img/"/>
+    <image id="ksqa3b" name="img_dengji_jiaotou_miaobian.png" path="/img/" exported="true"/>
+    <component id="ksqa3d" name="btnLevelMax.xml" path="/btn/"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

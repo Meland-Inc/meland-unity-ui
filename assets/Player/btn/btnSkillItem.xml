@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="107,107" extention="Button" designImage="ui://srmygz81eoay1z" designImageOffsetX="-660" designImageOffsetY="-320" designImageAlpha="0">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="2"/>
+  <controller name="ctrlType" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n7_eoay" name="imgBg" src="eoayr" fileName="img/bg_hecheng_miaobian.png" xy="0,0" size="107,107"/>
+    <loader id="n6_eoay" name="icon" xy="10,10" pivot="0.5,0.5" size="85,85" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <text id="n3_eoay" name="tfLv" xy="50,69" size="65,32" fontSize="22" color="#875739" vars="true" strokeColor="#ffffff" strokeSize="2" text="Lv.{lv=21}">
+      <gearDisplay controller="ctrlType" pages="0"/>
+    </text>
+    <text id="n8_eoay" name="tfLv1" xy="4,112" pivot="0.5,0.5" size="98,46" fontSize="34" color="#ff8a2b" vars="true" italic="true" strokeColor="#ffffff" strokeSize="2" text="Lv.{lv=21}">
+      <gearDisplay controller="ctrlType" pages="1"/>
+    </text>
+    <image id="n5_eoay" name="imgSelect" src="eoay1q" fileName="img/img_cm_selected.png" pkg="sulwtp4j" xy="-28,-28" pivot="0.5,0.5" alpha="0.3">
+      <gearDisplay controller="button" pages="3,4,5"/>
+      <gearLook controller="button" pages="4" values="0.3,0,0,0" default="1,0,0,0"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

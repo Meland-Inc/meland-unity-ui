@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="575,32" extention="ProgressBar" designImage="ui://srmygz81eoay2a" designImageOffsetX="-397" designImageOffsetY="-835" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <image id="n7_rhvc" name="n7" src="rhvc2t" fileName="img/bg_juese_jingyantiao_3.png" xy="0,0" size="575,32"/>
+    <image id="n1_xv5x" name="bar" src="eoayg" fileName="img/bg_juese_jingyantiao_2.png" xy="0,0" size="575,32"/>
+    <image id="n6_rhvc" name="n6" src="rhvc2r" fileName="img/bg_juese_jingyantiao_1(1).png" xy="-5,-4"/>
+    <text id="n4_xv5x" name="tfName" xy="1,-39" size="57,38" fontSize="27" color="#875739" vAlign="middle" italic="true" text="EXP"/>
+    <text id="n2_xv5x" name="title" xy="477,-39" pivot="1,0" size="97,38" fontSize="27" color="#976f56" align="center" vAlign="middle" italic="true" text="65/120"/>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+  <customProperty target="tfName" propertyId="0"/>
+</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1215,308" overflow="hidden" designImage="ui://6cvmg52sxv5x8" designImageOffsetX="-389" designImageOffsetY="-415" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <image id="n7_tcv8" name="n7" src="ksqa38" fileName="img/bg_juese_huawenbg(1).png" xy="0,-285"/>
+    <image id="n8_tcv8" name="n8" src="ksqa38" fileName="img/bg_juese_huawenbg(1).png" xy="853,56"/>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="164,164" opaque="false" extention="Button">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="2"/>
+  <displayList>
+    <loader id="n20_rhvc" name="imgBg" xy="29,29" size="106,106" url="ui://r8717acfeoayr" fill="scaleFree"/>
+    <loader id="n21_rhvc" name="icon" xy="39,39" pivot="0.5,0.5" size="85,85" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <image id="n22_rhvc" name="imgSelect" src="eoay1q" fileName="img/img_cm_selected.png" pkg="sulwtp4j" xy="0,0" pivot="0.5,0.5" alpha="0.3">
+      <gearDisplay controller="button" pages="3,4,5"/>
+      <gearLook controller="button" pages="4" values="0.3,0,0,0" default="1,0,0,0"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

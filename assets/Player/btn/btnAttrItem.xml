@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="560,58" extention="Button" designImage="ui://srmygz81eoay2a" designImageOffsetX="-1233" designImageOffsetY="-314" designImageAlpha="0">
+  <controller name="ctrlFrame" exported="true" pages="0,hide,1,show" selected="0"/>
+  <controller name="ctrlType" exported="true" pages="0,hp,1,hpRecover,2,att,3,attSpd,4,def,5,critRate,6,critDmg,9,hitPoint,7,missPoint,8,moveSpeed" selected="1">
+    <remark page="0" value="血量"/>
+    <remark page="1" value="生命回复"/>
+    <remark page="2" value="普通攻击"/>
+    <remark page="3" value="攻击速度"/>
+    <remark page="4" value="防御"/>
+    <remark page="5" value="暴击"/>
+    <remark page="6" value="暴击伤害"/>
+    <remark page="7" value="命中"/>
+    <remark page="8" value="闪避"/>
+    <remark page="9" value="移动速度"/>
+  </controller>
+  <displayList>
+    <image id="n6_f1sa" name="imgBg" src="eoaya" fileName="img/bg_juese_wenbenfenlan.png" xy="0,0" size="553,58">
+      <gearDisplay controller="ctrlFrame" pages="1"/>
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <loader id="n4_f1sa" name="icon" xy="21,12" pivot="0.5,0.5" size="34,34" url="ui://sulwtp4jcvvb10" autoSize="true">
+      <gearIcon controller="ctrlType" pages="0,1,2,3,4,5,6,9,7,8" values="ui://sulwtp4jcvvbz|ui://sulwtp4jcvvb10|ui://sulwtp4jcvvbs|ui://sulwtp4jcvvbt|ui://sulwtp4jcvvbw|ui://sulwtp4jcvvbv|ui://sulwtp4jcvvbu|ui://sulwtp4jcvvby|ui://sulwtp4jcvvbx|ui://sulwtp4jcvvb11"/>
+    </loader>
+    <text id="n5_f1sa" name="title" xy="65,9" size="184,39" fontSize="28" color="#875739" vAlign="middle" ubb="true" text="HP Recovery">
+      <gearText controller="ctrlType" pages="1,2,3,4,5,6,9,7,8" values="HP Recovery|ATK|ATK Speed|DEF|Crit Rate|Crit Damage|Hit Points|Dodge Points|Move Speed" default="HP"/>
+    </text>
+    <text id="n7_f1sa" name="textNum" xy="478,7" pivot="1,0" size="55,44" fontSize="32" color="#ef8911" vAlign="middle" ubb="true" vars="true" text="[color=#ED5526]{cur=0}[/color]/{total=0}">
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" opaque="false" designImage="ui://srmygz81eoay2a" designImageAlpha="0" designImageLayer="1">
+  <controller name="ctrlSlot" exported="true" pages="0,weapon,1,head,2,chest,3,legs,4,feet,5,hands" selected="0"/>
+  <displayList>
+    <image id="n43_eoay" name="imgNameFloor" src="eoay17" fileName="img/bg_tongyong_dabiaoti.png" pkg="sulwtp4j" xy="488,163"/>
+    <image id="n42_eoay" name="imgFrame" src="eoay8" fileName="img/bg_juese_basicsxiankuang.png" xy="1219,295" size="598,727">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n21_xv5x" name="lstAttr" xy="1233,314" size="572,692" lineGap="4" defaultItem="ui://r8717acfeoayb" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n45_eoay" name="imgExpBg" src="eoay1d" fileName="img/bg_tongyong_tanchuang_wenbenkuang.png" pkg="sulwtp4j" xy="366,704" size="689,184"/>
+    <component id="n24_xv5x" name="comExp" src="eoayd" fileName="com/ProgressExp.xml" xy="399,762">
+      <ProgressBar value="50" max="85"/>
+      <property target="tfName" propertyId="0" value="EXP"/>
+    </component>
+    <component id="n46_eoay" name="comMeld" src="eoayd" fileName="com/ProgressExp.xml" xy="399,840">
+      <ProgressBar value="50" max="85"/>
+      <property target="tfName" propertyId="0" value="MELD"/>
+    </component>
+    <component id="n48_eoay" name="btnExpHelp" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="983,737" size="52,55" visible="false">
+      <Button icon="ui://r8717acfeoayo"/>
+    </component>
+    <component id="n53_ksqa" name="btnLevelMax" src="ksqa3d" fileName="btn/btnLevelMax.xml" xy="540,915" visible="false" grayed="true"/>
+    <component id="n25_xv5x" name="btnUpgrade" src="ksqa34" fileName="btn/btUpgrade.xml" xy="540,915" size="343,111">
+      <Button icon="ui://r8717acfeoayi"/>
+    </component>
+    <component id="n27_xv5x" name="labSlotIcon" src="eoayq" fileName="com/labSlotIcon.xml" xy="660,309">
+      <gearIcon controller="ctrlSlot" pages="0,1,2,3,4,5" values="ui://sulwtp4jcvvbq|ui://sulwtp4jcvvbn|ui://sulwtp4jcvvbo|ui://sulwtp4jcvvbm|ui://sulwtp4jcvvbr|ui://sulwtp4jcvvbp"/>
+      <Label icon="ui://sulwtp4jcvvbq"/>
+    </component>
+    <text id="n47_eoay" name="tfLv" xy="654,428" pivot="0.5,0.5" size="116,45" fontSize="33" color="#ff8a28" vars="true" italic="true" strokeColor="#ffffff" strokeSize="3" text="Lv.{lv=101}"/>
+    <text id="n30_xv5x" name="tfUpgradeTips" xy="450,504" pivot="0.5,0" size="500,110" fontSize="27" color="#976f56" align="center" vars="true" text="Upgrade requires {exp=99} EXP.&#xA;Upgrade requires {meld=99} Meld.&#xA;Requires character level {lv=xx} or more."/>
+    <text id="n44_eoay" name="tfName" xy="546,175" pivot="0.5,0.5" size="333,72" font="ui://sulwtp4jeoay1a" fontSize="44" color="#ffffff" align="center" autoSize="none" shadowColor="#af2010" shadowOffset="0,5" text="Weapon slot">
+      <gearText controller="ctrlSlot" pages="0,1,2,4,5" values="Weapon slot|Chest slot|Chest slot|Feet slot|Hands slot" default="Legs slot"/>
+    </text>
+    <component id="n49_eoay" name="btnMeldHelp" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="983,813" size="52,55" visible="false">
+      <Button icon="ui://r8717acfeoayo"/>
+    </component>
+    <image id="n50_ksqa" name="imgBasicsFloor" src="eoay1c" fileName="img/bg_tongyong_fubiaoti.png" pkg="sulwtp4j" xy="1359,166"/>
+    <text id="n51_ksqa" name="tfRecipes" xy="1431,187" pivot="0.5,0.5" size="168,45" font="ui://sulwtp4jeoay1a" fontSize="33" color="#ffffff" vAlign="middle" shadowColor="#4f5455" shadowOffset="0,5" text="Attributes"/>
+  </displayList>
+</component>

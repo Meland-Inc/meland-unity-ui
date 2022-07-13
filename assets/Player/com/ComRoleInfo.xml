@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" opaque="false" designImage="ui://srmygz81eoay2a" designImageAlpha="4" designImageLayer="1">
+  <displayList>
+    <image id="n2_f1sa" name="imgFrame" src="eoay8" fileName="img/bg_juese_basicsxiankuang.png" xy="1219,295" size="598,727"/>
+    <list id="n16_f1sa" name="lstAttr" xy="1233,314" size="572,698" lineGap="4" defaultItem="ui://r8717acfeoay9">
+      <item name="hp" controllers="ctrlFrame,1,ctrlType,0"/>
+      <item name="hpRecovery" controllers="ctrlFrame,0,ctrlType,1"/>
+      <item name="atk" controllers="ctrlFrame,1,ctrlType,2"/>
+      <item name="atkSpeed" controllers="ctrlFrame,0,ctrlType,3"/>
+      <item name="def" controllers="ctrlFrame,1,ctrlType,4"/>
+      <item name="critRate" controllers="ctrlFrame,0,ctrlType,5"/>
+      <item name="critDamage" controllers="ctrlFrame,1,ctrlType,6"/>
+      <item name="hitPoints" controllers="ctrlFrame,0,ctrlType,9"/>
+      <item name="dodgePoints" controllers="ctrlFrame,1,ctrlType,7"/>
+      <item name="moveSpeed" controllers="ctrlFrame,0,ctrlType,8"/>
+      <item url="ui://r8717acfeoayb"/>
+    </list>
+    <component id="n18_f1sa" name="comPlayerAvatar" src="eoayc" fileName="com/ComPlayerAvatar.xml" xy="714,719" size="25,23"/>
+    <image id="n44_eoay" name="imgExpBg" src="eoay1d" fileName="img/bg_tongyong_tanchuang_wenbenkuang.png" pkg="sulwtp4j" xy="366,777" size="689,111"/>
+    <component id="n22_xv5x" name="comExp" src="eoayd" fileName="com/ProgressExp.xml" xy="398,834">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n49_ksqa" name="btnLevelMax" src="ksqa3d" fileName="btn/btnLevelMax.xml" xy="540,915" visible="false" grayed="true"/>
+    <component id="n23_xv5x" name="btnUpgrade" src="ksqa34" fileName="btn/btUpgrade.xml" xy="540,915" size="343,111">
+      <Button icon="ui://r8717acfeoayi"/>
+    </component>
+    <image id="n6_f1sa" name="imgWallet" src="eoaym" fileName="img/icon_juese_qianbao.png" xy="501,313" group="n26_xv5x"/>
+    <text id="n7_f1sa" name="tfWallet" xy="545,309" size="86,38" group="n26_xv5x" fontSize="27" color="#636f73" vAlign="middle" text="0XE0c"/>
+    <component id="n38_m50c" name="btnCopy" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="805,290" size="111,67" group="n26_xv5x">
+      <Button title=" " icon="ui://r8717acfeoayn" selectedTitle=" "/>
+    </component>
+    <group id="n26_xv5x" name="grpAddress" xy="501,290" size="415,67" advanced="true"/>
+    <image id="n39_eoay" name="imgNameFloor" src="eoay17" fileName="img/bg_tongyong_dabiaoti.png" pkg="sulwtp4j" xy="488,163"/>
+    <text id="n40_eoay" name="tfName" xy="546,175" pivot="0.5,0.5" size="333,72" font="ui://sulwtp4jeoay1a" fontSize="44" color="#ffffff" align="center" autoSize="none" shadowColor="#af2010" shadowOffset="0,5" text="JEK.V"/>
+    <component id="n43_eoay" name="btnHelp" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="982,807" size="52,55">
+      <Button icon="ui://r8717acfeoayo"/>
+    </component>
+    <text id="n45_eoay" name="tfLv" xy="667,379" pivot="0.5,0.5" size="96,45" fontSize="33" color="#ff8a28" vars="true" italic="true" strokeColor="#ffffff" strokeSize="3" text="Lv.{lv=10}"/>
+    <text id="n46_ksqa" name="tfUpgradeTips" xy="444,499" pivot="0.5,0" size="533,74" fontSize="27" color="#976f56" align="center" vars="true" text="Upgrade requires {exp=99} EXP.&#xA;At least 4 slots of level {lv=xx} are required."/>
+    <image id="n47_ksqa" name="imgBasicsFloor" src="eoay1c" fileName="img/bg_tongyong_fubiaoti.png" pkg="sulwtp4j" xy="1359,166"/>
+    <text id="n48_ksqa" name="tfAttribute" xy="1431,184" pivot="0.5,0.5" size="168,45" font="ui://sulwtp4jeoay1a" fontSize="33" color="#ffffff" vAlign="middle" shadowColor="#4f5455" shadowOffset="0,5" text="Attributes"/>
+  </displayList>
+</component>

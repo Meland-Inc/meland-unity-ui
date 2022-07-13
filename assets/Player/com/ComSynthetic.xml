@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="590,710">
+  <controller name="ctrlNeedMat" pages="0,yes,1,no" selected="0"/>
+  <displayList>
+    <image id="n15_rhvc" name="n15" src="eoay1d" fileName="img/bg_tongyong_tanchuang_wenbenkuang.png" pkg="sulwtp4j" xy="0,70" size="589,325"/>
+    <image id="n17_rhvc" name="n17" src="eoay1d" fileName="img/bg_tongyong_tanchuang_wenbenkuang.png" pkg="sulwtp4j" xy="1,422" size="589,194"/>
+    <list id="n21_rhvc" name="lstRecipes" xy="9,79" size="579,164" layout="flow_vt" overflow="scroll" scroll="horizontal" colGap="-44" defaultItem="ui://r8717acfrhvc2i">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n23_rhvc" name="lstMat" xy="36,482" size="550,118" layout="flow_vt" overflow="scroll" scroll="horizontal" colGap="13" defaultItem="ui://r8717acfrhvc2j">
+      <gearDisplay controller="ctrlNeedMat" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n19_rhvc" name="tfRecipesTips" xy="49,0" size="511,42" fontSize="30" color="#976f56" text="The purpose of modern museums"/>
+    <text id="n22_rhvc" name="tfSourceMat" xy="36,437" size="196,34" fontSize="24" color="#b7774f" text="Source Material"/>
+    <text id="n25_rhvc" name="tfNoMaterials" xy="140,500" size="322,42" font="ui://sulwtp4jeoay1a" fontSize="30" color="#976f56" text="No materials required">
+      <gearDisplay controller="ctrlNeedMat" pages="1"/>
+    </text>
+    <richtext id="n26_rhvc" name="tfMeldCost" xy="7,672" size="251,38" fontSize="27" color="#b7774f" align="center" vAlign="middle" ubb="true" vars="true" text="Cost &lt;img src=&apos;ui://sulwtp4jrhvc2g&apos; width=&apos;30&apos; height=&apos;30&apos;&gt; [color=#67874f]{cur=1500}[/color]/{need=1200}"/>
+    <component id="n27_rhvc" name="sldSynthetic" src="rhvc2o" fileName="com/Slider1.xml" xy="143,323" size="298,32">
+      <Slider max="100"/>
+    </component>
+    <component id="n28_rhvc" name="btnAdd" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="35,314" size="52,55">
+      <Button icon="ui://r8717acfrhvc2q"/>
+    </component>
+    <component id="n29_rhvc" name="btnSub" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="501,314" size="52,55">
+      <Button icon="ui://r8717acfrhvc2p"/>
+    </component>
+    <text id="n30_rhvc" name="tfMin" xy="105,319" size="19,34" fontSize="24" color="#976f56" text="1"/>
+    <text id="n31_rhvc" name="tfMax" xy="441,319" pivot="0.5,0.5" size="63,34" fontSize="24" color="#976f56" align="center" vAlign="middle" autoSize="none" text="22"/>
+    <text id="n32_rhvc" name="tfQuantity" xy="212,249" size="165,42" fontSize="30" color="#976f56" vars="true" text="Quantity {num=8}"/>
+  </displayList>
+</component>

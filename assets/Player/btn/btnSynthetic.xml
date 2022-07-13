@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="251,87" extention="Button">
+  <controller name="ctrlLoading" pages="0,normal,1,loading" selected="1">
+    <action type="play_transition" fromPage="" toPage="1" transition="loading" stopOnExit="true"/>
+  </controller>
+  <controller name="button" pages="2,up,3,down,4,over" selected="0"/>
+  <displayList>
+    <image id="n34_ksqa" name="imgBg" src="rhvc2h" fileName="img/btn_tongyong_queren _2.png" pkg="sulwtp4j" xy="0,0" pivot="0.5,0.5" size="251,87">
+      <gearSize controller="button" pages="4" values="251,87,1.1,1.1" default="251,87,1,1" tween="true"/>
+    </image>
+    <image id="n37_ksqa" name="imgLoading" src="ksqa2y" fileName="img/icon_tongyong_loding_1_samll.png" pkg="sulwtp4j" xy="107,21" pivot="0.5,0.47">
+      <gearDisplay controller="ctrlLoading" pages="1"/>
+      <gearSize controller="button" pages="4" values="46,49,1.1,1.1" default="46,49,1,1" tween="true"/>
+    </image>
+    <text id="n36_ksqa" name="title" xy="54,15" pivot="0.5,0.5" size="142,42" font="ui://sulwtp4jeoay1a" fontSize="30" color="#ffffff" align="center" vAlign="middle" strokeColor="#6a3fe4" strokeSize="4" shadowColor="#000000" shadowOffset="0,3" text="COMFIRM">
+      <gearDisplay controller="ctrlLoading" pages="0"/>
+      <gearSize controller="button" pages="4" values="142,42,1.1,1.1" default="142,42,1,1" tween="true"/>
+    </text>
+  </displayList>
+  <Button/>
+  <transition name="loading" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n37_ksqa" tween="true" startValue="0" endValue="360" duration="12" ease="Linear" repeat="-1"/>
+  </transition>
+</component>

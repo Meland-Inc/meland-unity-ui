@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImage="ui://srmygz81eoay2a" designImageAlpha="0" designImageLayer="1" bgColor="#666666">
+  <controller name="ctrlViewType" autoRadioGroupDepth="true" pages="0,role,1,slot,3,skill" selected="0"/>
+  <controller name="ctrlSlotPos" pages="0,weapon,1,head,2,chest,3,legs,4,feet,5,hands" selected="0">
+    <action type="change_page" fromPage="" toPage="" objectId="n39_xv5x" controller="ctrlSlot" targetPage="~1"/>
+  </controller>
+  <displayList>
+    <image id="n0_f1sa" name="imgBg" src="eoay2f" fileName="img/img_cm_bg.png" pkg="sulwtp4j" xy="0,0" size="1920,1080" group="n40_leym">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n45_eoay" name="imgSlotBg" src="eoay1" fileName="img/bg_juese_zuotop_2.png" xy="111,0" size="88,1080" group="n40_leym">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <image id="n43_eoay" name="n43" src="eoay16" fileName="img/bg_tongyong_bar.png" pkg="sulwtp4j" xy="0,0" size="1920,93" group="n40_leym">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n14_f1sa" name="imgBgRole" src="eoay2" fileName="img/bg_juese_huawenbg.png" xy="381,353" size="676,605" group="n40_leym"/>
+    <group id="n40_leym" name="grpBg" xy="0,0" size="1920,1080"/>
+    <component id="n20_xv5x" name="btnWeaponTag" src="eoay3" fileName="btn/btnTag.xml" xy="519,0">
+      <Button title="SLOT" icon="ui://r8717acfeoay5" controller="ctrlViewType" page="1"/>
+    </component>
+    <component id="n19_xv5x" name="btnRoleTag" src="eoay3" fileName="btn/btnTag.xml" xy="850,0">
+      <Button checked="true" title="ROLE" icon="ui://r8717acfeoay4" controller="ctrlViewType" page="0"/>
+    </component>
+    <component id="n46_eoay" name="btnSkillTag" src="eoay3" fileName="btn/btnTag.xml" xy="1180,0">
+      <Button title="SKILL" icon="ui://r8717acfeoay6" controller="ctrlViewType" page="3"/>
+    </component>
+    <component id="n10_f1sa" name="btnClose" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="96,11" size="118,116">
+      <Button title=" " icon="ui://sulwtp4jeoay18"/>
+    </component>
+    <component id="n2_f1sa" name="comRoleInfo" src="eoay7" fileName="com/ComRoleInfo.xml" xy="0,0">
+      <gearDisplay controller="ctrlViewType" pages="0"/>
+    </component>
+    <component id="n39_xv5x" name="comSlotInfo" src="eoayp" fileName="com/ComSlotInfo.xml" xy="1,0">
+      <gearDisplay controller="ctrlViewType" pages="1"/>
+    </component>
+    <component id="n47_rhvc" name="comSkillInfo" src="eoays" fileName="com/ComSkillInfo.xml" xy="0,0">
+      <gearDisplay controller="ctrlViewType" pages="3"/>
+    </component>
+    <list id="n15_f1sa" name="lstSlot" xy="100,130" size="108,892" lineGap="31" defaultItem="ui://6jh4fmcgcvvb6v" align="center" vAlign="middle" selectionController="ctrlSlotPos">
+      <gearDisplay controller="ctrlViewType" pages="0,1"/>
+      <item icon="ui://sulwtp4jcvvbq"/>
+      <item icon="ui://sulwtp4jcvvbn"/>
+      <item icon="ui://sulwtp4jcvvbo"/>
+      <item icon="ui://sulwtp4jcvvbm"/>
+      <item icon="ui://sulwtp4jcvvbr"/>
+      <item icon="ui://sulwtp4jcvvbp"/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="105,106" extention="Label">
+  <displayList>
+    <image id="n29_eoay" name="n29" src="eoay1e" fileName="img/bg_tongyong_wujiankuang_bg.png" pkg="sulwtp4j" xy="2,3" pivot="0.5,0.5" size="100,99"/>
+    <image id="n27_xv5x" name="n27" src="eoayr" fileName="img/bg_hecheng_miaobian.png" xy="0,0" size="105,106"/>
+    <loader id="n28_xv5x" name="icon" xy="21,26" pivot="0.5,0.5" size="64,58" url="ui://06f7smqlf1sad" autoSize="true"/>
+  </displayList>
+</component>

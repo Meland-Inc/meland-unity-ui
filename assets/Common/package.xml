@@ -77,7 +77,7 @@
     <image id="rhvc2h" name="btn_tongyong_queren _2.png" path="/img/" exported="true"/>
     <component id="ksqa2i" name="AlertCommon.xml" path="/Alert/" exported="true"/>
     <image id="ksqa2j" name="img_cb_white.png" path="/img/"/>
-    <image id="ksqa2k" name="img_cm_black.png" path="/img/" scale="9grid" scale9grid="15,11,16,24"/>
+    <image id="ksqa2k" name="img_cm_black.png" path="/img/" exported="true" scale="9grid" scale9grid="15,11,16,24"/>
     <image id="ksqa2m" name="bg_tanchuang_jili.png" path="/img/"/>
     <image id="ksqa2n" name="bg_tanchuang_neirongkuang.png" path="/img/"/>
     <image id="ksqa2o" name="btn_tanchuang_guanbi.png" path="/img/"/>
@@ -88,6 +88,10 @@
     <component id="ksqa2u" name="ToastCommon.xml" path="/Toast/" exported="true"/>
     <image id="ksqa2v" name="img_cm_tck_2.png" path="/img/"/>
     <component id="n2t62w" name="ComUIAvatar.xml" path="/Avatar/" exported="true"/>
+    <image id="ksqa2w" name="icon_tongyong_loding.png" path="/img/" exported="true"/>
+    <image id="ksqa2x" name="icon_tongyong_loding_1.png" path="/img/" exported="true"/>
+    <image id="ksqa2y" name="icon_tongyong_loding_1_samll.png" path="/img/" exported="true"/>
+    <image id="ksqa2z" name="bg_tanchuang_shengji_fenlanxian.png" path="/img/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>
