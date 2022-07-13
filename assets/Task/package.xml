@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="d5ut1hyf">
+  <resources>
+    <component id="xa8z0" name="FormTask.xml" path="/form/" exported="true"/>
+    <image id="xa8z1" name="icon_renwu_jianglixiang.png" path="/img/"/>
+    <image id="xa8z2" name="任务悬浮窗口效果图.png" path="/preview/"/>
+    <image id="xa8z3" name="bg_renwu_tanchuang_bg_2.png" path="/img/" scale="9grid" scale9grid="23,19,9,10"/>
+    <image id="xa8z4" name="btn_renwu_renwulan_1.png" path="/img/"/>
+    <image id="xa8z5" name="icon_renwu_wancheng.png" path="/img/"/>
+    <image id="xa8z6" name="btn_renwu_renwulan_2.png" path="/img/"/>
+    <image id="xa8z7" name="任务进行中界面.png" path="/preview/"/>
+    <image id="xa8z8" name="mr任务.png" path="/preview/"/>
+    <image id="xa8z9" name="bg_renwu_jingdubg.png" path="/img/"/>
+    <image id="xa8za" name="任务完成可领取奖励界面.png" path="/preview/"/>
+    <image id="xa8zb" name="icon_renwu_icon.png" path="/img/"/>
+    <image id="xa8zc" name="任务完成界面.png" path="/preview/"/>
+    <image id="xa8zd" name="任务进行中标注.png" path="/preview/"/>
+    <image id="xa8ze" name="任务完成界面标注.png" path="/preview/"/>
+    <image id="xa8zf" name="bg_renwu_jingdu_2.png" path="/img/"/>
+    <image id="xa8zg" name="任务悬浮窗口标注图.png" path="/preview/"/>
+    <image id="xa8zh" name="bg_renwu_jingdu_1.png" path="/img/"/>
+    <component id="xa8zi" name="TaskMenuItemRender.xml" path="/btn/" exported="true"/>
+    <component id="xa8zj" name="ComTaskObjItem.xml" path="/com/"/>
+    <component id="9hu2w" name="ComTaskProgressBar.xml" path="/com/"/>
+    <component id="9hu2x" name="ComTaskChain.xml" path="/com/"/>
+    <image id="r9wc2w" name="按钮标注.png" path="/preview/"/>
+    <component id="r9wcz" name="ComTaskContent.xml" path="/com/"/>
+    <image id="r9wc10" name="领取任务效果图.png" path="/preview/"/>
+    <component id="r9wc11" name="BtnTaskBtn.xml" path="/btn/"/>
+    <image id="wj882x" name="提交任务奖励效果图.png" path="/preview/"/>
+    <component id="wj882y" name="FormTaskSubmit.xml" path="/form/" exported="true"/>
+    <image id="wj882z" name="img_cm_black.png" path="/img/" scale="9grid" scale9grid="15,11,16,24"/>
+    <image id="wj8830" name="bg_tanchuang_neirongkuang.png" path="/img/"/>
+    <image id="wj8831" name="btn_tanchuang_guanbi.png" path="/img/"/>
+    <image id="wj8832" name="icon_tanchuang_dian.png" path="/img/"/>
+    <component id="wj8833" name="BtnTaskSmallBtn.xml" path="/btn/"/>
+    <component id="fx0734" name="ComTaskSubmit.xml" path="/com/"/>
+    <component id="9xv736" name="BtnTaskChainBox.xml" path="/btn/"/>
+    <component id="ouh237" name="FormTest.xml" path="/form/"/>
+    <component id="rcwz39" name="ComTaskTrackObjItem.xml" path="/com/"/>
+    <component id="fauw3a" name="ComTaskTrackerItem.xml" path="/com/"/>
+    <component id="fauw3b" name="ComTaskTracker.xml" path="/com/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

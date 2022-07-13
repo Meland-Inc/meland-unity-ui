@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="327,98" extention="Button">
+  <controller name="button" pages="0,up,1,down,3,over" selected="0"/>
+  <controller name="selected" pages="0,true,1,false" selected="0"/>
+  <displayList>
+    <loader id="n0_sz33" name="icon" xy="0,0" pivot="0.5,0.5" size="327,98" touchable="false" url="ui://d5ut1hyfxa8z6" autoSize="true">
+      <gearSize controller="button" pages="0,1,3" values="327,98,1,1|114,40,0.9,0.9|114,40,1.1,1.1" tween="true"/>
+      <gearIcon controller="selected" pages="1" values="ui://d5ut1hyfxa8z4" default="ui://d5ut1hyfxa8z6"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n1_obf0" name="selectedTitle" xy="0,8" pivot="0.5,0.5" size="327,66" font="ui://sulwtp4jeoay1a" fontSize="40" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#ad4c0d" shadowOffset="0,5" singleLine="true" text="Daily Quest">
+      <gearDisplay controller="selected" pages="0"/>
+      <gearSize controller="button" pages="0,1,3" values="327,66,1,1|326,98,0.9,0.9|326,98,1.1,1.1" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle,width-width,height-height"/>
+    </text>
+    <text id="n2_xa8z" name="normalTitle" xy="0,8" pivot="0.5,0.5" size="327,66" fontSize="40" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#4e5355" shadowOffset="0,5" singleLine="true" text="Daily Quest">
+      <gearDisplay controller="selected" pages="1"/>
+      <gearSize controller="button" pages="0,1,3" values="327,66,1,1|326,98,0.9,0.9|326,98,1.1,1.1" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle,width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button sound="ui://fknoioovtqc912"/>
+  <relation target="n0_sz33" sidePair="width-width,height-height"/>
+</component>

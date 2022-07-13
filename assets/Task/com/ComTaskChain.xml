@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="272,262">
+  <controller name="ctrShow" pages="0,false,1,true" selected="1"/>
+  <displayList>
+    <component id="n30_9xv7" name="btnBox" src="9xv736" fileName="btn/BtnTaskChainBox.xml" xy="136,9" pivot="0.5,0" anchor="true" group="n31_ocqc"/>
+    <component id="n26_9hu2" name="progress" src="9hu2w" fileName="com/ComTaskProgressBar.xml" xy="136,195" pivot="0.5,0" anchor="true" group="n31_ocqc">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <group id="n31_ocqc" name="n31" xy="0,9" size="271,253" advanced="true">
+      <gearDisplay controller="ctrShow" pages="1"/>
+    </group>
+  </displayList>
+</component>

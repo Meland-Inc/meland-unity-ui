@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="384,155" opaque="false">
+  <controller name="ctrVisible" pages="0,false,1,true" selected="0"/>
+  <displayList>
+    <list id="n4_fauw" name="lstTaskTracker" xy="0,0" size="384,155" overflow="scroll" margin="15,0,0,0" lineGap="9" defaultItem="ui://d5ut1hyffauw3a">
+      <gearDisplay controller="ctrVisible" pages="1"/>
+      <item/>
+    </list>
+  </displayList>
+</component>
