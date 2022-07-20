@@ -7,6 +7,7 @@
     </component>
     <list id="n25_p6kz" name="lstBtnMenu" xy="1831,180" size="73,879" lineGap="14" defaultItem="ui://sulwtp4jewwj0" vAlign="bottom" foldInvisibleItems="true">
       <relation target="" sidePair="right-right,bottom-bottom"/>
+      <item icon="ui://sulwtp4jrhvc2g" name="btnTask"/>
       <item icon="ui://sh56466lewwj1p" name="btnShop"/>
       <item icon="ui://sh56466lewwj1q" name="btnSynthetic"/>
       <item icon="ui://sh56466lewwj1r" name="btnEdit"/>

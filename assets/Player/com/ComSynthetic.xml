@@ -25,7 +25,7 @@
     </list>
     <text id="n19_rhvc" name="tfRecipesTips" xy="49,0" size="511,42" fontSize="30" color="#976f56" text="The purpose of modern museums"/>
     <text id="n22_rhvc" name="tfSourceMat" xy="36,437" size="196,34" fontSize="24" color="#b7774f" text="Source Material"/>
-    <text id="n25_rhvc" name="tfNoMaterials" xy="140,500" size="322,42" font="ui://sulwtp4jeoay1a" fontSize="30" color="#976f56" text="No materials required">
+    <text id="n25_rhvc" name="tfNoMaterials" xy="140,500" size="322,42"  fontSize="30" color="#976f56" text="No materials required">
       <gearDisplay controller="ctrlNeedMat" pages="1"/>
     </text>
     <richtext id="n26_rhvc" name="tfMeldCost" xy="7,672" size="251,38" fontSize="27" color="#b7774f" align="center" vAlign="middle" ubb="true" vars="true" text="Cost &lt;img src=&apos;ui://sulwtp4jrhvc2g&apos; width=&apos;30&apos; height=&apos;30&apos;&gt; [color=#67874f]{cur=1500}[/color]/{need=1200}"/>

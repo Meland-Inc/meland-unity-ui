@@ -40,13 +40,13 @@
     </component>
     <text id="n47_eoay" name="tfLv" xy="654,428" pivot="0.5,0.5" size="116,45" fontSize="33" color="#ff8a28" vars="true" italic="true" strokeColor="#ffffff" strokeSize="3" text="Lv.{lv=101}"/>
     <text id="n30_xv5x" name="tfUpgradeTips" xy="450,504" pivot="0.5,0" size="500,110" fontSize="27" color="#976f56" align="center" vars="true" text="Upgrade requires {exp=99} EXP.&#xA;Upgrade requires {meld=99} Meld.&#xA;Requires character level {lv=xx} or more."/>
-    <text id="n44_eoay" name="tfName" xy="546,175" pivot="0.5,0.5" size="333,72" font="ui://sulwtp4jeoay1a" fontSize="44" color="#ffffff" align="center" autoSize="none" shadowColor="#af2010" shadowOffset="0,5" text="Weapon slot">
+    <text id="n44_eoay" name="tfName" xy="546,175" pivot="0.5,0.5" size="333,72"  fontSize="44" color="#ffffff" align="center" autoSize="none" shadowColor="#af2010" shadowOffset="0,5" text="Weapon slot">
       <gearText controller="ctrlSlot" pages="0,1,2,4,5" values="Weapon slot|Chest slot|Chest slot|Feet slot|Hands slot" default="Legs slot"/>
     </text>
     <component id="n49_eoay" name="btnMeldHelp" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="983,813" size="52,55" visible="false">
       <Button icon="ui://r8717acfeoayo"/>
     </component>
     <image id="n50_ksqa" name="imgBasicsFloor" src="eoay1c" fileName="img/bg_tongyong_fubiaoti.png" pkg="sulwtp4j" xy="1359,166"/>
-    <text id="n51_ksqa" name="tfRecipes" xy="1431,187" pivot="0.5,0.5" size="168,45" font="ui://sulwtp4jeoay1a" fontSize="33" color="#ffffff" vAlign="middle" shadowColor="#4f5455" shadowOffset="0,5" text="Attributes"/>
+    <text id="n51_ksqa" name="tfRecipes" xy="1431,187" pivot="0.5,0.5" size="168,45"  fontSize="33" color="#ffffff" vAlign="middle" shadowColor="#4f5455" shadowOffset="0,5" text="Attributes"/>
   </displayList>
 </component>

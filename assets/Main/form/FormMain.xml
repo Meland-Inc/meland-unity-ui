@@ -16,11 +16,15 @@
     <text id="n56_e8lt" name="colInput" xy="280,973" size="100,43" group="n63_e8lt" fontSize="30" color="#66ff33" autoSize="none" text="100" input="true"/>
     <text id="n57_e8lt" name="n57" xy="2,973" size="82,42" group="n63_e8lt" fontSize="30" text="Row:"/>
     <text id="n58_e8lt" name="n58" xy="213,973" size="64,42" group="n63_e8lt" fontSize="30" text="Col:"/>
-    <component id="n59_e8lt" name="btnAnswer" pkg="sh56466l" src="huqf2c" fileName="btn/btnFix.xml" xy="404,967" size="68,57" group="n63_e8lt"/>
+    <component id="n59_e8lt" name="btnAnswer" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="404,967" size="123,57" group="n63_e8lt">
+      <Button icon="ui://sulwtp4jewwj1"/>
+    </component>
     <text id="n60_e8lt" name="roomInput" xy="133,1028" size="175,43" group="n63_e8lt" fontSize="30" color="#66ff33" autoSize="none" text="100" input="true"/>
     <text id="n61_e8lt" name="n61" xy="3,1029" size="124,42" group="n63_e8lt" fontSize="30" text="房间号："/>
-    <component id="n62_e8lt" name="btnRoom" pkg="sh56466l" src="huqf2c" fileName="btn/btnFix.xml" xy="313,1022" size="68,57" group="n63_e8lt"/>
-    <group id="n63_e8lt" name="groupTest" xy="2,967" size="470,112" advanced="true">
+    <component id="n62_e8lt" name="btnRoom" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="313,1022" size="123,57" group="n63_e8lt">
+      <Button icon="ui://sulwtp4jewwj1"/>
+    </component>
+    <group id="n63_e8lt" name="groupTest" xy="2,967" size="525,112" advanced="true">
       <relation target="" sidePair="left-left,bottom-bottom"/>
     </group>
     <component id="n64_fauw" name="comTaskTracker" src="fauw3b" fileName="com/ComTaskTracker.xml" pkg="d5ut1hyf" xy="9,326">

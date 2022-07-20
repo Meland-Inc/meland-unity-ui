@@ -47,10 +47,10 @@
       <item/>
       <item/>
     </list>
-    <text id="n1_eoay" name="tfName" xy="546,180" pivot="0.5,0.5" size="333,72" font="ui://sulwtp4jeoay1a" fontSize="36" color="#ffffff" align="center" autoSize="none" shadowColor="#af2010" shadowOffset="0,5" text="Weapons Skill">
+    <text id="n1_eoay" name="tfName" xy="546,180" pivot="0.5,0.5" size="333,72"  fontSize="36" color="#ffffff" align="center" autoSize="none" shadowColor="#af2010" shadowOffset="0,5" text="Weapons Skill">
       <gearText controller="ctrlSkillType" pages="0,1,2" values="Weapons Skill|Defence Skill|Curing Skill"/>
     </text>
-    <text id="n41_ksqa" name="tfRecipes" xy="1383,187" pivot="0.5,0.5" size="264,45" font="ui://sulwtp4jeoay1a" fontSize="33" color="#ffffff" vAlign="middle" shadowColor="#4f5455" shadowOffset="0,5" text="Weapons Scrolls">
+    <text id="n41_ksqa" name="tfRecipes" xy="1383,187" pivot="0.5,0.5" size="264,45"  fontSize="33" color="#ffffff" vAlign="middle" shadowColor="#4f5455" shadowOffset="0,5" text="Weapons Scrolls">
       <gearText controller="ctrlSkillType" pages="0,1,2" values="Weapons Scrolls|Defence Scrolls|Medicine"/>
     </text>
     <text id="n19_rhvc" name="tfRecipesTips" xy="1269,275" size="461,38" fontSize="27" color="#976f56" text="The purpose of modern museums"/>

@@ -2,7 +2,7 @@
 <component size="343,111" extention="Button">
   <displayList>
     <image id="n53_ksqa" name="n53" src="eoay19" fileName="img/btn_tongyong_queren _1.png" pkg="sulwtp4j" xy="0,0"/>
-    <text id="n54_ksqa" name="title" xy="76,26" pivot="0.5,0.5" size="191,46" font="ui://sulwtp4jeoay1a" fontSize="34" color="#ffffff" align="center" vAlign="middle" strokeColor="#e7620a" strokeSize="4" shadowColor="#000000" shadowOffset="0,3" text="LEVEL MAX"/>
+    <text id="n54_ksqa" name="title" xy="76,26" pivot="0.5,0.5" size="191,46"  fontSize="34" color="#ffffff" align="center" vAlign="middle" strokeColor="#e7620a" strokeSize="4" shadowColor="#000000" shadowOffset="0,3" text="LEVEL MAX"/>
   </displayList>
   <Button/>
 </component>

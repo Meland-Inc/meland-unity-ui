@@ -12,7 +12,7 @@
       <gearDisplay controller="ctrlLoading" pages="1"/>
       <gearSize controller="button" pages="4" values="46,49,1.1,1.1" default="46,49,1,1" tween="true"/>
     </image>
-    <text id="n36_ksqa" name="title" xy="54,15" pivot="0.5,0.5" size="142,42" font="ui://sulwtp4jeoay1a" fontSize="30" color="#ffffff" align="center" vAlign="middle" strokeColor="#6a3fe4" strokeSize="4" shadowColor="#000000" shadowOffset="0,3" text="COMFIRM">
+    <text id="n36_ksqa" name="title" xy="54,15" pivot="0.5,0.5" size="142,42"  fontSize="30" color="#ffffff" align="center" vAlign="middle" strokeColor="#6a3fe4" strokeSize="4" shadowColor="#000000" shadowOffset="0,3" text="COMFIRM">
       <gearDisplay controller="ctrlLoading" pages="0"/>
       <gearSize controller="button" pages="4" values="142,42,1.1,1.1" default="142,42,1,1" tween="true"/>
     </text>

@@ -16,16 +16,10 @@
       <relation target="n19_ocqc" sidePair="top-bottom"/>
       <Button title="COMFIRM" titleFontSize="30" icon="ui://sulwtp4jeoay19"/>
     </component>
-    <text id="n14_ksqa" name="tfContent" xy="556,461" size="816,44" group="n15_ksqa" fontSize="32" color="#785f5f" autoSize="height" text="rewards"/>
-    <text id="n17_ksqa" name="tfTitle" xy="621,357" size="117,59" group="n15_ksqa" font="ui://sulwtp4jeoay1a" fontSize="44" color="#ffffff" align="center" vAlign="middle" shadowColor="#302c2a" shadowOffset="0,5" text="TITLE"/>
+    <text id="n14_ksqa" name="tfContent" xy="556,461" size="816,44" group="n15_ksqa" fontSize="32" color="#785f5f" autoSize="height" autoClearText="true" text="rewards"/>
+    <text id="n17_ksqa" name="tfTitle" xy="621,366" size="72,59" group="n15_ksqa" fontSize="44" color="#ffffff" align="center" vAlign="middle" shadowColor="#302c2a" shadowOffset="0,5" text="TITLE"/>
     <image id="n11_ksqa" name="n11" src="ksqa2n" fileName="img/bg_tanchuang_neirongkuang.png" xy="560,527" group="n19_ocqc"/>
-    <list id="n18_ocqc" name="lstReward" xy="580,540" size="760,129" group="n19_ocqc" layout="row" overflow="scroll" margin="13,0,19,0" colGap="18" defaultItem="ui://6jh4fmcgq1py81">
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
+    <list id="n18_ocqc" name="lstReward" xy="580,531" size="760,129" group="n19_ocqc" layout="row" selectionMode="none" overflow="scroll" scroll="horizontal" margin="13,0,19,0" colGap="18" defaultItem="ui://6jh4fmcgq1py81" vAlign="middle">
       <item/>
       <item/>
     </list>

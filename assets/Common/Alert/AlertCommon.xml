@@ -15,9 +15,9 @@
     <component id="n10_ksqa" name="btnOK" src="ksqa2s" fileName="btn/btnScaleOutLine.xml" xy="841,671" size="237,75" group="n15_ksqa">
       <Button title="COMFIRM" titleFontSize="30" icon="ui://sulwtp4jeoay19"/>
     </component>
-    <text id="n14_ksqa" name="tfContent" xy="580,433" size="760,198" group="n15_ksqa" fontSize="32" color="#785f5f" autoSize="none" text="The purpose of modern museums is to collect"/>
+    <text id="n14_ksqa" name="tfContent" xy="580,433" size="760,198" group="n15_ksqa" fontSize="32" color="#785f5f" autoSize="none" autoClearText="true" text="The purpose of modern museums is to collect"/>
     <image id="n16_ksqa" name="n16" src="ksqa2p" fileName="img/icon_tanchuang_dian.png" xy="568,321" group="n15_ksqa"/>
-    <text id="n17_ksqa" name="tfTitle" xy="621,311" size="117,59" group="n15_ksqa" font="ui://sulwtp4jeoay1a" fontSize="44" color="#ffffff" align="center" vAlign="middle" shadowColor="#302c2a" shadowOffset="0,5" text="TITLE"/>
+    <text id="n17_ksqa" name="tfTitle" xy="621,320" size="72,59" group="n15_ksqa" fontSize="44" color="#ffffff" align="center" vAlign="middle" shadowColor="#302c2a" shadowOffset="0,5" text="TITLE"/>
     <group id="n15_ksqa" name="grpMain" xy="521,306" size="878,468" advanced="true">
       <relation target="" sidePair="center-center,middle-middle"/>
     </group>
