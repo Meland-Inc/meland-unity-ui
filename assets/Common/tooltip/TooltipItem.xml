@@ -4,7 +4,7 @@
     <image id="n0_ebd1" name="imgBg" src="l7wn31" fileName="img/bg_hecheng_shaixuanzankai.png" xy="-1,0" size="439,204">
       <relation target="n5_ebd1" sidePair="bottomext-bottom"/>
     </image>
-    <image id="n2_ebd1" name="imgIconBg" src="thwy2x" fileName="img/bg_wujian_miaobian_kong.png" pkg="06f7smql" xy="310,23" size="106,106"/>
+    <image id="n2_ebd1" name="imgIconBg" src="cvvbi" fileName="img/bg_wujian_miaobian_kong.png" xy="310,23" size="106,106"/>
     <loader id="n3_ebd1" name="icon" xy="320,33" pivot="0.5,0.5" size="85,85" align="center" vAlign="middle" fill="scale"/>
     <text id="n4_ebd1" name="tfName" xy="24,26" size="267,32" fontSize="22" color="#8f4707" autoSize="height" text="Oxbone Sword"/>
     <component id="n6_ebd1" name="labType" src="l7wn33" fileName="com/tooltipTypeLabel.xml" xy="17,66" size="100,36">
