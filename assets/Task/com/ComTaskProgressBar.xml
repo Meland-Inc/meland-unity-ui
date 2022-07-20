@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="271,67" extention="ProgressBar">
   <displayList>
+    <image id="n3_ltc0" name="n3" src="xa8zf" fileName="img/bg_renwu_jingdu_2.png" xy="10,10"/>
     <image id="n1_9hu2" name="bar" src="xa8zh" fileName="img/bg_renwu_jingdu_1.png" xy="10,10" size="245,42"/>
     <image id="n0_9hu2" name="n0" src="xa8z9" fileName="img/bg_renwu_jingdubg.png" xy="0,0" size="271,67">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n2_9hu2" name="title" xy="0,11" size="271,67" font="ui://sulwtp4jeoay1a" fontSize="33" color="#8f4707" align="center" vAlign="middle" autoSize="none" strokeColor="#ffffff" strokeSize="3" text="06/60">
+    <text id="n2_9hu2" name="title" xy="0,15" size="271,67"  fontSize="33" color="#8f4707" align="center" vAlign="middle" autoSize="none" strokeColor="#ffffff" strokeSize="3" text="06/60">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
   </displayList>

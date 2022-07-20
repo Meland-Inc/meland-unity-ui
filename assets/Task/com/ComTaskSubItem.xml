@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="139,34">
+  <controller name="ctrState" pages="0,unfinished,1,finished" selected="0"/>
+  <displayList>
+    <text id="n15_xa8z" name="title" xy="0,0" size="139,34"  fontSize="24" color="#f3800f" vAlign="middle" vars="true" text="{title=Expansion}({cur=4}/{max=10})">
+      <gearColor controller="ctrState" pages="0" values="#f3800f,#000000" default="#67b74f,#000000"/>
+    </text>
+  </displayList>
+  <relation target="n15_xa8z" sidePair="rightext-right"/>
+</component>

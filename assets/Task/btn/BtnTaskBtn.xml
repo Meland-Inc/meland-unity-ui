@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="343,119" extention="Button">
-  <controller name="color" exported="true" pages="0,blue,1,yellow,2,gray" selected="0"/>
+<component size="343,119" extention="Button" designImageAlpha="0">
+  <controller name="ctrColor" exported="true" pages="0,blue,1,yellow,2,gray" selected="0"/>
   <controller name="button" pages="0,up,1,down,2,over" selected="0"/>
-  <controller name="str" exported="true" pages="0,ABANDON,1,RECEIVE,2,SUBMIT,3,UPGRADE" selected="3"/>
+  <controller name="ctrStr" exported="true" pages="0,ABANDON,1,RECEIVE,2,SUBMIT,3,UPGRADE,5,ARRIVE,4,NONE" selected="0"/>
   <displayList>
     <loader id="n0_kpw4" name="icon" xy="0,0" pivot="0.5,0.5" size="343,119" touchable="false" url="ui://sulwtp4jrhvc2h" fill="scaleFree">
       <gearSize controller="button" pages="1,2" values="343,119,0.9,0.9|343,119,1.1,1.1" default="343,119,1,1" tween="true"/>
-      <gearIcon controller="color" pages="1,2" values="ui://sulwtp4jeoay19|ui://sulwtp4jxa8zo" default="ui://sulwtp4jrhvc2h"/>
+      <gearIcon controller="ctrColor" pages="1,2" values="ui://sulwtp4jeoay19|ui://sulwtp4jxa8zo" default="ui://sulwtp4jrhvc2h"/>
       <relation target="" sidePair="width-width,height-height"/>
     </loader>
-    <text id="n1_kpw4" name="blue_title" xy="0,14" pivot="0.5,0.5" size="343,75" font="ui://sulwtp4jeoay1a" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#6a3fe4" strokeSize="4" shadowColor="#6ab1ff" shadowOffset="0,3" singleLine="true" text="UPGRADE">
-      <gearDisplay controller="color" pages="0"/>
+    <text id="n1_kpw4" name="blue_title" xy="0,14" pivot="0.5,0.5" size="343,75" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#6a3fe4" strokeSize="3" singleLine="true" text="ABANDON">
+      <gearDisplay controller="ctrColor" pages="0"/>
       <gearSize controller="button" pages="1,2" values="343,75,0.9,0.9|343,75,1.1,1.1" default="343,75,1,1" tween="true"/>
-      <gearText controller="str" pages="1,2,3" values="RECEIVE|SUBMIT|UPGRADE" default="ABANDON"/>
+      <gearText controller="ctrStr" pages="1,2,3,5,4" values="RECEIVE|SUBMIT|UPGRADE|ARRIVE|" default="ABANDON"/>
       <relation target="" sidePair="width-width,height-height"/>
     </text>
-    <text id="n2_r9wc" name="yellow_title" xy="0,14" pivot="0.5,0.5" size="343,75" font="ui://sulwtp4jeoay1a" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#e7620a" strokeSize="4" shadowColor="#e67a20" shadowOffset="0,3" singleLine="true" text="UPGRADE">
-      <gearDisplay controller="color" pages="1"/>
+    <text id="n2_r9wc" name="yellow_title" xy="0,14" pivot="0.5,0.5" size="343,75" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#e7620a" strokeSize="4" shadowColor="#e67a20" shadowOffset="0,3" singleLine="true" text="ABANDON">
+      <gearDisplay controller="ctrColor" pages="1"/>
       <gearSize controller="button" pages="1,2" values="343,75,0.9,0.9|343,75,1.1,1.1" default="343,75,1,1" tween="true"/>
-      <gearText controller="str" pages="1,2,3" values="RECEIVE|SUBMIT|UPGRADE" default="ABANDON"/>
+      <gearText controller="ctrStr" pages="1,2,3,5,4" values="RECEIVE|SUBMIT|UPGRADE|ARRIVE|" default="ABANDON"/>
       <relation target="" sidePair="width-width,height-height"/>
     </text>
-    <text id="n3_r9wc" name="gray_title" xy="0,14" pivot="0.5,0.5" size="343,75" font="ui://sulwtp4jeoay1a" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#b2b2b2" strokeSize="4" shadowColor="#a9a9a9" shadowOffset="0,3" singleLine="true" text="UPGRADE">
-      <gearDisplay controller="color" pages="2"/>
+    <text id="n3_r9wc" name="gray_title" xy="0,14" pivot="0.5,0.5" size="343,75" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#b2b2b2" strokeSize="4" shadowColor="#a9a9a9" shadowOffset="0,3" singleLine="true" text="ABANDON">
+      <gearDisplay controller="ctrColor" pages="2"/>
       <gearSize controller="button" pages="1,2" values="343,75,0.9,0.9|343,75,1.1,1.1" default="343,75,1,1" tween="true"/>
-      <gearText controller="str" pages="1,2,3" values="RECEIVE|SUBMIT|UPGRADE" default="ABANDON"/>
+      <gearText controller="ctrStr" pages="1,2,3,5,4" values="RECEIVE|SUBMIT|UPGRADE|ARRIVE|" default="ABANDON"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n5_fn9g" name="time_title" xy="0,14" pivot="0.5,0.5" size="343,75" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#b2b2b2" strokeSize="4" shadowColor="#a9a9a9" shadowOffset="0,3" singleLine="true" text="00:00:00">
+      <gearDisplay controller="ctrStr" pages="4"/>
+      <gearSize controller="button" pages="1,2" values="343,75,0.9,0.9|343,75,1.1,1.1" default="343,75,1,1" tween="true"/>
       <relation target="" sidePair="width-width,height-height"/>
     </text>
   </displayList>

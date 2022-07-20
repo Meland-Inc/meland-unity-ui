@@ -3,13 +3,13 @@
   <controller name="state" pages="0,none,1,available,2,hadReceive,4,onDoing" selected="3"/>
   <displayList>
     <image id="n30_9xv7" name="n30" src="xa8z1" fileName="img/icon_renwu_jianglixiang.png" xy="98,0" pivot="0.5,0" anchor="true"/>
-    <text id="n25_9hu2" name="tfTime" xy="98,139" pivot="0.5,0" anchor="true" size="162,45" font="ui://sulwtp4jeoay1a" fontSize="33" color="#17c130" align="center" vAlign="middle" strokeColor="#ffffff" strokeSize="3" text="00:00:00">
+    <text id="n25_9hu2" name="tfTime" xy="98,139" pivot="0.5,0" anchor="true" size="162,45"  fontSize="33" color="#17c130" align="center" vAlign="middle" strokeColor="#ffffff" strokeSize="3" text="00:00:00">
       <gearDisplay controller="state" pages="4"/>
     </text>
-    <text id="n27_r9wc" name="tfAvailable" xy="98,139" pivot="0.5,0" anchor="true" size="152,45" font="ui://sulwtp4jeoay1a" fontSize="33" color="#f3800f" align="center" vAlign="middle" strokeColor="#ffffff" strokeSize="3" text="Available">
+    <text id="n27_r9wc" name="tfAvailable" xy="98,139" pivot="0.5,0" anchor="true" size="152,45"  fontSize="33" color="#f3800f" align="center" vAlign="middle" strokeColor="#ffffff" strokeSize="3" text="Available">
       <gearDisplay controller="state" pages="1"/>
     </text>
-    <text id="n31_9xv7" name="tfAlreadyReceived" xy="98,139" pivot="0.5,0" anchor="true" size="277,45" font="ui://sulwtp4jeoay1a" fontSize="33" color="#17c130" align="center" vAlign="middle" strokeColor="#ffffff" strokeSize="3" text="Already Received">
+    <text id="n31_9xv7" name="tfAlreadyReceived" xy="98,139" pivot="0.5,0" anchor="true" size="277,45"  fontSize="33" color="#17c130" align="center" vAlign="middle" strokeColor="#ffffff" strokeSize="3" text="Already Received">
       <gearDisplay controller="state" pages="2"/>
     </text>
   </displayList>

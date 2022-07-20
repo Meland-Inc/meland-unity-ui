@@ -20,7 +20,7 @@
     <image id="xa8zg" name="任务悬浮窗口标注图.png" path="/preview/"/>
     <image id="xa8zh" name="bg_renwu_jingdu_1.png" path="/img/"/>
     <component id="xa8zi" name="TaskMenuItemRender.xml" path="/btn/" exported="true"/>
-    <component id="xa8zj" name="ComTaskObjItem.xml" path="/com/"/>
+    <component id="xa8zj" name="ComTaskSubItem.xml" path="/com/"/>
     <component id="9hu2w" name="ComTaskProgressBar.xml" path="/com/"/>
     <component id="9hu2x" name="ComTaskChain.xml" path="/com/"/>
     <image id="r9wc2w" name="按钮标注.png" path="/preview/"/>
@@ -37,9 +37,11 @@
     <component id="fx0734" name="ComTaskSubmit.xml" path="/com/"/>
     <component id="9xv736" name="BtnTaskChainBox.xml" path="/btn/"/>
     <component id="ouh237" name="FormTest.xml" path="/form/"/>
-    <component id="rcwz39" name="ComTaskTrackObjItem.xml" path="/com/"/>
+    <component id="rcwz39" name="ComTaskTrackSubItem.xml" path="/com/"/>
     <component id="fauw3a" name="ComTaskTrackerItem.xml" path="/com/"/>
     <component id="fauw3b" name="ComTaskTracker.xml" path="/com/" exported="true"/>
+    <image id="ltc03c" name="bg_renwu_guangxiao.png" path="/img/"/>
+    <image id="ltc03d" name="bg_renwu_fengexian.png" path="/img/"/>
   </resources>
   <publish name=""/>
 </packageDescription>

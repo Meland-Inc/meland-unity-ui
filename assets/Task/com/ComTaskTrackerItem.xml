@@ -5,11 +5,11 @@
     <image id="n0_ouh2" name="bg" src="xa8z3" fileName="img/bg_renwu_tanchuang_bg_2.png" xy="0,0" size="371,134">
       <relation target="n3_rcwz" sidePair="bottomext-bottom%"/>
     </image>
-    <text id="n1_ouh2" name="tfTaskChainName" xy="15,6" size="215,42" font="ui://sulwtp4jeoay1a" fontSize="30" color="#fead3c" vars="true" autoSize="none" strokeColor="#ffffff" strokeSize="2" text="[{name=Daily Quest}]">
+    <text id="n1_ouh2" name="tfTaskChainName" xy="15,6" size="206,42"  fontSize="30" color="#fead3c" vars="true" strokeColor="#ffffff" strokeSize="2" text="[{name=Daily Quest}]">
       <gearColor controller="ctrTaskType" pages="1" values="#52acff,#ffffff" default="#fead3c,#ffffff"/>
     </text>
-    <text id="n2_ouh2" name="tfTaskName" xy="17,51" size="203,34" fontSize="24" color="#ffffff" vars="true" text="{title=Expansion}({cur=1}/{max=10})"/>
-    <list id="n3_rcwz" name="lstObject" xy="18,86" size="342,41" selectionMode="none" defaultItem="ui://d5ut1hyfrcwz39">
+    <text id="n2_ouh2" name="tfTaskName" xy="17,51" size="342,34" fontSize="24" color="#ffffff" vars="true" autoSize="none" text="{title=Expansion}({cur=1}/{max=10})"/>
+    <list id="n3_rcwz" name="lstObject" xy="18,86" size="342,41" touchable="false" selectionMode="none" defaultItem="ui://d5ut1hyfrcwz39">
       <item/>
     </list>
   </displayList>
