@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="739,843" designImage="ui://d5ut1hyfwj882x" designImageOffsetX="-1164" designImageOffsetY="-121" designImageAlpha="97" designImageLayer="1">
+<component size="739,843" designImage="ui://d5ut1hyfwj882x" designImageOffsetX="-1164" designImageOffsetY="-121" designImageAlpha="0" designImageLayer="1">
   <displayList>
     <image id="n1_wj88" name="imgBg" src="eoay1d" fileName="img/bg_tongyong_tanchuang_wenbenkuang.png" pkg="sulwtp4j" xy="0,4" size="738,839"/>
     <image id="n5_wj88" name="imgHeader" src="ksqa2t" fileName="img/bg_tongyong_bar_tanchuang.png" pkg="sulwtp4j" xy="0,0" size="739,86"/>
