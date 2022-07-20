@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1458,931" designImage="ui://d5ut1hyfxa8z7" designImageOffsetX="-433" designImageOffsetY="-124" designImageAlpha="49" designImageLayer="1">
+<component size="1458,931" designImage="ui://d5ut1hyfxa8z7" designImageOffsetX="-433" designImageOffsetY="-124" designImageAlpha="0" designImageLayer="1">
   <controller name="ctrTaskState" exported="true" pages="0,unstart,1,ondoing,2,finish" selected="1"/>
   <controller name="ctrShow" exported="true" pages="0,false,1,true" selected="1"/>
   <displayList>
     <image id="n5_xa8z" name="contentBg" src="eoay1d" fileName="img/bg_tongyong_tanchuang_wenbenkuang.png" pkg="sulwtp4j" xy="0,0" size="1458,931">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n11_xa8z" name="tfTitle" xy="49,12" size="1387,73" group="n25_r9wc" fontSize="33" color="#8f4707" vAlign="middle" vars="true" autoSize="none" text="{title=Expansion} ({cur=4}/{max=10})">
+    <text id="n11_xa8z" name="tfTitle" xy="49,12" size="1387,73" group="n25_r9wc" fontSize="33" color="#8f4707" vAlign="middle" vars="true" autoSize="none" autoClearText="true" text="Expansion">
       <relation target="" sidePair="width-width"/>
     </text>
     <text id="n12_xa8z" name="tfDesc" xy="49,81" size="1158,95" group="n25_r9wc" fontSize="24" color="#b7774f" vars="true" autoSize="none" autoClearText="true" text="Expansion your territory and capture a new piece of land to increase your fixed economic gain">
@@ -64,10 +64,10 @@
     <image id="n29_r9wc" name="n29" src="xa8z1" fileName="img/icon_renwu_jianglixiang.png" xy="729,209" pivot="0.5,0" anchor="true" group="n32_r9wc">
       <relation target="" sidePair="center-center,middle-middle"/>
     </image>
-    <text id="n30_r9wc" name="n30" xy="729,368" pivot="0.5,0" anchor="true" size="729,143" group="n32_r9wc" fontSize="27" color="#b7774f" align="center" vAlign="middle" autoSize="none" text="Expand your territory and capture a new piece of land to increase your fixed economic gain">
+    <text id="n30_r9wc" name="n30" xy="729,375" pivot="0.5,0" anchor="true" size="729,143" group="n32_r9wc" fontSize="27" color="#b7774f" align="center" vAlign="middle" autoSize="none" text="Expand your territory and capture a new piece of land to increase your fixed economic gain">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
-    <image id="n31_r9wc" name="n31" src="ksqa2n" fileName="img/bg_tanchuang_neirongkuang.png" pkg="sulwtp4j" xy="729,513" pivot="0.5,0" anchor="true" size="658,132" group="n32_r9wc">
+    <image id="n31_r9wc" name="n31" src="ksqa2n" fileName="img/bg_tanchuang_neirongkuang.png" pkg="sulwtp4j" xy="729,507" pivot="0.5,0" anchor="true" size="658,144" group="n32_r9wc">
       <relation target="" sidePair="center-center,middle-middle"/>
     </image>
     <list id="n36_w0xl" name="lstTaskChainReward" xy="728,518" pivot="0.5,0" anchor="true" size="627,115" group="n32_r9wc" layout="row" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="160" scrollBar="hidden" margin="2,0,11,12" colGap="18" defaultItem="ui://6jh4fmcgq1py81" align="center">
@@ -82,7 +82,7 @@
     <component id="n35_r9wc" name="btnReceive" src="r9wc11" fileName="btn/BtnTaskBtn.xml" xy="1065,773" group="n32_r9wc" controller="ctrStr,1">
       <relation target="" sidePair="right-right,bottom-bottom"/>
     </component>
-    <group id="n32_r9wc" name="unstart" xy="364,39" size="1043,852" advanced="true">
+    <group id="n32_r9wc" name="unstart" xy="364,39" size="1043,853" advanced="true">
       <gearDisplay controller="ctrTaskState" pages="0"/>
       <gearDisplay2 controller="ctrShow" pages="1" condition="0"/>
     </group>

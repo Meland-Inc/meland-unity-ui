@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="739,843" designImage="ui://d5ut1hyfwj882x" designImageOffsetX="-1164" designImageOffsetY="-121">
+<component size="739,843" designImage="ui://d5ut1hyfwj882x" designImageOffsetX="-1164" designImageOffsetY="-121" designImageAlpha="97" designImageLayer="1">
   <displayList>
     <image id="n1_wj88" name="imgBg" src="eoay1d" fileName="img/bg_tongyong_tanchuang_wenbenkuang.png" pkg="sulwtp4j" xy="0,4" size="738,839"/>
     <image id="n5_wj88" name="imgHeader" src="ksqa2t" fileName="img/bg_tongyong_bar_tanchuang.png" pkg="sulwtp4j" xy="0,0" size="739,86"/>
@@ -9,9 +9,9 @@
     <component id="n6_wj88" name="btnClose" src="ewwj0" fileName="btn/btnFix.xml" pkg="sulwtp4j" xy="634,8" size="64,70">
       <Button icon="ui://d5ut1hyfwj8831"/>
     </component>
-    <text id="n10_wj88" name="tfTitle" xy="93,5" size="167,59"  fontSize="44" color="#ffffff" align="center" vAlign="middle" shadowColor="#302c2a" shadowOffset="0,5" text="SUBMIT"/>
+    <text id="n10_wj88" name="tfTitle" xy="93,11" size="117,59" fontSize="44" color="#ffffff" align="center" vAlign="middle" shadowColor="#302c2a" shadowOffset="0,5" text="SUBMIT"/>
     <text id="n17_wj88" name="n17" xy="67,113" size="220,38" fontSize="26" autoSize="none" text="Items to submit"/>
-    <text id="n15_wj88" name="tfSelectCount" xy="41,736" size="189,34" fontSize="24" vars="true" text="{count=3} Item selected"/>
+    <text id="n15_wj88" name="tfSelectCount" xy="41,736" size="135,34" fontSize="24" vars="true" text="{count=3} Item selected"/>
     <list id="n18_wj88" name="lstSubmitItems" xy="34,157" size="668,125" layout="row" selectionMode="none" overflow="scroll" margin="0,0,30,30" colGap="19" defaultItem="ui://6jh4fmcgq1py81">
       <item/>
       <item/>
