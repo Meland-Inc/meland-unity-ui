@@ -8,7 +8,7 @@
     <loader id="n42_els8" name="ladIcon" xy="323,35" size="80,80" group="n43_els8" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
     <group id="n43_els8" name="grpItemIcon" xy="310,22" size="106,106" advanced="true"/>
     <text id="n9_grbn" name="tfName" xy="25,25" size="257,100" fontSize="32" color="#8f4707" vAlign="middle" leading="0" autoSize="none" text="silver jackic leaves"/>
-    <component id="n56_sjtv" name="labType" src="sjtv6r" fileName="tooltip/tooltipTypeLabel.xml" xy="27,143" controller="ctrlType,2"/>
+    <component id="n56_sjtv" name="labType" src="l7wn33" fileName="com/tooltipTypeLabel.xml" pkg="sulwtp4j" xy="27,143" controller="ctrlType,2"/>
     <text id="n44_d8az" name="tfDesc" xy="27,198" size="387,66" fontSize="24" color="#99907d" autoSize="height" text="The purpose of modern museums is to collect,preserve"/>
     <image id="n54_r7q6" name="imgBuildTimeBg" src="r7q64z" fileName="tooltip/img/bg_tips_buildTime.png" xy="329,277" size="85,33" group="n55_r7q6">
       <relation target="n53_r7q6" sidePair="leftext-left"/>
