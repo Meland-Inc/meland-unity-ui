@@ -11,7 +11,7 @@
       <relation target="n75_y3fc" sidePair="top-bottom"/>
       <item url="ui://6jh4fmcgsjtv6q" name="rarity"/>
       <item url="ui://6jh4fmcgsjtv6s" name="quality"/>
-      <item url="ui://6jh4fmcgsjtv6r" name="type"/>
+      <item url="ui://sulwtp4jl7wn33" name="type"/>
     </list>
     <text id="n9_grbn" name="tfName" xy="0,3" size="257,100" fontSize="32" color="#8f4707" vAlign="middle" leading="0" autoSize="none" text="item name"/>
     <image id="n66_sjtv" name="imgLineTop" src="sjtv6k" fileName="tooltip/img/bg_daojuxiangqing_zhuangshixian.png" xy="4,220" size="387,2" group="n70_sjtv"/>
