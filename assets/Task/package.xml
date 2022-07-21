@@ -20,7 +20,7 @@
     <image id="xa8zg" name="任务悬浮窗口标注图.png" path="/preview/"/>
     <image id="xa8zh" name="bg_renwu_jingdu_1.png" path="/img/"/>
     <component id="xa8zi" name="TaskMenuItemRender.xml" path="/btn/" exported="true"/>
-    <component id="xa8zj" name="ComTaskSubItem.xml" path="/com/"/>
+    <component id="xa8zj" name="ComTaskSubItem.xml" path="/com/" exported="true"/>
     <component id="9hu2w" name="ComTaskProgressBar.xml" path="/com/"/>
     <component id="9hu2x" name="ComTaskChain.xml" path="/com/"/>
     <image id="r9wc2w" name="按钮标注.png" path="/preview/"/>
@@ -44,6 +44,9 @@
     <image id="ltc03d" name="bg_renwu_fengexian.png" path="/img/"/>
     <image id="vz1k3e" name="寻物任务效果图.png" path="/preview/"/>
     <image id="vz1k3f" name="提交任务物品弹窗.png" path="/preview/"/>
+    <component id="ukvh85" name="FormTaskReward.xml" path="/form/" exported="true"/>
+    <image id="ukvh83" name="bg_hecheng_hechengchenggonglan.png" path="/img/" scale="9grid" scale9grid="87,90,42,35"/>
+    <image id="ukvh84" name="btn_hecheng_hechengchenggongbtn.png" path="/img/" scale="9grid" scale9grid="37,32,13,13"/>
   </resources>
   <publish name=""/>
 </packageDescription>

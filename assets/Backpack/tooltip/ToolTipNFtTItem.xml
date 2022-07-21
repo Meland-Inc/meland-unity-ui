@@ -14,6 +14,7 @@
       <item title="Use" icon="ui://6jh4fmcgucdi3d" name="btnUse"/>
       <item title="Take off" icon="ui://6jh4fmcgucdi3d" name="btnTakeOff"/>
       <item title="Put on" icon="ui://6jh4fmcgucdi3d" name="btnPutOn"/>
+      <item title="Market Place" icon="ui://6jh4fmcgucdi3d" name="btnMarketPlace"/>
       <item title="Sell" icon="ui://6jh4fmcgucdi3c" name="btnSell"/>
       <item title="Quick pack" icon="ui://6jh4fmcgucdi3c" name="btnQuickPack"/>
       <item title="Destroy" icon="ui://6jh4fmcgucdi3c" name="btnDestroy"/>
