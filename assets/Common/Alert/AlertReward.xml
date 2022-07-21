@@ -19,11 +19,11 @@
     <text id="n14_ksqa" name="tfContent" xy="564,461" size="816,44" group="n15_ksqa" fontSize="32" color="#785f5f" autoSize="height" autoClearText="true" text="rewards"/>
     <text id="n17_ksqa" name="tfTitle" xy="617,366" size="72,59" group="n15_ksqa" fontSize="44" color="#ffffff" align="center" vAlign="middle" shadowColor="#302c2a" shadowOffset="0,5" text="TITLE"/>
     <image id="n11_ksqa" name="n11" src="ksqa2n" fileName="img/bg_tanchuang_neirongkuang.png" xy="560,527" group="n19_ocqc"/>
-    <list id="n18_ocqc" name="lstReward" xy="580,531" size="760,129" group="n19_ocqc" layout="row" selectionMode="none" overflow="scroll" scroll="horizontal" margin="13,0,19,0" colGap="18" defaultItem="ui://6jh4fmcgq1py81" vAlign="middle">
+    <list id="n18_ocqc" name="lstReward" xy="573,520" size="775,150" group="n19_ocqc" layout="row" selectionMode="none" overflow="scroll" scroll="horizontal" margin="13,0,19,0" colGap="-10" defaultItem="ui://6jh4fmcgq1py81" vAlign="middle">
       <item/>
       <item/>
     </list>
-    <group id="n19_ocqc" name="rewardGrp" xy="560,527" size="803,154" group="n15_ksqa" advanced="true">
+    <group id="n19_ocqc" name="rewardGrp" xy="560,520" size="803,161" group="n15_ksqa" advanced="true">
       <relation target="n14_ksqa" sidePair="top-bottom"/>
     </group>
     <group id="n15_ksqa" name="grpMain" xy="521,352" size="878,445" advanced="true">

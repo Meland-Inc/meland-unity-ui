@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="272,262">
-  <controller name="ctrShow" exported="true" pages="0,false,1,true" selected="0"/>
+  <controller name="ctrShow" exported="true" pages="0,false,1,true" selected="1"/>
   <displayList>
     <component id="n30_9xv7" name="btnBox" src="9xv736" fileName="btn/BtnTaskChainBox.xml" xy="136,101" pivot="0.5,0.5" anchor="true" group="n31_ocqc"/>
     <component id="n26_9hu2" name="progress" src="9hu2w" fileName="com/ComTaskProgressBar.xml" xy="136,195" pivot="0.5,0" anchor="true" group="n31_ocqc">
       <ProgressBar value="50" max="100"/>
     </component>
-    <group id="n31_ocqc" name="n31" xy="0,9" size="271,253" advanced="true">
+    <group id="n31_ocqc" name="n31" xy="0,8" size="271,253" advanced="true">
       <gearDisplay controller="ctrShow" pages="1"/>
     </group>
   </displayList>
+  <transition name="littleRock" options="4" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n30_9xv7" tween="true" startValue="0" endValue="12" duration="2"/>
+    <item time="2" type="Rotation" target="n30_9xv7" tween="true" startValue="12" endValue="-12" duration="2"/>
+    <item time="4" type="Rotation" target="n30_9xv7" tween="true" startValue="-12" endValue="8" duration="2"/>
+    <item time="6" type="Rotation" target="n30_9xv7" tween="true" startValue="8" endValue="-6" duration="2"/>
+    <item time="8" type="Rotation" target="n30_9xv7" tween="true" startValue="-6" endValue="0" duration="2"/>
+    <item time="48" type="Rotation" target="n30_9xv7" value="0"/>
+  </transition>
+  <transition name="bigRock" options="4" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n30_9xv7" tween="true" startValue="0" endValue="15" duration="2"/>
+    <item time="2" type="Rotation" target="n30_9xv7" tween="true" startValue="15" endValue="-15" duration="2"/>
+    <item time="4" type="Rotation" target="n30_9xv7" tween="true" startValue="-15" endValue="10" duration="2"/>
+    <item time="6" type="Rotation" target="n30_9xv7" tween="true" startValue="10" endValue="-8" duration="2"/>
+    <item time="8" type="Rotation" target="n30_9xv7" tween="true" startValue="-8" endValue="0" duration="2"/>
+    <item time="48" type="Rotation" target="n30_9xv7" value="0"/>
+  </transition>
 </component>

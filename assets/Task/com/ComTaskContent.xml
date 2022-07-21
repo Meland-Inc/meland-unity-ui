@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1458,931" designImage="ui://d5ut1hyfxa8z7" designImageOffsetX="-433" designImageOffsetY="-124" designImageAlpha="0" designImageLayer="1">
-  <controller name="ctrTaskState" exported="true" pages="0,unstart,1,ondoing,2,finish" selected="1"/>
+  <controller name="ctrTaskState" exported="true" pages="0,unstart,1,ondoing,2,finish" selected="0"/>
   <controller name="ctrShow" exported="true" pages="0,false,1,true" selected="1"/>
   <displayList>
     <image id="n5_xa8z" name="contentBg" src="eoay1d" fileName="img/bg_tongyong_tanchuang_wenbenkuang.png" pkg="sulwtp4j" xy="0,0" size="1458,931">
@@ -35,7 +35,7 @@
     <component id="n34_r9wc" name="btnSubmit" src="r9wc11" fileName="btn/BtnTaskBtn.xml" xy="1065,794" group="n25_r9wc" controller="ctrColor,1,ctrStr,1">
       <relation target="" sidePair="right-right,bottom-bottom"/>
     </component>
-    <list id="n37_9xv7" name="lstTaskReward" xy="37,612" size="1296,115" group="n25_r9wc" layout="row" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="160" scrollBar="hidden" margin="2,0,11,12" colGap="18" defaultItem="ui://6jh4fmcgq1py81">
+    <list id="n37_9xv7" name="lstTaskReward" xy="25,608" size="1296,132" group="n25_r9wc" layout="row" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="160" scrollBar="hidden" margin="2,0,11,12" colGap="-10" defaultItem="ui://6jh4fmcgq1py81">
       <relation target="" sidePair="width-width"/>
       <item/>
       <item/>
@@ -44,7 +44,7 @@
       <item/>
       <item/>
     </list>
-    <group id="n25_r9wc" name="ondoing" xy="37,12" size="1399,901" advanced="true">
+    <group id="n25_r9wc" name="ondoing" xy="25,12" size="1411,901" advanced="true">
       <gearDisplay controller="ctrTaskState" pages="1"/>
       <gearDisplay2 controller="ctrShow" pages="1" condition="0"/>
     </group>
@@ -70,7 +70,7 @@
     <image id="n31_r9wc" name="n31" src="ksqa2n" fileName="img/bg_tanchuang_neirongkuang.png" pkg="sulwtp4j" xy="729,507" pivot="0.5,0" anchor="true" size="658,144" group="n32_r9wc">
       <relation target="" sidePair="center-center,middle-middle"/>
     </image>
-    <list id="n36_w0xl" name="lstTaskChainReward" xy="728,518" pivot="0.5,0" anchor="true" size="627,115" group="n32_r9wc" layout="row" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="160" scrollBar="hidden" margin="2,0,11,12" colGap="18" defaultItem="ui://6jh4fmcgq1py81" align="center">
+    <list id="n36_w0xl" name="lstTaskChainReward" xy="728,504" pivot="0.5,0" anchor="true" size="613,142" group="n32_r9wc" layout="row" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="160" scrollBar="hidden" colGap="-10" defaultItem="ui://6jh4fmcgq1py81" align="center">
       <relation target="" sidePair="center-center,middle-middle"/>
       <item/>
       <item/>

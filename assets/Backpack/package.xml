@@ -126,6 +126,7 @@
     <component id="y3fc7z" name="ComNftTooltipInfo.xml" path="/tooltip/"/>
     <image id="w0xl80" name="通用弹窗效果图.png" path="/img/"/>
     <component id="q1py81" name="RewardNftItemRenderer.xml" path="/btn/" exported="true"/>
+    <image id="vz1k3g" name="btn_renwu_tijiaoguanbi.png" path="/img/"/>
   </resources>
   <publish name=""/>
 </packageDescription>

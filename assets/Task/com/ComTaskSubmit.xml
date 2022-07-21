@@ -10,13 +10,18 @@
       <Button icon="ui://d5ut1hyfwj8831"/>
     </component>
     <text id="n10_wj88" name="tfTitle" xy="93,11" size="117,59" fontSize="44" color="#ffffff" align="center" vAlign="middle" shadowColor="#302c2a" shadowOffset="0,5" text="SUBMIT"/>
-    <text id="n17_wj88" name="n17" xy="67,113" size="220,38" fontSize="26" autoSize="none" text="Items to submit"/>
-    <text id="n15_wj88" name="tfSelectCount" xy="41,736" size="135,34" fontSize="24" vars="true" text="{count=3} Item selected"/>
-    <list id="n18_wj88" name="lstSubmitItems" xy="34,157" size="668,125" layout="row" selectionMode="none" overflow="scroll" margin="0,0,30,30" colGap="19" defaultItem="ui://6jh4fmcgq1py81">
+    <text id="n17_wj88" name="n17" xy="75,113" size="220,38" fontSize="26" color="#785f5f" autoSize="none" text="Items to submit"/>
+    <text id="n15_wj88" name="tfSelectCount" xy="41,736" size="135,34" fontSize="24" color="#785f5f" vars="true" text="{count=3} Item selected"/>
+    <list id="n18_wj88" name="lstSubmitItems" xy="56,146" size="619,134" layout="row" selectionMode="none" overflow="scroll" colGap="-10" defaultItem="ui://6jh4fmcgq1py81">
       <item/>
       <item/>
     </list>
-    <list id="n19_wj88" name="lstBpItems" xy="34,305" size="668,345" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" margin="17,0,30,30" lineGap="23" colGap="19" defaultItem="ui://6jh4fmcgq1py81">
+    <list id="n19_wj88" name="lstBpItems" xy="56,309" size="619,345" layout="flow_hz" selectionMode="none" overflow="scroll" colGap="-10" lineItemCount="5" defaultItem="ui://6jh4fmcgq1py81">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
       <item/>
       <item/>
       <item/>

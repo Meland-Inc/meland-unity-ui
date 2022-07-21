@@ -42,6 +42,8 @@
     <component id="fauw3b" name="ComTaskTracker.xml" path="/com/" exported="true"/>
     <image id="ltc03c" name="bg_renwu_guangxiao.png" path="/img/"/>
     <image id="ltc03d" name="bg_renwu_fengexian.png" path="/img/"/>
+    <image id="vz1k3e" name="寻物任务效果图.png" path="/preview/"/>
+    <image id="vz1k3f" name="提交任务物品弹窗.png" path="/preview/"/>
   </resources>
   <publish name=""/>
 </packageDescription>

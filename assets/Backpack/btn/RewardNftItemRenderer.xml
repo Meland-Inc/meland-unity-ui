@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="106,108" extention="Button" designImage="ui://6cvmg52skr2k0" designImageOffsetX="-487" designImageOffsetY="-269" designImageAlpha="0" designImageLayer="1">
-  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="3"/>
+<component size="130,130" designImage="ui://6cvmg52skr2k0" designImageOffsetX="-487" designImageOffsetY="-269" designImageAlpha="0" designImageLayer="1">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
   <controller name="ctrlQuality" pages="5,none,0,Ultimate,1,Super,2,Advanced,3,Enhanced,4,Basic" selected="0"/>
+  <controller name="ctrFocus" exported="true" pages="0,false,1,true" selected="0"/>
+  <controller name="ctrSelected" pages="0,false,1,true" selected="0"/>
+  <controller name="ctrBtnCancel" pages="0,fasle,1,true" selected="0"/>
+  <controller name="ctrShowCurMax" pages="0,false,1,true" selected="1"/>
   <displayList>
-    <loader id="n0_kr2k" name="ladQualityBg" xy="0,2" size="106,106" touchable="false" url="ui://sulwtp4jcvvbg" fill="scaleFree">
+    <loader id="n0_kr2k" name="ladQualityBg" xy="12,14" size="106,106" touchable="false" url="ui://sulwtp4jcvvbg" fill="scaleFree">
       <gearIcon controller="ctrlQuality" pages="5,0,1,2,3,4" values="ui://sulwtp4jcvvbg|ui://sulwtp4jcvvbg|ui://sulwtp4jcvvbl|ui://sulwtp4jcvvbj|ui://sulwtp4jcvvbk|ui://sulwtp4jcvvbh"/>
     </loader>
-    <loader id="n1_kr2k" name="ladQualityDown" xy="6,8" size="94,94" touchable="false" url="ui://6jh4fmcgkr2k3" fill="scaleFree">
-      <gearDisplay controller="button" pages="3,5"/>
-      <gearIcon controller="ctrlQuality" pages="1,2,3,4" values="ui://6jh4fmcgkr2kq|ui://6jh4fmcgkr2k2|ui://6jh4fmcgkr2k1|ui://6jh4fmcgkr2k4" default="ui://6jh4fmcgkr2k3"/>
-    </loader>
-    <loader id="n2_kr2k" name="ladQualityUp" xy="6,8" pivot="0.5,0.5" size="94,94" touchable="false" url="ui://6jh4fmcgkr2kv" fill="scaleFree">
-      <gearDisplay controller="button" pages="2,4"/>
+    <loader id="n2_kr2k" name="ladQualityUp" xy="18,20" pivot="0.5,0.5" size="94,94" touchable="false" url="ui://6jh4fmcgkr2kv" fill="scaleFree">
+      <gearDisplay controller="button" pages="2,3,4,5"/>
       <gearIcon controller="ctrlQuality" pages="1,2,3,4" values="ui://6jh4fmcgkr2kx|ui://6jh4fmcgkr2kt|ui://6jh4fmcgkr2ku|ui://6jh4fmcgkr2kw" default="ui://6jh4fmcgkr2kv"/>
     </loader>
-    <component id="n3_kr2k" name="icon" src="kr2ky" fileName="com/bagItemIcon.xml" xy="13,15" pivot="0.5,0.5" size="80,80" scale="1.1,1.1" touchable="false">
+    <loader id="n1_kr2k" name="ladQualityDown" xy="18,20" size="94,94" touchable="false" url="ui://6jh4fmcgkr2k3" fill="scaleFree">
+      <gearDisplay controller="ctrSelected" pages="1"/>
+      <gearIcon controller="ctrlQuality" pages="1,2,3,4" values="ui://6jh4fmcgkr2kq|ui://6jh4fmcgkr2k2|ui://6jh4fmcgkr2k1|ui://6jh4fmcgkr2k4" default="ui://6jh4fmcgkr2k3"/>
+    </loader>
+    <component id="n3_kr2k" name="icon" src="kr2ky" fileName="com/bagItemIcon.xml" xy="25,27" pivot="0.5,0.5" size="80,80" touchable="false">
       <gearSize controller="button" pages="2,3,4,5" values="80,80,1,1|80,80,1,1|80,80,1.1,1.1|80,80,1.1,1.1" tween="true"/>
     </component>
-    <text id="n5_kr2k" name="tfNum" xy="19,71" size="79,29" visible="false" fontSize="20" color="#ffffff" align="right" vAlign="middle" autoSize="none" strokeColor="#715344" strokeSize="2" text=""/>
+    <text id="n5_kr2k" name="tfNum" xy="110,83" pivot="1,0" anchor="true" size="79,29" fontSize="20" color="#ffffff" align="right" vAlign="middle" autoSize="none" strokeColor="#715344" strokeSize="2" autoClearText="true" text="1">
+      <gearDisplay controller="ctrShowCurMax" pages="0"/>
+    </text>
+    <component id="n10_vz1k" name="btnItem" src="kpw4g" fileName="btn/btnFixClickArea.xml" pkg="sulwtp4j" xy="12,12" size="106,108"/>
+    <component id="n9_vz1k" name="btnCancel" src="kpw4g" fileName="btn/btnFixClickArea.xml" pkg="sulwtp4j" xy="78,3" size="52,46">
+      <gearDisplay controller="ctrBtnCancel" pages="1"/>
+      <Button icon="ui://6jh4fmcgvz1k3g"/>
+    </component>
+    <image id="n6_vz1k" name="n6" src="cvvb6y" fileName="img/img_slot_select.png" xy="65,66" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="ctrFocus" pages="1"/>
+    </image>
+    <component id="n13_qeu4" name="comLabelCurMax" src="qeu482" fileName="com/comLabelCurMax.xml" pkg="sulwtp4j" xy="110,83" pivot="1,0" anchor="true">
+      <gearDisplay controller="ctrShowCurMax" pages="1"/>
+    </component>
   </displayList>
-  <Button mode="Check"/>
 </component>

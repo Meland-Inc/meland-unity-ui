@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="28,29">
+  <controller name="ctrEnougn" pages="0,false,1,true" selected="1"/>
+  <displayList>
+    <text id="n13_qeu4" name="tfMaxNum" xy="10,0" size="18,29" fontSize="20" color="#ffffff" align="right" vAlign="middle" vars="true" strokeColor="#715344" strokeSize="2" text="/{max=1}">
+      <relation target="n15_qeu4" sidePair="left-right"/>
+    </text>
+    <text id="n15_qeu4" name="tfCurNum" xy="0,0" size="13,29" fontSize="20" color="#ffffff" vAlign="middle" strokeColor="#67b74f" strokeSize="2" text="1">
+      <gearColor controller="ctrEnougn" pages="1" values="#ffffff,#67b74f" default="#ffffff,#de2929"/>
+    </text>
+  </displayList>
+  <relation target="n13_qeu4" sidePair="rightext-right"/>
+</component>

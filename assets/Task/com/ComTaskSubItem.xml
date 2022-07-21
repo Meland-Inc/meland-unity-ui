@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="139,34">
+<component size="194,50" designImage="ui://d5ut1hyfvz1k3e" designImageOffsetX="-479" designImageOffsetY="-469">
   <controller name="ctrState" pages="0,unfinished,1,finished" selected="0"/>
+  <controller name="ctrHasIcon" pages="0,false,1,true" selected="1"/>
   <displayList>
-    <text id="n15_xa8z" name="title" xy="0,0" size="139,34"  fontSize="24" color="#f3800f" vAlign="middle" vars="true" text="{title=Expansion}({cur=4}/{max=10})">
+    <text id="n15_xa8z" name="title" xy="55,9" size="139,34" fontSize="24" color="#f3800f" vAlign="middle" vars="true" text="{title=Expansion}({cur=4}/{max=10})">
+      <gearXY controller="ctrHasIcon" pages="0,1" values="0,12|55,9"/>
       <gearColor controller="ctrState" pages="0" values="#f3800f,#000000" default="#67b74f,#000000"/>
     </text>
+    <loader id="n16_vz1k" name="icon" xy="25,25" pivot="0.5,0.5" anchor="true" size="50,50" url="ui://d5ut1hyfwj8832" align="center" vAlign="middle" fill="scaleFree" shrinkOnly="true" clearOnPublish="true">
+      <gearDisplay controller="ctrHasIcon" pages="1"/>
+    </loader>
   </displayList>
   <relation target="n15_xa8z" sidePair="rightext-right"/>
 </component>
