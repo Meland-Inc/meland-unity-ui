@@ -95,9 +95,7 @@
     <image id="sjtv6l" name="btn_daojuxiangqing_jingdutiao.png" path="/tooltip/img/"/>
     <image id="sjtv6m" name="btn_daojuxiangqing_queren.png" path="/tooltip/img/"/>
     <image id="sjtv6n" name="btn_daojuxiangqing_querenlan.png" path="/tooltip/img/"/>
-    <component id="z5gh3b" name="ToolTipOperaNFTBagItem.xml" path="/tooltip/" exported="true"/>
     <component id="rryz4t" name="comSkillIcon.xml" path="/tooltip/"/>
-    <component id="laib4v" name="ToolTipOperaThirdPartyNFTBagItem.xml" path="/tooltip/" exported="true"/>
     <component id="sjtv6o" name="comItemAttr.xml" path="/tooltip/"/>
     <component id="sjtv6q" name="tooltipRarityLabel.xml" path="/tooltip/"/>
     <component id="sjtv6r" name="tooltipTypeLabel.xml" path="/tooltip/" exported="true"/>
