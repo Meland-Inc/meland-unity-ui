@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,18">
+  <controller name="ctrlType" pages="0,friend,1,enemy,2,enemyGray" selected="2"/>
+  <displayList>
+    <image id="n6_8sy6" name="imgBg" src="o1qr37" fileName="imgNew/battle/bg_zhandoushuzi_xueliangbg.png" xy="47,2" pivot="0,0.5" size="66,13"/>
+    <loader id="n8_8sy6" name="imgHpProcess" xy="46,3" size="66,11" touchable="false" url="ui://sulwtp4jo1qr38" fill="scaleFree">
+      <gearIcon controller="ctrlType" pages="1,2" values="ui://sulwtp4jo1qr39|ui://sulwtp4jo1qr38" default="ui://sulwtp4jo1qr3a"/>
+    </loader>
+    <image id="n10_8sy6" name="imgFrame" src="o1qr3b" fileName="imgNew/battle/bg_zhandoushuzi_xueliangbaibian.png" xy="45,1" size="69,15"/>
+  </displayList>
+</component>

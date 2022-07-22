@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,0">
+  <displayList>
+    <loader id="n0_8sy6" name="icon" xy="80,-26" pivot="0.5,0.5" anchor="true" size="16,37" url="ui://sulwtp4jo1qr34" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+  </displayList>
+</component>

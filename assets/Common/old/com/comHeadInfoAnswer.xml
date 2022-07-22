@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,40">
+  <displayList>
+    <component id="n10_q6m9" name="root" src="tvlfcyih7" fileName="com/ComEmpty.xml" pkg="te1gxawo" xy="80,20" pivot="0.5,0.5" anchor="true" size="1,1" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n11_q6m9" name="n11" src="o1qr32" fileName="old/img/icon_main_xsgl_2.png" xy="80,14" pivot="0.5,0.5" anchor="true" visible="false"/>
+  </displayList>
+</component>
