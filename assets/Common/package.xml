@@ -96,6 +96,18 @@
     <image id="l7wn31" name="bg_hecheng_shaixuanzankai.png" path="/img/" exported="true" scale="9grid" scale9grid="25,27,12,7"/>
     <component id="l7wn33" name="tooltipTypeLabel.xml" path="/com/" exported="true"/>
     <image id="l7wn3c" name="bg_tipsType.png" path="/img/" scale="9grid" scale9grid="7,6,52,12"/>
+    <component id="o1qr30" name="comHeadInfo.xml" path="/old/com/" exported="true"/>
+    <component id="o1qr31" name="comHeadInfoAnswer.xml" path="/old/com/"/>
+    <image id="o1qr32" name="icon_main_xsgl_2.png" path="/old/img/"/>
+    <component id="o1qr33" name="comHeadInfoFight.xml" path="/old/com/"/>
+    <image id="o1qr34" name="bg_zhandoushuzi_jingbao.png" path="/old/img/"/>
+    <component id="o1qr35" name="comHeadfInfoNickName.xml" path="/old/com/"/>
+    <component id="o1qr36" name="comHeadInfoHp.xml" path="/old/com/"/>
+    <image id="o1qr37" name="bg_zhandoushuzi_xueliangbg.png" path="/old/img/" scale="9grid" scale9grid="7,3,6,4"/>
+    <image id="o1qr38" name="bg_zhandoushuzi_huixue.png" path="/old/img/" scale="9grid" scale9grid="6,3,7,3"/>
+    <image id="o1qr39" name="bg_zhandoushuzi_hongxue.png" path="/old/img/" scale="9grid" scale9grid="5,4,9,1"/>
+    <image id="o1qr3a" name="bg_zhandoushuzi_lvxue.png" path="/old/img/" scale="9grid" scale9grid="7,3,8,3"/>
+    <image id="o1qr3b" name="bg_zhandoushuzi_xueliangbaibian.png" path="/old/img/" scale="9grid" scale9grid="9,5,5,2"/>
   </resources>
   <publish name=""/>
 </packageDescription>

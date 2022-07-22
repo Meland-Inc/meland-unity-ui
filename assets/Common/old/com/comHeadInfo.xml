@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,0">
+  <displayList>
+    <list id="n11_q6m9" name="list" xy="0,2" pivot="0.5,1" anchor="true" size="160,104" align="center" vAlign="bottom" foldInvisibleItems="true">
+      <item url="ui://sulwtp4jo1qr31" name="comHeadInfoAnswer"/>
+      <item url="ui://sulwtp4jo1qr33" name="comHeadInfoFight"/>
+      <item url="ui://sulwtp4jo1qr35" name="comHeadInfoNickName"/>
+      <item url="ui://sulwtp4jo1qr36" name="comHeadInfoHp"/>
+    </list>
+  </displayList>
+</component>
