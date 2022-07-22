@@ -20,7 +20,7 @@
     </group>
     <component id="n2_thwy" name="btnConfirm" src="kpw4h" fileName="btn/btnScale.xml" pkg="sulwtp4j" xy="961,821" pivot="0.5,0.5" anchor="true" size="285,78">
       <relation target="" sidePair="center-center"/>
-      <Button title="Confirm" icon="ui://d5ut1hyfukvh84"/>
+      <Button title="CONFIRM" titleFontSize="30" icon="ui://d5ut1hyfukvh84"/>
     </component>
     <graph id="n11_thwy" name="gphDBCtnr" xy="960,540" size="0,0">
       <relation target="" sidePair="center-center,middle-middle"/>
