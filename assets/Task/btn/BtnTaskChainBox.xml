@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="196,185" pivot="0.5,0.5" extention="Button">
-  <controller name="state" pages="0,none,1,available,2,hadReceive,4,onDoing" selected="3"/>
+  <controller name="state" pages="0,none,1,available,2,hadReceive,4,onDoing" selected="1"/>
   <displayList>
-    <image id="n30_9xv7" name="n30" src="xa8z1" fileName="img/icon_renwu_jianglixiang.png" xy="98,0" pivot="0.5,0" anchor="true"/>
+    <image id="n30_9xv7" name="n30" src="xa8z1" fileName="img/icon_renwu_jianglixiang.png" xy="98,92" pivot="0.5,0.5" anchor="true"/>
     <text id="n25_9hu2" name="tfTime" xy="98,139" pivot="0.5,0" anchor="true" size="103,45" fontSize="33" color="#3592eb" align="center" vAlign="middle" strokeColor="#ffffff" strokeSize="3" text="00:00:00">
       <gearDisplay controller="state" pages="4"/>
     </text>
@@ -14,4 +14,20 @@
     </text>
   </displayList>
   <Button downEffect="scale" downEffectValue=".9"/>
+  <transition name="littleRock">
+    <item time="0" type="Rotation" target="n30_9xv7" tween="true" startValue="0" endValue="12" duration="2"/>
+    <item time="2" type="Rotation" target="n30_9xv7" tween="true" startValue="12" endValue="-12" duration="2"/>
+    <item time="4" type="Rotation" target="n30_9xv7" tween="true" startValue="-12" endValue="8" duration="2"/>
+    <item time="6" type="Rotation" target="n30_9xv7" tween="true" startValue="8" endValue="-6" duration="2"/>
+    <item time="8" type="Rotation" target="n30_9xv7" tween="true" startValue="-6" endValue="0" duration="2"/>
+    <item time="48" type="Rotation" target="n30_9xv7" value="0"/>
+  </transition>
+  <transition name="bigRock">
+    <item time="0" type="Rotation" target="n30_9xv7" tween="true" startValue="0" endValue="15" duration="2"/>
+    <item time="2" type="Rotation" target="n30_9xv7" tween="true" startValue="15" endValue="-15" duration="2"/>
+    <item time="4" type="Rotation" target="n30_9xv7" tween="true" startValue="-15" endValue="10" duration="2"/>
+    <item time="6" type="Rotation" target="n30_9xv7" tween="true" startValue="10" endValue="-8" duration="2"/>
+    <item time="8" type="Rotation" target="n30_9xv7" tween="true" startValue="-8" endValue="0" duration="2"/>
+    <item time="48" type="Rotation" target="n30_9xv7" value="0"/>
+  </transition>
 </component>

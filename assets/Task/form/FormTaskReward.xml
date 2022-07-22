@@ -10,7 +10,7 @@
     <text id="n16_trep" name="tfCongratulation" xy="960,504" pivot="0.5,0" anchor="true" size="283,42" group="n18_trep" fontSize="30" color="#b48d71" text="Congratulations on getting">
       <relation target="" sidePair="center-center"/>
     </text>
-    <list id="n20_ukvh" name="lstItem" xy="960,571" pivot="0.5,0" anchor="true" size="1528,134" group="n18_trep" layout="row" selectionMode="none" overflow="scroll" colGap="-10" defaultItem="ui://6jh4fmcgq1py81" align="center">
+    <list id="n20_ukvh" name="lstItem" xy="960,571" pivot="0.5,0" anchor="true" size="1528,134" group="n18_trep" layout="row" selectionMode="none" colGap="-10" defaultItem="ui://6jh4fmcgq1py81" align="center">
       <relation target="" sidePair="center-center"/>
       <item/>
       <item/>

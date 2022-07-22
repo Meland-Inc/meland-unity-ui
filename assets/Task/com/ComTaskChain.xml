@@ -11,12 +11,13 @@
     </group>
   </displayList>
   <transition name="littleRock" options="4" autoPlayRepeat="-1">
-    <item time="0" type="Rotation" target="n30_9xv7" tween="true" startValue="0" endValue="12" duration="2"/>
+    <item time="0" type="Rotation" target="n30_9xv7" value="0"/>
+    <item time="1" type="Rotation" target="n30_9xv7" tween="true" startValue="0" endValue="12" duration="1"/>
     <item time="2" type="Rotation" target="n30_9xv7" tween="true" startValue="12" endValue="-12" duration="2"/>
     <item time="4" type="Rotation" target="n30_9xv7" tween="true" startValue="-12" endValue="8" duration="2"/>
     <item time="6" type="Rotation" target="n30_9xv7" tween="true" startValue="8" endValue="-6" duration="2"/>
     <item time="8" type="Rotation" target="n30_9xv7" tween="true" startValue="-6" endValue="0" duration="2"/>
-    <item time="48" type="Rotation" target="n30_9xv7" value="0"/>
+    <item time="47" type="Rotation" target="n30_9xv7" value="0"/>
   </transition>
   <transition name="bigRock" options="4" autoPlayRepeat="-1">
     <item time="0" type="Rotation" target="n30_9xv7" tween="true" startValue="0" endValue="15" duration="2"/>
