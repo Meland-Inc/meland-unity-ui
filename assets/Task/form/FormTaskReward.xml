@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1920,1080" designImage="ui://kryszexnthwyu" designImageAlpha="0" designImageLayer="1">
+<component size="1920,1080" designImage="ui://d5ut1hyfupi886" designImageAlpha="42" designImageLayer="1">
   <displayList>
     <image id="n21_te18" name="imgMask" src="wj882z" fileName="img/img_cm_black.png" xy="0,0" size="1920,1080" alpha="0.5">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <image id="n13_trep" name="tfBg" src="ukvh83" fileName="img/bg_hecheng_hechengchenggonglan.png" xy="-69,387" pivot="0.5,0.5" size="2059,446" group="n18_trep">
+    <image id="n22_upi8" name="n22" src="upi887" fileName="img/icon_finish.png" xy="961,324" pivot="0.5,0.5" anchor="true" group="n18_trep">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n13_trep" name="tfBg" src="ukvh83" fileName="img/bg_hecheng_hechengchenggonglan.png" xy="-69,360" pivot="0.5,0.5" size="2059,446" group="n18_trep">
       <relation target="" sidePair="width-width"/>
     </image>
-    <text id="n16_trep" name="tfCongratulation" xy="960,504" pivot="0.5,0" anchor="true" size="283,42" group="n18_trep" fontSize="30" color="#b48d71" text="Congratulations on getting">
+    <text id="n16_trep" name="tfCongratulation" xy="960,477" pivot="0.5,0" anchor="true" size="283,42" group="n18_trep" fontSize="30" color="#b48d71" text="Congratulations on getting">
       <relation target="" sidePair="center-center"/>
     </text>
-    <list id="n20_ukvh" name="lstItem" xy="960,571" pivot="0.5,0" anchor="true" size="1528,134" group="n18_trep" layout="row" selectionMode="none" colGap="-10" defaultItem="ui://6jh4fmcgq1py81" align="center">
+    <list id="n20_ukvh" name="lstItem" xy="960,534" pivot="0.5,0" anchor="true" size="1528,134" group="n18_trep" layout="row" selectionMode="none" colGap="-10" defaultItem="ui://6jh4fmcgq1py81" align="center">
       <relation target="" sidePair="center-center"/>
-      <item/>
       <item/>
     </list>
-    <group id="n18_trep" name="grpMain" xy="-69,387" size="2059,446" advanced="true">
+    <group id="n18_trep" name="grpMain" xy="-69,250" size="2059,556" advanced="true">
       <relation target="" sidePair="width-width,middle-middle"/>
     </group>
-    <component id="n2_thwy" name="btnConfirm" src="kpw4h" fileName="btn/btnScale.xml" pkg="sulwtp4j" xy="961,821" pivot="0.5,0.5" anchor="true" size="285,78">
-      <relation target="" sidePair="center-center"/>
-      <Button title="CONFIRM" titleFontSize="30" icon="ui://d5ut1hyfukvh84"/>
+    <component id="n2_thwy" name="btnConfirm" src="wj8833" fileName="btn/BtnTaskSmallBtn.xml" xy="961,825" pivot="0.5,0.5" anchor="true" size="251,87" controller="ctrColor,1,ctrStr,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="CONFIRM" titleFontSize="30"/>
     </component>
     <graph id="n11_thwy" name="gphDBCtnr" xy="960,540" size="0,0">
       <relation target="" sidePair="center-center,middle-middle"/>
@@ -34,8 +36,8 @@
     <item time="0" type="XY" target="n2_thwy" value="-,760"/>
     <item time="2" type="XY" target="n11_thwy" tween="true" startValue="960,540" endValue="-,354" duration="5"/>
     <item time="5" type="Alpha" target="n18_trep" tween="true" startValue="0" endValue="1" duration="5"/>
-    <item time="5" type="XY" target="n18_trep" tween="true" startValue="-69,467,-0.036,0.432" endValue="-69,387,-0.036,0.358" duration="5" ease="Sine.InOut"/>
+    <item time="5" type="XY" target="n18_trep" tween="true" startValue="-,330" endValue="-,250" duration="5" ease="Sine.InOut"/>
     <item time="10" type="Alpha" target="n2_thwy" tween="true" startValue="0" endValue="1" duration="3"/>
-    <item time="10" type="XY" target="n2_thwy" tween="true" startValue="960,834,0.5,0.772" endValue="-,848,0,0.785" duration="3" ease="Sine.InOut"/>
+    <item time="10" type="XY" target="n2_thwy" tween="true" startValue="-,811" endValue="-,825" duration="3" ease="Sine.InOut"/>
   </transition>
 </component>

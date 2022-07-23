@@ -47,6 +47,8 @@
     <component id="ukvh85" name="FormTaskReward.xml" path="/form/" exported="true"/>
     <image id="ukvh83" name="bg_hecheng_hechengchenggonglan.png" path="/img/" scale="9grid" scale9grid="87,90,42,35"/>
     <image id="ukvh84" name="btn_hecheng_hechengchenggongbtn.png" path="/img/" scale="9grid" scale9grid="37,32,13,13"/>
+    <image id="upi886" name="效果图5.png" path="/preview/"/>
+    <image id="upi887" name="icon_finish.png" path="/img/"/>
   </resources>
   <publish name=""/>
 </packageDescription>
