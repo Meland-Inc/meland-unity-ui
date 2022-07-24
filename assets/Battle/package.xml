@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="kc2hnfha">
+  <resources>
+    <image id="o1qr0" name="bg_zhandoushuzi_miss.png" path="/img/"/>
+    <image id="o1qr1" name="bg_zhandoushuzi_putong09.png" path="/font/"/>
+    <image id="o1qr2" name="bg_zhandoushuzi_putong08.png" path="/font/"/>
+    <font id="o1qr3" name="damageFont.fnt" path="/font/" exported="true"/>
+    <image id="o1qr5" name="bg_zhandoushuzi_huixue00.png" path="/font/"/>
+    <image id="o1qr6" name="bg_zhandoushuzi_huixue01.png" path="/font/"/>
+    <image id="o1qr7" name="bg_zhandoushuzi_baoji08.png" path="/font/"/>
+    <image id="o1qr8" name="bg_zhandoushuzi_huixue03.png" path="/font/"/>
+    <image id="o1qr9" name="bg_zhandoushuzi_huixue02.png" path="/font/"/>
+    <image id="o1qra" name="bg_zhandoushuzi_baoji09.png" path="/font/"/>
+    <image id="o1qrb" name="bg_zhandoushuzi_huixue06.png" path="/font/"/>
+    <font id="o1qrc" name="critDamageFont.fnt" path="/font/" exported="true"/>
+    <image id="o1qrd" name="bg_zhandoushuzi_huixue07.png" path="/font/"/>
+    <image id="o1qre" name="bg_zhandoushuzi_huixue11.png" path="/font/"/>
+    <image id="o1qrf" name="bg_zhandoushuzi_huixue05.png" path="/font/"/>
+    <image id="o1qrg" name="bg_zhandoushuzi_huixue04.png" path="/font/"/>
+    <image id="o1qrh" name="bg_zhandoushuzi_huixue10.png" path="/font/"/>
+    <font id="o1qri" name="restoreFont.fnt" path="/font/" exported="true"/>
+    <image id="o1qrj" name="bg_zhandoushuzi_baoji02.png" path="/font/"/>
+    <image id="o1qrk" name="bg_zhandoushuzi_huixue09.png" path="/font/"/>
+    <image id="o1qrl" name="bg_zhandoushuzi_huixue08.png" path="/font/"/>
+    <image id="o1qrm" name="bg_zhandoushuzi_baoji03.png" path="/font/"/>
+    <image id="o1qrn" name="bg_zhandoushuzi_baoji01.png" path="/font/"/>
+    <image id="o1qro" name="bg_zhandoushuzi_baoji00.png" path="/font/"/>
+    <image id="o1qrp" name="bg_zhandoushuzi_baoji04.png" path="/font/"/>
+    <image id="o1qrq" name="bg_zhandoushuzi_baoji10.png" path="/font/"/>
+    <image id="o1qrr" name="bg_zhandoushuzi_baoji11.png" path="/font/"/>
+    <image id="o1qrs" name="bg_zhandoushuzi_baoji05.png" path="/font/"/>
+    <image id="o1qrt" name="bg_zhandoushuzi_baoji07.png" path="/font/"/>
+    <image id="o1qru" name="bg_zhandoushuzi_baoji06.png" path="/font/"/>
+    <image id="o1qrv" name="bg_zhandoushuzi_baoji12.png" path="/font/"/>
+    <image id="o1qrw" name="bg_zhandoushuzi_putong00.png" path="/font/"/>
+    <image id="o1qrx" name="bg_zhandoushuzi_putong01.png" path="/font/"/>
+    <image id="o1qry" name="bg_zhandoushuzi_putong03.png" path="/font/"/>
+    <image id="o1qrz" name="bg_zhandoushuzi_putong02.png" path="/font/"/>
+    <image id="o1qr10" name="bg_zhandoushuzi_putong12.png" path="/font/"/>
+    <image id="o1qr11" name="bg_zhandoushuzi_putong06.png" path="/font/"/>
+    <image id="o1qr12" name="bg_zhandoushuzi_putong07.png" path="/font/"/>
+    <image id="o1qr13" name="bg_zhandoushuzi_putong05.png" path="/font/"/>
+    <image id="o1qr14" name="bg_zhandoushuzi_putong11.png" path="/font/"/>
+    <image id="o1qr15" name="bg_zhandoushuzi_putong10.png" path="/font/"/>
+    <image id="o1qr16" name="bg_zhandoushuzi_putong04.png" path="/font/"/>
+    <component id="o1qr17" name="ComEmitBattleNumber.xml" path="/com/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>
